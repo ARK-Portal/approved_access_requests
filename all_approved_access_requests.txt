@@ -1,4 +1,98 @@
 Approved Data Access Requests
+Project Lead: Stefanie Meier
+Institution: Epana. Bio
+Data Access Request Submitted By: @apuleo01
+Intended Data Use Statement (accepted on 4/24/2025):
+Intended Data Use Statement: Single Cell RNA-seq Data Access for Autoimmune Disease Research
+Project Overview
+We request access to single cell RNA-seq data from autoimmune disease patients to identify cellular and molecular mechanisms underlying these conditions. Our goal is to discover novel therapeutic targets, improve disease classification, and develop personalized treatment approaches.
+Research Objectives
+Identify disease-specific immune cell populations across autoimmune conditions
+Map dysregulated transcriptional networks in autoimmune pathogenesis
+Discover biomarkers for disease stratification and treatment response
+Identify potential therapeutic targets
+Study Design
+We will analyze data from patients with various autoimmune diseases (e.g., rheumatoid arthritis, lupus, multiple sclerosis, type 1 diabetes) and matched healthy controls. Where available, we'll compare different disease states and treatment responses.
+Analysis Plan
+Data Preprocessing
+Quality control filtering of cells
+Normalization and batch correction
+Integration of datasets from different sources
+Cell Analysis
+Unsupervised clustering and cell type annotation
+Identification of novel disease-associated cell states
+Differential gene expression between patient and control samples
+Pathway analysis to identify dysregulated biological processes
+Systems Biology
+Network analysis to identify key regulatory nodes
+Prioritization of potential therapeutic targets
+Integration with clinical metadata when available
+
+Expected Outcomes
+Identification of cellular and molecular signatures across autoimmune diseases
+Discovery of novel therapeutic targets and biomarkers
+Publication of findings in peer-reviewed journals with acknowledgment of data sources
+Deposition of analytical code in public repositories
+.
+By providing access to these valuable single cell RNA-seq datasets, data contributors will enable significant advances in autoimmune disease understanding and potentially contribute to the development of new therapeutic approaches.
+Datasets Requested:
+AMP RA.SLE Phase II PBMC CITE-seq syn63912719
+AMP SLE LN class II kidney scRNA-seq syn62408999
+AMP SLE snRNASeq syn54407831
+AMP SLE scRNASeq syn54406421
+AMP RA Immune Repertoire Profiling syn47090942
+Deconstruction of rheumatoid arthritis synovium defines inflammatory subtypes syn52297840
+The chromatin landscape of pathogenic transcriptional cell states in rheumatoid arthritis syn53650034
+AMP RA.SLE Genomic Variants v1 syn38814662
+AMP RA.SLE Genomic Variants v2 syn63424468
+
+
+Project Lead: Richard Bell
+Institution: Hospital for Speacial Surgery
+Data Access Request Submitted By: @rdbell
+Intended Data Use Statement (accepted on 4/24/2025):
+Rheumatoid Arthritis (RA) is an autoimmune inflammatory joint disease that affects adult females more than males, with 70% of patients being female. While women suffer from more autoimmune disease than men, they also experience fewer pathogen infections and improved vaccine response. Despite observation of this phenomenon for over 30 years, mechanistic understanding is limited and there are no sex-specific autoimmune therapies that capitalize on sex differences of the immune system.
+In the past year, we have utilized the histology from AMP Phase 2 to build a computational pathology model for cell typing. This work is represented in this manuscript (Bell et al, 2024, Nat Commun., PMCID: PMC11362542). In the next year, we plan to use the histology and scRNAseq data to improve the H&E cell typing modeling.
+In the past year, we have used the scRNAseq data to investigate sex difference within each identified synovial cell cluster using cell frequency based tools, like Mixed-effects modeling of Associations of Single Cells (MASC), and differential gene expression analysis. We are also comparing and contrasting the myeloid subsets with a mouse inflammatory arthritis model to demonstrate relevance. These analyses use computational and machine learning approaches to measure the similarities between the datasets. Preliminary results were presented at the American College of Rheumatology and are currently being incorporated into a manuscript.
+In the past year, we have a manuscript under review at eLIFE demonstrating the synergy of PGE and TNF to stimulate similar pathways to RA. The reviewers requested a formal similarity analysis to a fiducial RA synovial NGS dataset, and we decided to use AMP Phase 2 to assess. These analysis and results are being prepared currently to incorporate into a manuscript review submission to this manuscript (https://elifesciences.org/reviewed-preprints/104367 ).
+
+
+Project Lead: Dr. Kushal Dey
+Institution: Memorial Sloan Kettering Cancer Center
+Data Access Request Submitted By: @zhangh10
+Intended Data Use Statement (accepted on 4/24/2025):
+We intend to use the Controlled-Access Tier data to visualize the expression of differentially expressed genes (DEGs) identified from our own experimental studies focused on myeloid cells, particularly SPP1hi macrophages. Our primary objective is to assess whether gene expression patterns observed in this reference dataset support the fold-change and cell-type–specific expression patterns identified in our own experimental model. This work is hypothesis-driven and intended to evaluate the biological consistency of SPP1hi macrophage–associated signatures across datasets.
+
+The analysis will focus on profiling DEG expression within myeloid subsets. We will use cell-type–annotated expression matrices and visualization tools to compare gene set enrichment and expression magnitude across cell populations. In particular, we aim to determine whether genes upregulated in SPP1hi macrophages in our dataset are also specifically enriched in comparable populations in the ARK Portal dataset.
+
+No genotype or personally identifiable data will be used. The study is exploratory and will not include re-identification efforts or linkage to external data. The primary output will be visual summaries of DEG expression patterns and fold changes in annotated myeloid subsets. These results will inform the development of future functional experiments and may be used in publications where appropriate attribution will be given.
+
+Lead Investigator: Haoxuan Zhang
+Institutional Affiliation: Memorial Sloan Kettering Cancer Center
+Synapse Username: zhangh10
+
+
+Project Lead: Paula Ramos
+Institution: Emory University
+Data Access Request Submitted By: @PaulaSRamos
+Intended Data Use Statement (accepted on 4/18/2025):
+The goal of this project is to understand the role of impaired X-chromosome inactivation (XCI) in autoimmune disease. It specifically seeks to systematically identify cell-specific X-linked genes that escape XCI in patients with systemic lupus erythematosus (SLE) and rheumatoid arthritis (RA). It will leverage AMP RA/SLE genotypic and single cell gene expression data on over 120 patients with SLE, 70 with RA, and 20 controls identify the spectrum of X-linked genes that escape XCI across specific cell subsets. Specifically, it will use allelic-specific expression (ASE) to distinguish the single cell and allele-specific expression of the two X-chromosomal haplotypes. As the inference of allele-specific phenomena in single cells is complicated by widespread monoallelic expression, it will leverage genotype phase information to detect sites where the expressed allele is discordant with the active X chromosome. We expect to confirm XCI escapees previously identified in autoimmune conditions and, given our larger sample size, to identify more genes in more cell subsets that escape XCI.
+
+
+Project Lead: Noah Siegel
+Institution: Anaptysbio
+Data Access Request Submitted By: @User217
+Intended Data Use Statement (accepted on 4/18/2025):
+AnaptysBio, a clinical-stage biotechnology company focused on innovative immunology therapeutics, is developing immune cell modulators, including two checkpoint agonists for autoimmune and inflammatory diseases. We recently completed our Phase 2 trial for our PD-1 agonist, Rosnilimab in Rheumatoid Arthritis. To deepen our understanding of RA's disease mechanism of action at the single-cell level, we plan to analyze the Inamo et al., 2025 JCI CITE-Seq data, focusing on genes and pathways associated with disease pathology, pathogenic immune cell cohorts, and cell-cell interactions. This analysis will also provide insight into the disease pathology of other inflammatory diseases such as Ulcerative Colitis, another ongoing clinical trial of ours currently in Phase 2. The raw sequence data will be downloaded and analyzed exclusively by me using our proprietary bioinformatics pipeline, with results shared with the team to inform discussion and decision-making. All downloaded data will be securely deleted from local sources upon completion of the analyses.
+
+
+Project Lead: Wei Wang
+Institution: University of California, San Diego
+Data Access Request Submitted By: @ajambor
+Intended Data Use Statement (accepted on 4/18/2025):
+Our primary research objective is to characterize specific subsets of T cells and other immune cells in rheumatoid arthritis and other disease contexts, including SLE, SARS-CoV-2, and HIV. We will analyze and compare the transcriptomic and epigenetic profiles of these cell types to determine shared and distinct subpopulations and signatures across diseases and tissues. Any publication that results from this work will fully acknowledge the data source and its contributors.
+
+
 Project Lead: Chng Song Hui
 Institution: Experimental Drug Development Centre
 Data Access Request Submitted By: @ChweeTat
@@ -1098,15 +1192,6 @@ Institution: Iris Bioconsulting LLC
 Data Access Request Submitted By: @Iris
 Intended Data Use Statement (accepted on 5/2/2024):
 As a bioinformatician I generate gene-based expression reports for clients in the Pharma and Biotech industries to facilitate prioritizing targets for drug development. These reports include cellular level mRNA expression for cancer indications and inflammatory/autoimmune disease derived from public scRNA_seq datasets. I would like to add the ARK-RA dataset to this atlas of disease-relevant data. It would simply be used to identify the expression level of individual gene targets of interest in individual cells of RA-diseased tissue in the form of simple bar graphs showing cell type on one axis and gene expression on the other. There will be no redistribution of data. In this way it will contribute to the identification of new drug targets for therapy in RA.
-
-
-Project Lead: Richard Bell
-Institution: Hospital for Speacial Surgery
-Data Access Request Submitted By: @rdbell
-Intended Data Use Statement (accepted on 4/17/2024):
-Rheumatoid Arthritis (RA) is an autoimmune inflammatory joint disease that affects adult females more than males, with 70% of patients being female. While women suffer from more autoimmune disease than men, they also experience fewer pathogen infections and improved vaccine response. Despite observation of this phenomenon for over 30 years, mechanistic understanding is limited and there are no sex-specific autoimmune therapies that capitalize on sex differences of the immune system.
-
-We intend to investigate sex difference within each identified synovial cell cluster using cell frequency based tools, like Mixed-effects modeling of Associations of Single Cells (MASC), and differential gene expression analysis. These analysis may identified sex specific enrichment in cell types or gene modules that can be investigated further.
 
 
 Project Lead: Wanling Yang

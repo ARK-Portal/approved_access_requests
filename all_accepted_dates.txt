@@ -1,129 +1,134 @@
-Intended Data Use Statement	4/11/2025
-Intended Data Use Statement	4/11/2025
-Intended Data Use Statement	4/11/2025
-Intended Data Use Statement	4/1/2025
-Intended Data Use Statement	3/25/2025
-Intended Data Use Statement	3/21/2025
-Intended Data Use Statement	3/21/2025
-Intended Data Use Statement	3/21/2025
-Intended Data Use Statement	3/21/2025
-Intended Data Use Statement	3/21/2025
-Intended Data Use Statement	3/21/2025
-Intended Data Use Statement	3/21/2025
-Intended Data Use Statement	3/20/2025
-Intended Data Use Statement	3/8/2025
-Intended Data Use Statement	3/7/2025
-Intended Data Use Statement	3/4/2025
-Intended Data Use Statement	3/4/2025
-Intended Data Use Statement	3/4/2025
-Intended Data Use Statement	3/4/2025
-Intended Data Use Statement	2/24/2025
-Intended Data Use Statement	2/24/2025
-Intended Data Use Statement	2/24/2025
-Intended Data Use Statement	2/11/2025
-Intended Data Use Statement	2/11/2025
-Intended Data Use Statement	2/11/2025
-Intended Data Use Statement	2/11/2025
-Intended Data Use Statement	2/10/2025
-Intended Data Use Statement	2/7/2025
-Intended Data Use Statement	1/27/2025
-Intended Data Use Statement	1/24/2025
-Intended Data Use Statement	1/24/2025
-Intended Data Use Statement	1/24/2025
-Intended Data Use Statement	1/14/2025
-Intended Data Use Statement	1/13/2025
-Intended Data Use Statement	1/3/2025
-Intended Data Use Statement	12/27/2024
-Intended Data Use Statement	12/27/2024
-Intended Data Use Statement	12/16/2024
-Intended Data Use Statement	12/16/2024
-Intended Data Use Statement	12/16/2024
-Intended Data Use Statement	12/16/2024
-Intended Data Use Statement	12/13/2024
-Intended Data Use Statement	12/11/2024
-Intended Data Use Statement	12/6/2024
-Intended Data Use Statement	12/6/2024
-Intended Data Use Statement	11/8/2024
-Intended Data Use Statement	11/8/2024
-Intended Data Use Statement	11/4/2024
-Intended Data Use Statement	11/4/2024
-Intended Data Use Statement	11/1/2024
-Intended Data Use Statement	11/1/2024
-Intended Data Use Statement	11/1/2024
-Intended Data Use Statement	11/1/2024
-Intended Data Use Statement	10/24/2024
-Intended Data Use Statement	10/23/2024
-Intended Data Use Statement	10/21/2024
-Intended Data Use Statement	10/16/2024
-Intended Data Use Statement	10/4/2024
-Intended Data Use Statement	10/4/2024
-Intended Data Use Statement	10/4/2024
-Intended Data Use Statement	10/4/2024
-Intended Data Use Statement	9/20/2024
-Intended Data Use Statement	9/20/2024
-Intended Data Use Statement	9/20/2024
-Intended Data Use Statement	9/20/2024
-Intended Data Use Statement	9/6/2024
-Intended Data Use Statement	9/5/2024
-Intended Data Use Statement	8/23/2024
-Intended Data Use Statement	8/23/2024
-Intended Data Use Statement	8/14/2024
-Intended Data Use Statement	7/26/2024
-Intended Data Use Statement	7/26/2024
-Intended Data Use Statement	7/25/2024
-Intended Data Use Statement	7/19/2024
-Intended Data Use Statement	7/12/2024
-Intended Data Use Statement	7/12/2024
-Intended Data Use Statement	7/12/2024
-Intended Data Use Statement	6/27/2024
-Intended Data Use Statement	6/27/2024
-Intended Data Use Statement	6/21/2024
-Intended Data Use Statement	6/21/2024
-Intended Data Use Statement	6/21/2024
-Intended Data Use Statement	6/13/2024
-Intended Data Use Statement	6/13/2024
-Intended Data Use Statement	6/13/2024
-Intended Data Use Statement	5/29/2024
-Intended Data Use Statement	5/29/2024
-Intended Data Use Statement	5/29/2024
-Intended Data Use Statement	5/20/2024
-Intended Data Use Statement	5/15/2024
-Intended Data Use Statement	5/13/2024
-Intended Data Use Statement	5/13/2024
-Intended Data Use Statement	5/10/2024
-Intended Data Use Statement	5/10/2024
-Intended Data Use Statement	5/8/2024
-Intended Data Use Statement	5/8/2024
-Intended Data Use Statement	5/2/2024
-Intended Data Use Statement	5/2/2024
-Intended Data Use Statement	5/2/2024
-Intended Data Use Statement	5/2/2024
-Intended Data Use Statement	4/17/2024
-Intended Data Use Statement	4/12/2024
-Intended Data Use Statement	4/5/2024
-Intended Data Use Statement	4/2/2024
-Intended Data Use Statement	3/25/2024
-Intended Data Use Statement	3/21/2024
-Intended Data Use Statement	3/15/2024
-Intended Data Use Statement	3/11/2024
-Intended Data Use Statement	3/11/2024
-Intended Data Use Statement	3/7/2024
-Intended Data Use Statement	2/29/2024
-Intended Data Use Statement	2/19/2024
-Intended Data Use Statement	2/16/2024
-Intended Data Use Statement	2/16/2024
-Intended Data Use Statement	2/2/2024
-Intended Data Use Statement	1/29/2024
-Intended Data Use Statement	1/23/2024
-Intended Data Use Statement	12/15/2023
-Intended Data Use Statement	12/15/2023
-Intended Data Use Statement	12/8/2023
-Intended Data Use Statement	12/4/2023
-Intended Data Use Statement	11/16/2023
-Intended Data Use Statement	11/16/2023
-Intended Data Use Statement	10/16/2023
-Intended Data Use Statement	9/18/2023
-Intended Data Use Statement	6/27/2023
-Intended Data Use Statement	3/27/2023
-Intended Data Use Statement	2/9/2023
-Intended Data Use Statement	2/1/2023
+Intended Data Use Statement (accepted on 4/24/2025):
+Intended Data Use Statement (accepted on 4/24/2025):
+Intended Data Use Statement (accepted on 4/24/2025):
+Intended Data Use Statement (accepted on 4/18/2025):
+Intended Data Use Statement (accepted on 4/18/2025):
+Intended Data Use Statement (accepted on 4/18/2025):
+Intended Data Use Statement (accepted on 4/11/2025):
+Intended Data Use Statement (accepted on 4/11/2025):
+Intended Data Use Statement (accepted on 4/11/2025):
+Intended Data Use Statement (accepted on 4/1/2025):
+Intended Data Use Statement (accepted on 3/25/2025):
+Intended Data Use Statement (accepted on 3/21/2025):
+Intended Data Use Statement (accepted on 3/21/2025):
+Intended Data Use Statement (accepted on 3/21/2025):
+Intended Data Use Statement (accepted on 3/21/2025):
+Intended Data Use Statement (accepted on 3/21/2025):
+Intended Data Use Statement (accepted on 3/21/2025):
+Intended Data Use Statement (accepted on 3/21/2025):
+Intended Data Use Statement (accepted on 3/20/2025):
+Intended Data Use Statement (accepted on 3/8/2025):
+Intended Data Use Statement (accepted on 3/7/2025):
+Intended Data Use Statement (accepted on 3/4/2025):
+Intended Data Use Statement (accepted on 3/4/2025):
+Intended Data Use Statement (accepted on 3/4/2025):
+Intended Data Use Statement (accepted on 3/4/2025):
+Intended Data Use Statement (accepted on 2/24/2025):
+Intended Data Use Statement (accepted on 2/24/2025):
+Intended Data Use Statement (accepted on 2/24/2025):
+Intended Data Use Statement (accepted on 2/11/2025):
+Intended Data Use Statement (accepted on 2/11/2025):
+Intended Data Use Statement (accepted on 2/11/2025):
+Intended Data Use Statement (accepted on 2/11/2025):
+Intended Data Use Statement (accepted on 2/10/2025):
+Intended Data Use Statement (accepted on 2/7/2025):
+Intended Data Use Statement (accepted on 1/27/2025):
+Intended Data Use Statement (accepted on 1/24/2025):
+Intended Data Use Statement (accepted on 1/24/2025):
+Intended Data Use Statement (accepted on 1/24/2025):
+Intended Data Use Statement (accepted on 1/14/2025):
+Intended Data Use Statement (accepted on 1/13/2025):
+Intended Data Use Statement (accepted on 1/3/2025):
+Intended Data Use Statement (accepted on 12/27/2024):
+Intended Data Use Statement (accepted on 12/27/2024):
+Intended Data Use Statement (accepted on 12/16/2024):
+Intended Data Use Statement (accepted on 12/16/2024):
+Intended Data Use Statement (accepted on 12/16/2024):
+Intended Data Use Statement (accepted on 12/16/2024):
+Intended Data Use Statement (accepted on 12/13/2024):
+Intended Data Use Statement (accepted on 12/11/2024):
+Intended Data Use Statement (accepted on 12/6/2024):
+Intended Data Use Statement (accepted on 12/6/2024):
+Intended Data Use Statement (accepted on 11/8/2024):
+Intended Data Use Statement (accepted on 11/8/2024):
+Intended Data Use Statement (accepted on 11/4/2024):
+Intended Data Use Statement (accepted on 11/4/2024):
+Intended Data Use Statement (accepted on 11/1/2024):
+Intended Data Use Statement (accepted on 11/1/2024):
+Intended Data Use Statement (accepted on 11/1/2024):
+Intended Data Use Statement (accepted on 11/1/2024):
+Intended Data Use Statement (accepted on 10/24/2024):
+Intended Data Use Statement (accepted on 10/23/2024):
+Intended Data Use Statement (accepted on 10/21/2024):
+Intended Data Use Statement (accepted on 10/16/2024):
+Intended Data Use Statement (accepted on 10/4/2024):
+Intended Data Use Statement (accepted on 10/4/2024):
+Intended Data Use Statement (accepted on 10/4/2024):
+Intended Data Use Statement (accepted on 10/4/2024):
+Intended Data Use Statement (accepted on 9/20/2024):
+Intended Data Use Statement (accepted on 9/20/2024):
+Intended Data Use Statement (accepted on 9/20/2024):
+Intended Data Use Statement (accepted on 9/20/2024):
+Intended Data Use Statement (accepted on 9/6/2024):
+Intended Data Use Statement (accepted on 9/5/2024):
+Intended Data Use Statement (accepted on 8/23/2024):
+Intended Data Use Statement (accepted on 8/23/2024):
+Intended Data Use Statement (accepted on 8/14/2024):
+Intended Data Use Statement (accepted on 7/26/2024):
+Intended Data Use Statement (accepted on 7/26/2024):
+Intended Data Use Statement (accepted on 7/25/2024):
+Intended Data Use Statement (accepted on 7/19/2024):
+Intended Data Use Statement (accepted on 7/12/2024):
+Intended Data Use Statement (accepted on 7/12/2024):
+Intended Data Use Statement (accepted on 7/12/2024):
+Intended Data Use Statement (accepted on 6/27/2024):
+Intended Data Use Statement (accepted on 6/27/2024):
+Intended Data Use Statement (accepted on 6/21/2024):
+Intended Data Use Statement (accepted on 6/21/2024):
+Intended Data Use Statement (accepted on 6/21/2024):
+Intended Data Use Statement (accepted on 6/13/2024):
+Intended Data Use Statement (accepted on 6/13/2024):
+Intended Data Use Statement (accepted on 6/13/2024):
+Intended Data Use Statement (accepted on 5/29/2024):
+Intended Data Use Statement (accepted on 5/29/2024):
+Intended Data Use Statement (accepted on 5/29/2024):
+Intended Data Use Statement (accepted on 5/20/2024):
+Intended Data Use Statement (accepted on 5/15/2024):
+Intended Data Use Statement (accepted on 5/13/2024):
+Intended Data Use Statement (accepted on 5/13/2024):
+Intended Data Use Statement (accepted on 5/10/2024):
+Intended Data Use Statement (accepted on 5/10/2024):
+Intended Data Use Statement (accepted on 5/8/2024):
+Intended Data Use Statement (accepted on 5/8/2024):
+Intended Data Use Statement (accepted on 5/2/2024):
+Intended Data Use Statement (accepted on 5/2/2024):
+Intended Data Use Statement (accepted on 5/2/2024):
+Intended Data Use Statement (accepted on 5/2/2024):
+Intended Data Use Statement (accepted on 4/12/2024):
+Intended Data Use Statement (accepted on 4/5/2024):
+Intended Data Use Statement (accepted on 4/2/2024):
+Intended Data Use Statement (accepted on 3/25/2024):
+Intended Data Use Statement (accepted on 3/21/2024):
+Intended Data Use Statement (accepted on 3/15/2024):
+Intended Data Use Statement (accepted on 3/11/2024):
+Intended Data Use Statement (accepted on 3/11/2024):
+Intended Data Use Statement (accepted on 3/7/2024):
+Intended Data Use Statement (accepted on 2/29/2024):
+Intended Data Use Statement (accepted on 2/19/2024):
+Intended Data Use Statement (accepted on 2/16/2024):
+Intended Data Use Statement (accepted on 2/16/2024):
+Intended Data Use Statement (accepted on 2/2/2024):
+Intended Data Use Statement (accepted on 1/29/2024):
+Intended Data Use Statement (accepted on 1/23/2024):
+Intended Data Use Statement (accepted on 12/15/2023):
+Intended Data Use Statement (accepted on 12/15/2023):
+Intended Data Use Statement (accepted on 12/8/2023):
+Intended Data Use Statement (accepted on 12/4/2023):
+Intended Data Use Statement (accepted on 11/16/2023):
+Intended Data Use Statement (accepted on 11/16/2023):
+Intended Data Use Statement (accepted on 10/16/2023):
+Intended Data Use Statement (accepted on 9/18/2023):
+Intended Data Use Statement (accepted on 6/27/2023):
+Intended Data Use Statement (accepted on 3/27/2023):
+Intended Data Use Statement (accepted on 2/9/2023):
+Intended Data Use Statement (accepted on 2/1/2023):
