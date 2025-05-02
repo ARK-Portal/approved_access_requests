@@ -1,0 +1,1437 @@
+Approved Data Access Requests
+Project Lead: Chng Song Hui
+Institution: Experimental Drug Development Centre
+Data Access Request Submitted By: @ChweeTat
+Intended Data Use Statement (accepted on 4/11/2025):
+The Experimental Drug Development Centre (EDDC) is Singapore’s national platform for drug discovery and development. We are publicly funded and administratively hosted by the Agency for Science, Technology and Research. EDDC’s goal is to translate great science in Singapore to great medicines, with a focus on Asian prevalent diseases. We are dedicated to pioneering novel therapies for autoimmune diseases, particularly Rheumatoid Arthritis (RA) and Systemic Lupus Erythematosus (SLE). RA and SLE present intricate challenges due to their heterogeneous nature and limited understanding of key molecular drivers. Despite advancements in therapy development, a significant number of patients continue to experience inadequately controlled symptoms, emphasizing the urgent need for innovative treatment strategies.
+
+With a primary focus on utilizing single-cell data, EDDC aims to leverage the ARK Portal data for exploratory analysis aimed at identifying and characterizing disease-contributing cell populations, unravelling disease-associated pathways, and identifying potential biomarkers indicative of disease states. Through rigorous analysis and integration of diverse datasets, including our proprietary patient data, we seek to validate novel findings, explore racial disparities, and contribute to the development of targeted therapies and personalized treatment approaches.
+
+
+Project Lead: Gerhard Krönke
+Institution: University Clinic Erlangen
+Data Access Request Submitted By: @DavidC
+Intended Data Use Statement (accepted on 4/11/2025):
+The objective of this research is to compare and contrast human single-cell sequencing data with data generated from murine models in order to identify similarities and potential translational insights between species. The proposed study will involve detailed analysis of gene expression profiles, cellular composition, and signaling pathways. We aim to investigate whether key findings observed in the mouse model can be validated or extended to human data, providing a deeper understanding of disease mechanisms and therapeutic targets. Our analysis will focus on integrating both datasets to identify conserved patterns of gene expression and cellular interactions, with a particular emphasis on immune cell populations and fibroblast functions.
+
+
+Project Lead: Matteo Villa
+Institution: Division of Rheumatology and Immunology, Department of Internal Medicine, Medical University of Graz
+Data Access Request Submitted By: @christos.aronis
+Intended Data Use Statement (accepted on 4/11/2025):
+The purpose of accessing the AMP-RA dataset is to perform cell communication analysis within the rheumatoid arthritis synovial tissue. We are particularly interested in exploring the interaction of fibroblasts, macrophages, B cells and T cells. The part of the dataset regarding osteoarthritis patients will also be very valuable to identify disease-specific cell communication dynamics.
+The data obtained from the analysis of the AMP-RA dataset will be further validated in in vitro culture and co-culture settings.
+
+
+Project Lead: Roberto Caricchio
+Institution: UMass Chan Medical School
+Data Access Request Submitted By: @RoC.UMassChan
+Intended Data Use Statement (accepted on 4/1/2025):
+A major challenge in lupus is the irreversible tissue damage resulting from disease activity. While macrophages play a significant role in tissue repair, they also critically contribute to tissue damage in lupus. Our goal is to leverage these datasets to identify pathways and biomarkers in monocytes and macrophages that could serve as potential pharmacological targets. We plan to perform an unbiased reanalysis to pinpoint key genes, pathways, and cell-cell interactions associated with tissue damage. Specifically, we will reanalyze single-cell RNA sequencing (scRNA-seq) data and compare our findings against existing expression profiles and metabolomic datasets to ensure the robustness of our conclusions across diverse datasets and patient populations. Additionally, we have generated gene-expression profiles from in vitro macrophages subjected to autoimmune complex-induced stress during polarization, which we aim to validate using the ARK datasets.
+
+
+Project Lead: Duan Ni
+Institution: The University of Sydney
+Data Access Request Submitted By: @Rosickyyyyy
+Intended Data Use Statement (accepted on 3/25/2025):
+We are a clinical immunology team and recently we have identified some NK/T cell signatures related to inflammatory diseases and your valuable dataset would be a very good proof-of-concept for our research and we would like to see whether we could potential reproduce some of our findings with your dataset. We would try to compare among different groups/conditions the NK/T cell signatures we previous found and see whether there might be any differences.
+Thank you!
+For more information or further discussion, please contact:
+duan.ni@sydney.edu.au
+Thank you so much!
+
+ps: please see attached updated DUC with the sign and approval from the signing official. Thank you!
+
+
+Project Lead: Paul Martin
+Institution: University of Manchester
+Data Access Request Submitted By: @pmartin
+Intended Data Use Statement (accepted on 3/21/2025):
+Rheumatoid arthritis (RA) exhibits significant immune cell heterogeneity. However, its relevance across the RA disease continuum remains incompletely understood. Additionally, there is an ongoing need for feasible biomarkers to guide clinical decision-making.
+Our preliminary analysis has revealed patterns associated with various stages of RA. To build on these findings, we propose an integrated approach combining our PBMC data with synovial tissue analysis using the Accelerating Medicines Partnership (AMP) datasets.
+We will utilise this data to annotate/map cell states identified from in-house generated and/or publicly available single cell/nucleus data to corresponding synovial tissue profiles across the RA disease continuum. We will then use this integrated reference to help uncover the underlying pathophysiological mechanisms that contribute to RA progression and heterogeneity, identify potential biomarkers that correlate with disease stages and treatment responses and investigate the relationship between cellular heterogeneity and the varied treatment outcomes observed in clinical practice.
+This integrated analysis approach will provide a more comprehensive understanding of immune cell heterogeneity in RA, bridging the gap between cellular compartments and modalities. This research has the potential to significantly advance our understanding of RA pathogenesis and improve patient care through more targeted and effective treatment strategies.
+
+
+Project Lead: Michael Nalls
+Institution: Center for Alzheimer's and Related Dementia
+Data Access Request Submitted By: @tindallcm
+Intended Data Use Statement (accepted on 3/21/2025):
+The main focus of the project is to run exploratory analysis of common data elements across AMP-PD, AMP-AD, AMP- RA/SLE and AMP-SCZ. Overall the goal is to run a proof of concept analysis of how different metabolic and inflammatory conditions can contribute to risk of brain diseases. This data will be downloaded for use on a cloud environment or through HPC and will only be run on in-house tools to run exploratory data analysis across data sets. Any downloaded data will be managed, shared back to the platform and deleted based on guidelines stated in data limitations.
+
+
+Project Lead: Hisakata Yamada
+Institution: Kyushu University
+Data Access Request Submitted By: @HisakataY
+Intended Data Use Statement (accepted on 3/21/2025):
+We are investigating how the differences in the T cell characteristics between osteoarthritis and rheumatoid arthritis are formed. In order to understand the whole picture of joint resident T cells in the two disorders, we would like to analyze the single-cell gene expression data matrix. The data may be integrated with other datasets for the analysis.
+
+
+Project Lead: Jan Klocke
+Institution: Charité Universitätsmedizin Berlin, Department of Nephrology and Medical Intensive Care
+Data Access Request Submitted By: @janklocke
+Intended Data Use Statement (accepted on 3/21/2025):
+In our previous work, we have established a robust urine-to-single-cell transcriptomic pipeline, allowing for the characterization of kidney injury and repair processes through the analysis of urinary-excreted kidney and immune cells (https://doi.org/10.1016/j.kint.2022.07.032, https://doi.org/10.1016/j.ekir.2025.01.037).
+We seek access to the Synapse ARK Portal to compare systemic lupus erythematosus (SLE) urine single-cell RNA sequencing (scRNA-seq) data available within the database with our own scRNA-seq dataset derived from patients with acute kidney injury (AKI). By integrating and comparing these datasets, we aim to identify shared patterns in urinary T cells, kidney parenchymal cells and other cell types between SLE and AKI. Specifically, our objectives include:
+
+Characterizing common immune and epithelial cell states that are present in both AKI and SLE urine samples, which may reflect conserved inflammatory or regenerative pathways across disease states.
+Exploring T-cell involvement and phenotypic shifts in both conditions to better understand the role of adaptive immunity in kidney inflammation and damage.
+This comparative analysis will provide critical insights into the cellular mechanisms underlying kidney injury across different pathological contexts and may contribute to the development of targeted interventions for immune-mediated kidney diseases.
+
+Project Lead: Yang Yang
+Institution: Boston Children's Hospital
+Data Access Request Submitted By: @yy257898
+Intended Data Use Statement (accepted on 3/21/2025):
+This analysis aims to identify the potential cell-cell communication between FLS and T cells using AMP RA phase II single-cell RNA sequencing data.
+
+RA is characterized by joint-specific memory, the phenomenon in which arthritis repeatedly flares in the same joints. We previously demonstrated that joint-specific memory is mediated by CD8+ synovial resident memory T (TRM) cells that persist in arthritic joints during remission and can mediate joint-specific flares. Depleting TRM cells from the joint results in an attenuation of arthritis flares, suggesting that targeting TRM cells could be a novel option to alleviate pathogenesis and disease chronicity. Using our RA organoid model, we have preliminary data demonstrating that some signaling pathway, like the IL15 signaling pathway, plays a crucial role during the formation of resident memory T cells in RA.
+
+Here, using the published data, we are seeking a deeper and more focus outcome to reveal further the relationship between FLS and T cells, especially resident memory T cells in RA patients. We will use CellChat to investigate the diversity between T cells and FLS in RA patients. Also, we aim to use the reference genes generated in this dataset to annotate our 10x scRNA sequencing data.
+
+
+Project Lead: Dan Rozelle
+Institution: Rancho BioSciences, LLC
+Data Access Request Submitted By: @drozelle
+Intended Data Use Statement (accepted on 3/21/2025):
+Rancho BioSciences bioinformatics scientists will support data processing and analysis in collaboration with Nucleome Therapeutics. This includes gene expression quantification of bulk and single-cell RNA-Seq sequencing files, batch correction and integration, and differential expression.
+
+This primary processing and analysis will support work at Nucleome to combine this study with other similar studies from autoimmune diseases to investigate the level of RNA for genes we have identified as potentially associated with disease. This knowledge will give us more confidence for selecting genes and proteins made from their sequence as targets for new therapies.
+
+
+Project Lead: Nilufer Ertekin-Taner, MD, PhD
+Institution: Mayo Clinic Florida
+Data Access Request Submitted By: @adrianami
+Intended Data Use Statement (accepted on 3/21/2025):
+Utilizing omics data available through the AMP-RA/SLE consortium on Synapse, we are hoping to identify molecular signatures that are distinct to RA/SLE or shared with other metabolic or neurodegenerative disorders and aging. Specifically, we are hoping to identify conserved and distinct molecular signatures and pathways linked to inflammation. We are hoping to obtain all available omics measures and phenotypes available through the consortia to identify inflammatory molecular signatures and evaluate these for preservation across other consensus processed AMP datasets. Identified signatures will include but are not limited to disease risk variants (single variants, gene-based scores, polygenic risk scores (PRS)); differentially expressed transcripts (single transcripts, expression networks from bulk and sn/scRNAseq); cell subtype proportions (deconvoluted from bulk and sn/scRNAseq); eQTL for inflammatory loci; and transcriptional risk scores. Inflammatory molecular signatures previously discovered in one AMP (e.g., innate immunity co-expression networks from AMP-AD) will be tested for their associations with other AMP diseases as well as with aging. Using the same datasets and approaches, inflammatory signatures will be identified de novo by conducting meta-analyses and where possible, joint analyses of the multiple AMP datasets, while adjusting for cohort-specific factors (e.g. population stratification, diagnoses, tissue types etc.).
+
+
+Project Lead: Wan-Uk Kim
+Institution: Center for Integrative Rheumatoid Transcriptomics and Dynamics, The Catholic University of Korea, Seoul, Republic of Korea
+Data Access Request Submitted By: @kimjungg
+Intended Data Use Statement (accepted on 3/20/2025):
+We are investigating a target molecule in fibroblast-like synoviocytes (FLSs), the key pathogenic cells in rheumatoid arthritis (RA). Our experimental findings indicate that 'molecule X' plays a crucial role in the FLS-driven disease process of RA. Notably, single-cell transcriptomic analysis of our in-house dataset has identified a distinct FLS subset with high expression of molecule X, which we refer to as FLS subset X. A key question is whether FLS subset X is linked to previously established FLS subsets.
+
+To address this, we plan to evaluate the expression of signature genes associated with FLS subset X in previously identified FLS subsets from a publicly recognized dataset. Given the AMP RA Phase II dataset’s high reliability and representativeness, we would like to request access for this purpose. If FLS subset X corresponds to a known disease-relevant subset, it could offer new insights into targeting RA-FLSs for therapeutic intervention.
+
+We would greatly appreciate your consideration and look forward to your response. Please let us know if any additional information is required.
+
+Thank you for your time and support.
+
+Best regards,
+Wan-Uk Kim
+
+
+Project Lead: Dr. Stanley Nelson
+Institution: UCLA
+Data Access Request Submitted By: @kchesmore
+Intended Data Use Statement (accepted on 3/8/2025):
+We are exploring the inflammatory response resident in skeletal muscle of muscular dystrophy patients through the use of single cell and nuclei RNAseq data and through purified cell populations that are studied ex-vivo derived from skeletal muscle or peripheral blood. We want to use de-identified single cell data generated by ARK to better characterize immune cell and fibroblast populations and place our data in context with other ongoing autoimmune studies.
+
+
+Project Lead: Justyna Dopierala
+Institution: Nucleome Therapeutics
+Data Access Request Submitted By: @justyna.dopierala
+Intended Data Use Statement (accepted on 3/7/2025):
+Variation in the DNA sequence underpins the risk for many diseases. DNA variants often regulate the level of RNA which in turn is used to make proteins necessary for proper functioning of cells in the body. Nucleome Therapeutic’s technology provides high-quality data about which genetic variants effect which genes in specific cell types. We aim to combine this study with other similar studies from autoimmune diseases to investigate the level of RNA for genes we have identified as potentially associated with disease. This knowledge will give us more confidence for selecting genes and proteins made from their sequence as targets for new therapies.
+
+
+Project Lead: Elliot Akama-Garren
+Institution: Harvard Medical School
+Data Access Request Submitted By: @egarren
+Intended Data Use Statement (accepted on 3/4/2025):
+I intend to use these data to analyze transcriptional signatures of TPH cells. My goal is to validate signatures I have identified in mouse TFH cells, and see if they are also present in human TPH cells. I will perform scRNA-seq analyses of these data, including assigning transcriptional signature scores to individual cells and clustering.
+
+
+Project Lead: Matt Jackson-Wood
+Institution: Gilead Sciences
+Data Access Request Submitted By: @mattjackson4
+Intended Data Use Statement (accepted on 3/4/2025):
+Rheumatoid Arthritis (RA) and Systemic Lupus Erythematosus (SLE) are inflammatory diseases with a significant unmet clinical need. At Gilead we are developing treatments for immune-mediated disease and intend to use the ARK data for exploratory research to this end. Our primary focus will be exploratory analyses of single-cell data from RA and SLE patients to characterise cell types contributing to disease, identify disease associated pathways as potential therapeutic targets, and characterise biomarkers indicative of the disease state. These data in combination with the additional donor level data, such as clinical outcome measures, will also be used to explore the potential to classify patient subtypes relevant to therapeutic outcomes: advancing precision medicine approaches that could lead to targeted, more efficacious treatment of patients.
+
+
+Project Lead: Jeremy Tilstra
+Institution: University of Pittsburgh
+Data Access Request Submitted By: @tilstraj
+Intended Data Use Statement (accepted on 3/4/2025):
+Our project goals center on the tissue immune interaction response in the kidneys of lupus nephritis patients
+
+We will examine the parenchymal response to immune stimulation. We hypothesize that the parenchymal cells in lupus nephritis are responding to inflammatory signals from invading immune cells. Here, we will explore the transcript changes in lupus nephritis samples and controls and class II lupus nephritis to determine how the tissue parenchyma changes in response to inflammatory damage.
+We will assess immune cell infiltrates, specifically T cell phenotypes, and compare this with tissue parenchymal changes to determine if there is an observable interactome between immune cells and the kidney parenchymal microenvironment
+We will assess changes in the kidney parenchyma to evaluate for neo-antigens, which may be a target for autoreactive immune cells
+Using a computational approach, we will try to identify TCR products in the infiltrating immune cells to determine clonal expansion in the tissue.
+
+Project Lead: Dr U Vinay Kumar
+Institution: Poornima University, Jaipur, India
+Data Access Request Submitted By: @drvinay8097
+Intended Data Use Statement (accepted on 3/4/2025):
+Lead Investigator:
+Dr. U. Vinay Kumar
+Institutional Affiliation:
+Associate Professor, Faculty of Computer Engineering, Poornima University, India.
+Email: vinay.kumar@poornima.edu.in
+
+Co-Investigator:
+Dr. Imran Mirza
+Associate Professor, Faculty of Computer Engineering, Poornima University, India.
+Email: imran.mirza@poornima.edu.in
+
+The current project is officially supported by Poornima University and is led by Dr. U. Vinay Kumar and Dr. Imran Mirza. Only the two of us will be working on this project.
+
+Intended Data Use
+The objective of our research is to utilize advanced artificial intelligence (AI) and machine learning (ML) techniques to analyze complex biomedical datasets, focusing on autoimmune diseases, particularly Rheumatoid Arthritis (RA). The study aims to identify molecular and clinical factors contributing to disease progression and treatment outcomes, ultimately enhancing early diagnosis and personalized treatment strategies.
+
+Study Objectives
+Identifying Disease Mechanisms:
+
+Integrating genomic, transcriptomic, and clinical data to identify key biomarkers and genetic variants.
+Employing statistical analyses and ML algorithms to uncover patterns and correlations.
+Developing Predictive Models:
+
+Creating supervised learning models for early RA detection using biomarkers and clinical indicators.
+Validating models on independent cohorts to assess predictive performance.
+Personalizing Treatment Approaches:
+
+Developing AI-driven treatment plans integrating clinical, genomic, and lifestyle factors.
+Utilizing ML to analyze treatment responses and optimize therapeutic strategies.
+
+Data Storage & Security Measures
+As this is an ongoing live research project officially supported by Poornima University, the data will be stored in a secure, centralized computing environment with strict security protocols.
+
+Institutional Centralized Storage & Dedicated Workstation:
+
+A dedicated workstation within Poornima University will be used exclusively for this project.
+The data will be stored on a secure institutional server, managed and monitored by university IT administrators.
+Network Security & Access Control:
+
+PFSense Enterprise Version UTM Firewall is deployed for network security and intrusion prevention.
+AAA Inventum Bandwidth Management Software regulates and secures access.
+Multi-factor authentication (MFA) and Role-Based Access Control (RBAC) will restrict data access to authorized personnel only (Dr. U. Vinay Kumar and Dr. Imran Mirza).
+Data Transmission & Encryption:
+
+All data transfers will be encrypted using industry-standard protocols (SSL/TLS).
+Strict firewall policies will prevent unauthorized access.
+Compliance & Ethical Guidelines:
+
+The research team will strictly adhere to institutional, national, and international data protection regulations, ensuring compliance with ethical guidelines and data-sharing agreements.
+Anonymization & De-identification:
+
+All personal identifiers will be removed or anonymized before analysis to maintain participant confidentiality.
+
+By leveraging AI and ML in a secure, institutionally managed environment, this research aims to advance the understanding and management of Rheumatoid Arthritis, contributing to improved patient care and early diagnosis.
+
+
+Project Lead: Takumi Ito
+Institution: Juntendo University
+Data Access Request Submitted By: @h.nakamura.wb
+Intended Data Use Statement (accepted on 2/24/2025):
+The main source Study of IL-26
+The aim of this study is to identify the source of several inflammatory cytokines in rheumatoid arthritis (RA) patients, specifically determining which T cell clusters produce these cytokines. We will analyze CD4+ and CD8+ T cell clusters and investigate which clusters have high expression of type 17 cytokines such as IL-17, IL-22, and IL-26. Additionally, we will perform DEG analysis to compare T cells that express these cytokines with those that do not, in order to uncover the functions and characteristics of type 17 cytokine-producing T cells.
+We use the Seurat package in R and DEG analysis, GO analysis so on.
+
+
+Project Lead: Kenian Chen
+Institution: UT southwestern
+Data Access Request Submitted By: @chenkn007
+Intended Data Use Statement (accepted on 2/24/2025):
+We aim to investigate the role that specific cell types' (B cell/Endothelial cell etc.) dysfunction play in Rheumatoid Arthritis pathogenesis. We are gathering a pilot RNAseq data in culture cells. The integration of these published scRNA-seq datasets from RA patients will be used for supporting our findings and/or to prioritize key genes for downstream experimental validation. Data will be handled in compliance with applicable data guidelines and no individual patient-identifiable information will be exposed/used outside the scope of this research. Any publishing paper will fully acknowledge the data source.
+
+
+Project Lead: Darren Platt
+Institution: Montage Bio
+Data Access Request Submitted By: @daz10000
+Intended Data Use Statement (accepted on 2/24/2025):
+What do you want to do?
+MontageBio has developed a computational platform for identifying somatic mutations that drive or modify disease.  We detect these from bulk RNA samples of affected tissue.  We are analyzing existing samples for a range of immune and inflammatory diseases, including Rheumatoid Arthritis and Lupus.  The pipeline identifies genes undergoing somatic remodeling by looking at mutation patterns across many samples from affected tissues, using a combination of traditional RNA analysis and advanced machine-learning approaches to tease out rare mutations.  It is an efficient alternative to more labor-intensive approaches for studying somatic mutations (e.g., Laser Capture Microdissection) but depends on access to modestly sized collections of samples.
+ Why are you doing it?
+Our ultimate goal is to identify genes that are either disease-driving or protective, with the long-term goal of developing or repurposing medication to treat that disease via insights gained from somatically mutated genes.
+
+How do you want to do it?
+Our platform is cloud-based (AWS), secure, and private, with all samples and downstream analysis segregated by sample and data collection. Data are accessible only to authorized personnel within Montage.  We ultimately generate aggregated gene-level analysis.  Computation typically takes a few days for a collection, from raw FastQ sequence data to ranked genes.
+
+
+Project Lead: Prof Maria Bokarewa
+Institution: Department of Rheumatology and Inflammation Research, Institution of Medicine, University of Gothenburg, Sweden
+Data Access Request Submitted By: @venkataragavan
+Intended Data Use Statement (accepted on 2/11/2025):
+Survivin is an oncoprotein, and in healthy tissue, it is essential for cell renewal and differentiation. Canonical cellular functions of survivin include inhibition of apoptosis and regulation of cell cycle through formation of the chromosomal passenger complex. Survivin is intricately involved in the pathogenesis of autoimmune diseases. For example, RA patients with joint erosion exhibit high plasma and serum survivin levels which correlate with disease activity. Since structural studies show survivin's interaction with Threonine-3 of the histone H3 tail, the goal of this project is to explore survivin's role in epigenetic regulation through interaction with histone tail post-translational modifications, specifically lysine-trimethylation and lysine acetylation.
+
+We performed chromatin-immunoprecipitation (ChIP) experiments targeting survivin in CD4 cells sorted from PBMCs of healthy and RA patients. In our recently published study (link - https://doi.org/10.1186/s12964-024-01814-4) we demonstrated that survivin interacts strongly with clustered histone tail modifications. The survivin-histone tail interaction is sequence-specific and enriched for transcription factor binding motifs such as chromatin remodelling complexes and histone tail modifiers. Survivin inhibition redistributes the studied modifications, specifically increasing the level of methylation-specific lysine modifications and decreasing levels of lysine acetylation. By recruiting the BRG1 complex, survivin modulates DNA damage response in blood CD4+ cells. Using the dataset of scRNAseq from synovial biopsies of RA patients, we showed that the markers of the cytotoxic T cell clusters were also upregulated in BRG1-hi blood CD4+ cells.
+
+Building from this study, we now aim to investigate the metabolic profile of the CD4+ T cell clusters found in synovia and pinpoint the pathogenic metabolically active clusters. Further, we aim to study the effect of insulin on the metabolic activity of the different T cell clusters. By combining this data with our inhouse ChIPseq data targeting histone modifications and survivin, we plan to characterize the insulin-dependent effect on the genome binding of survivin and histone modifications, and further study its phenotypic effect on the different T cell clusters found in RA.
+
+
+Project Lead: Quan Yuan
+Institution: State Key Laboratory of Oral Diseases & National Center for Stomatology & National Clinical Research Center for Oral Diseases, West China Hospital of Stomatology, Sichuan University
+Data Access Request Submitted By: @wuqh27
+Intended Data Use Statement (accepted on 2/11/2025):
+We have obtained temporomandibular joint tissues from patients with temporomandibular joint rheumatoid arthritis (TMJ-RA) during joint replacement surgery and performed single-cell sequencing analysis, which has preliminarily revealed the characteristics of fibroblasts in this inflammatory environment.
+
+However, compared to rheumatoid arthritis (RA) in the knee joint, the temporomandibular joint exhibits significant differences in anatomical structure, mechanical loading, and microenvironment. These differences may result in distinct molecular features and functional states of fibroblasts in their respective inflammatory environments.
+
+Therefore, we aim to access single-cell sequencing data from knee joint RA patients, focusing on the fibroblast population, and integrate it with our existing TMJ-RA single-cell data for comparative analysis. This approach seeks to explore the cellular composition, molecular characteristics, and interactions with immune cells of fibroblasts in different joint inflammatory environments, identify potentially distinct fibroblast subpopulations and specific molecular markers, and uncover the unique pathological mechanisms of TMJ arthritis.
+
+This study will not only enhance our understanding of the biological characteristics of fibroblasts in different inflammatory joint microenvironments but may also provide novel molecular targets and theoretical support for the clinical treatment of TMJ arthritis.
+
+
+Project Lead: Dana Orange
+Institution: Rockefeller University
+Data Access Request Submitted By: @DanaOrange
+Intended Data Use Statement (accepted on 2/11/2025):
+The goal of this analysis is to perform a detailed comparison of synovial single-cell RNA sequencing (scRNA-seq) data between rheumatoid arthritis (RA) and osteoarthritis (OA). Our primary objective is to gain insights into the molecular and cellular differences between these two distinct joint diseases by evaluating and contrasting their cellular composition and gene expression profiles.
+
+To begin, we will perform a comprehensive assessment of the data quality metrics for both RA and OA synovial samples. This will include the examination of key quality control (QC) parameters such as nCountRNA (the total number of unique molecular identifiers per cell), nFeatureRNA (the number of genes detected per cell), and the percentage of mitochondrial RNA content, which can provide valuable insights into the health and integrity of the cells. Additionally, we will evaluate Scrublet scores, which can help identify potential doublets (i.e., two cells captured as one), and assess the percentage of ambient RNA, which may reflect contamination or poor cell capture.
+
+Following these initial QC steps, we will proceed with the integration of our new OA synovial scRNA-seq dataset with the AMP RA synovial dataset. Using Seurat, a widely-used tool for scRNA-seq data analysis, we will harmonize these datasets, accounting for any batch effects or technical differences between them. After integration, we will focus on cell type identification by leveraging established marker genes and clustering algorithms to characterize the cell populations within the synovium of both RA and OA patients. This will allow us to define the various immune and non-immune cell types present in the synovial microenvironment of each disease.
+
+Once cell types are identified, we will compare the relative frequencies of these cell populations between RA and OA. Specifically, we will look for any shifts in cell type distribution that might be indicative of disease-specific processes. In parallel, we will investigate gene expression patterns within each cell type cluster and compare how these expression profiles differ between RA and OA. Additionally, we will examine how other clinical variables, such as age and sex, influence the cellular and transcriptional landscape of the synovium in both disease states. By correlating these variables with cell type frequencies and gene expression patterns, we aim to uncover potential modulators of disease that may vary across different demographic groups.
+
+
+Project Lead: Wang shaowei
+Institution: Shanxi medical university
+Data Access Request Submitted By: @lzjlzj
+Intended Data Use Statement (accepted on 2/11/2025):
+I have reviewed the article associated with this dataset and am deeply interested in the findings presented. My primary objectives for using this dataset are as follows:
+
+To delve deeper into the conclusions and viewpoints mentioned in the article, with a focus on replicating certain results to validate and understand the methodologies used.
+
+To utilize the dataset to explore genes and cells of personal interest, aiming to uncover new biological insights and potential mechanisms underlying the observed phenomena.
+
+To investigate potential correlations and interactions between the identified genes and other biological markers or environmental factors, which could provide a more comprehensive understanding of the biological system under study.
+
+To integrate this dataset with other publicly available datasets to perform comparative analyses, potentially identifying novel patterns or trends that could be significant in the broader context of the field.
+
+I am committed to adhering to the data access terms and conditions and will ensure proper acknowledgment of the dataset contributors in any resulting publications or presentations.
+
+
+Project Lead: Bishoy Kamal
+Institution: Sage Bionetworks
+Data Access Request Submitted By: @Kharvey
+Intended Data Use Statement (accepted on 2/10/2025):
+I am requesting access to the dataset on behalf of Sage Bionetworks employees who are affiliated with the ARK Portal Project. Access to this data for these employees is necessary to complete the scope of work defined for this project. Sage employees are bound to the terms and conditions supplied by this access request.
+
+
+Project Lead: Glenda Lassi
+Institution: AstraZeneca
+Data Access Request Submitted By: @glendalassi
+Intended Data Use Statement (accepted on 2/7/2025):
+AstraZeneca is focused on accelerating the delivery of life-changing medicines that create enduring value for patients and society. We are passionate about precision medicine and believe that deeper insights into molecular pathology will reveal novel targets and help to identify the correct patient. We are interested in developing new therapies for immunology diseases, including Rheumatoid Arthritis (RA) and Systemic Lupus Erythematosus (SLE), that will modify disease progression and improve patient lives. RA and SLE are complex heterogeneous diseases with limited knowledge of the key molecular drivers of disease pathology and patient heterogeneity. There have been successes in the development of disease modifying therapies for both RA and SLE, but there remains a significant number of patients for whom the current therapies do not adequately control their symptoms.
+We propose to perform deep molecular characterization of the diseased tissue in well characterized patients to build insights into disease drivers, endotypes and phenotypes. With the goal of identifying novel drug targets, validating targets of interest, stratifying patient populations and generating precision medicine hypotheses.
+Using the AMP single cell RNASeq data we will computationally sort cells into different cell types. For each cell type pseudo bulk data will be generated. From this we will generate single sample gene set enrichment scores using GSVA, singscore and similar algorithms. The gene sets used will be chosen according to the research question. If significant enrichments are found, we will test if these are related to specific sub-groups of the cohorts (e.g. treatment response, repertoire or genomics) or if surrogates of the signatures can be identified in other data types such as CyTOF.
+
+I am re-submitting the request due to a change of staff, that is our Project Lead ha left the company and I am taking over.
+
+
+Project Lead: Dr. PD Margarida Souto-Carneiro and Dr. Junyan Lu
+Institution: Heidelberg University Hospital
+Data Access Request Submitted By: @lujunyan_1118
+Intended Data Use Statement (accepted on 1/27/2025):
+In our previous study, we identified a metabolism-related DNA methylation signature in isolated T-cells from patients with Rheumatoid Arthritis (RA). Building on this, we hypothesize that the altered DNA methylation patterns observed in RA patients contribute to T-cell metabolism and, ultimately, to the RA phenotype by regulating enhancers of specific metabolic genes.
+
+We were particularly inspired by the publication by Weinand et al., "The chromatin landscape of pathogenic transcriptional cell states in rheumatoid arthritis," which provides an excellent dataset of scRNA-seq and ATAC-seq data. We believe this dataset offers a valuable resource for validating our hypothesis and gaining deeper insights into the epigenetic regulatory mechanisms driving RA T-cell dysfunction.
+
+To test our hypothesis, we will perform an in-depth integrative analysis of the scRNA-seq and ATAC-seq data. Specifically, we will assess the chromatin accessibility of the DNA methylation sites we previously identified and investigate whether these sites are associated with enhancer or promoter regions of key metabolic genes and proteins linked to the RA phenotype.
+
+Should we publish our findings, we will duly acknowledge the contributors of the Weinand et al. dataset in our publication.
+
+
+Project Lead: Pranidhi Sood
+Institution: Wield Therapeutics, Inc
+Data Access Request Submitted By: @pmighty
+Intended Data Use Statement (accepted on 1/24/2025):
+We are interested in leveraging the subtyping of RA based on cellular composition to nominate potential therapeutic targets for RA treatment. We will analyze the RNAseq and CITEseq data reported here. Specifically, we will perform differential expression of genes and proteins among the cellular subsets identified. This analysis in combination with analysis of other public datasets will enable us to identify genes and pathways which drive pathogenesis. Additionally, we hope to identify gene and cell composition signatures in order to predict which individuals will not be responsive to current treatments.
+
+
+Project Lead: Yukinori Okada
+Institution: The University of Tokyo
+Data Access Request Submitted By: @yukiokada
+Intended Data Use Statement (accepted on 1/24/2025):
+Understanding the immunological and clinical heterogeneity across inflammatory autoimmune diseases, such as rheumatoid arthritis and systemic lupus erythematosus, is crucial for advancing personalized medicine. Our research aims to explore the genetic regulation of complex molecular mechanisms underlying disease pathogenesis. Genetic variation includes germline susceptibility variants from genome-wide association studies and somatic mutations. We would like to call genetic variation from sequencing data and investigate its contribution to transcriptomic and phenotypic dynamics. Using scRNA-seq data, we would like to reveal cell type-specificity of genetic regulation across different tissues.
+
+
+Project Lead: Cornelia M. Weyand
+Institution: Mayo Clinic
+Data Access Request Submitted By: @ianleo
+Intended Data Use Statement (accepted on 1/24/2025):
+The primary objective of this research is to investigate metabolic dysregulation in specific subpopulations of T cells and macrophages within the synovium of patients with rheumatoid arthritis (RA). Metabolic pathways play a critical role in shaping immune cell function, and their dysregulation has been implicated in RA pathogenesis. By analyzing single-cell RNA and protein expression data from CITE-seq, this study aims to identify metabolic signatures associated with inflammatory and tissue-reparative phenotypes in synovial T cells and macrophages. The findings are expected to uncover potential therapeutic targets for mitigating inflammation and promoting tissue homeostasis in RA.
+The study will leverage the CITE-seq dataset to perform integrative analyses of single-cell transcriptomic and proteomic profiles. The study design consists of applying pathway enrichment tools (e.g., KEGG, Reactome, or GO) to identify dysregulated metabolic pathways, using metabolic flux analysis and integration of transcriptomic data with metabolic databases (e.g., Recon3D) to infer pathway activity, exploring protein expression levels of key metabolic regulators to validate transcriptomic findings and investigating correlations between metabolic dysregulation and inflammatory cytokine expression.
+The analysis will address the following key questions:
+Which metabolic pathways are uniquely dysregulated in synovial T cell and macrophage subsets in RA patients?
+Do specific subpopulations exhibit metabolic signatures that correlate with inflammatory or tissue-reparative phenotypes?
+Can metabolic markers be linked to disease severity or specific RA phenotypes?
+This study seeks to elucidate the metabolic underpinnings of immune dysregulation in RA, focusing on T cells and macrophages. The insights gained could inform the development of targeted therapies aimed at restoring metabolic balance and reducing chronic inflammation in RA patients.
+
+
+Project Lead: Wei Wang
+Institution: UCSD
+Data Access Request Submitted By: @cong003
+Intended Data Use Statement (accepted on 1/14/2025):
+Our primary objective is to conduct a confirmatory analysis of newly identified hits in pre-RA peripheral blood mononuclear cell (PBMC) data. Specifically, we aim to:
+
+Validate the elevated gene expression of these hits in synovium tissues of established RA patients.
+Determine which of these hits are highly expressed in specific tissues and cell types associated with RA.
+Quantify the extent of expression for each hit in various tissues and cell types.
+This comprehensive analysis will involve a multi-tiered approach, examining gene expression patterns across different stages of RA progression, from pre-RA to established disease.
+The rationale behind this study is multifaceted:
+
+Bridging the gap between pre-RA and established RA: By comparing newly identified hits from pre-RA PBMC data with gene expression in established RA synovium, we aim to elucidate the molecular pathways that contribute to disease progression. This could potentially identify early biomarkers or therapeutic targets for RA.
+Enhancing our understanding of RA pathogenesis: Identifying which hits are highly expressed in specific tissues and cell types will provide crucial insights into the cellular and molecular mechanisms underlying RA. This knowledge is essential for developing more targeted and effective treatments.
+Contributing to personalized medicine: Understanding the heterogeneity of gene expression patterns across different tissues and cell types may help in stratifying RA patients and tailoring treatments to individual molecular profiles.
+Our methodological approach will involve several key steps:
+
+Tissue and cell type-specific analysis: Using single-cell RNA sequencing data from RA synovium, we will determine the tissue and cell type-specific expression patterns of our hits.
+Quantification of expression changes: We will use statistical methods such as fold change analysis and calculation of effect sizes to quantify the extent of expression changes for each hit across different tissues and cell types.
+Functional annotation and pathway analysis: We will perform Gene Ontology (GO) and pathway enrichment analyses to understand the biological processes and molecular pathways associated with our validated hits.
+Integration with clinical data: Where possible, we will correlate our gene expression findings with clinical data to assess the potential prognostic or diagnostic value of the identified hits.
+By following this comprehensive approach, we aim to not only confirm the relevance of our newly identified pre-RA hits in established RA but also to provide a deeper understanding of their roles in specific tissues and cell types. This knowledge will contribute to the broader goal of improving RA diagnosis, prognosis, and treatment strategies.
+
+
+Project Lead: Dr. Michael Dudek
+Institution: Institute of Molecular Immunology, TUM, Munich
+Data Access Request Submitted By: @MichaelD86
+Intended Data Use Statement (accepted on 1/13/2025):
+The objective of our research is to use the data from T cells in the tissue of rheumatoid patients to check for the presence of certain subsets of T cells and compare their transcriptomic profile to T cells with similar phenotypes in single cell RNAseq datasets from other diseases such as liver diseases.
+
+The analysis plan include integration of several scRNA-seq datasets from different diseases and tissues with focus on T cells. We aim to define commonalities and differences in the transcriptomic profile of T cells between diseases. More downstream analysis are not intended.
+
+
+Project Lead: Jiejie Geng
+Institution: National Translational Science Center for Molecular Medicine, The Fourth Military Medical University
+Data Access Request Submitted By: @gengjiejie
+Intended Data Use Statement (accepted on 1/3/2025):
+Title: Revealing the Heterogeneity and Key Pathogenic Factors of autoimmune diseases through single-cell RNA Transcriptomics
+Purpose: In the immune microenvironment of autoimmune diseases, a variety of immune cells play crucial roles in the onset and progression of the disease. Our research aims to integrate single-cell expression profiling data, TCR sequencing data, and publicly available single-cell transcriptome data from autoimmune diseases (such as RA, AS, and SLE) patients before and after drug treatment. By doing so, we seek to investigate the heterogeneity of immune cells in autoimmune diseases and the changes in cell populations following treatment, identify key regulatory molecules and targets, and provide a foundation for the treatment of autoimmune diseases.
+To investigate immune subpopulation changes and key regulatory pathways in autoimmune diseases before and after treatment, we:
+
+Collected and Isolated Cells:
+Obtained peripheral blood or synovial samples from RA, AS, and SLE patients.
+Isolated immune cells using flow cytometry.
+Performed Single-Cell Sequencing:
+Conducted 10X single-cell sequencing on isolated cells.
+Integrated our data with publicly available single-cell autoimmune diseases datasets.
+Analyzed Data:
+Implemented quality control measures.
+Clustered cells and annotated cell types.
+Conducted differential expression and gene pathway enrichment analyses.
+Validated Findings:
+Verified key findings through molecular, cellular, and animal model experiments.
+This approach allowed us to identify immune subpopulation changes, key regulatory pathways, and potential therapeutic targets in autoimmune diseases.
+
+Project Lead: Tomohisa Okamura
+Institution: The University of Tokyo, Allergy and Rheumatology
+Data Access Request Submitted By: @areriu18ken
+Intended Data Use Statement (accepted on 12/27/2024):
+Our primary purpose is to consider better treatment for autoimmune diseases by exploring important molecules involved in pathogenesis and treatment resistance. We are focused on performing translational research by collecting samples from patients with systemic autoimmune diseases such as rheumatoid arthritis, spondyloarthritis, systemic lupus erythematosus, dermatomyositis/polymyositis, etc. We would like to integrate our data with this published data in order to validate the new cell populations we found. We are also trying to compare the datasets to explore the racial differences. We'll finally try to produce new medication or construct the basis of precision medicine. We do not supply the integrated datasets to additional repository sources.
+
+
+Project Lead: Hiroyuki Yoshitomi
+Institution: Kyoto University
+Data Access Request Submitted By: @Hiro_Yoshi
+Intended Data Use Statement (accepted on 12/27/2024):
+RA and SLE are inflammatory autoimmune diseases with significant unmet medical need. Analysis of published data available through academic integrity and transparency is essential to address these issues. Our group is conducting exploratory studies of cellular fractions and genes associated with the pathogenesis of these autoimmune diseases using scRNA-seq datasets derived from East Asian patients. We will analyze scRNA-seq data from RA and SLE patients from the previously published ARK data to validate that the findings from the East Asian dataset are replicated globally. In addition, we will validate patient stratification by the identified factors using the ARK data.
+
+
+Project Lead: Adam Mor
+Institution: Columbia University
+Data Access Request Submitted By: @MatthieuPaiola
+Intended Data Use Statement (accepted on 12/16/2024):
+We aim to characterize the PD-1 expressing T cells and the interacting cell populations in the OA synovium using your dataset. Our recent clinical observation shows a notable increase in the diagnosis of preexisting osteoarthritis (OA) among patients who develop irAE-arthritis following anti-PD-1 therapy. Our research in the immunophenotype of synovial fluid mononuclear cells in OA showed that most CD8+ and CD4+ T cells displayed the phenotype of tissue-resident memory T cells (TRM) with high levels of PD-1 expression.
+
+We want to better define the signaling pathways characterizing OA associated TRM to better understand their role in the development of irAE-arthritis and identify potential target for novel therapeutic strategies to mitigate OA and irAE-arthritis progression.
+
+We will define the T cell cluster independently from the RA dataset. Determine the gene signature of the PD-1+ T cells and conduct analysis across all immune cells of the OA synovium and identify the cells interacting with PD-1+ base receptor-ligand expression using LIANA.
+
+All data will be handled in compliance with applicable data privacy and security guidelines, and no individual patient-identifiable information will be disclosed or used outside the scope of this research.
+
+
+Project Lead: Andreas Schlitzer
+Institution: LIMES, Bonn University
+Data Access Request Submitted By: @AHunecke
+Intended Data Use Statement (accepted on 12/16/2024):
+We are interested in elucidating the disease-specific features of mononuclear phagocytes (MNPs) in the context of different forms of inflammatory arthritis, by analysing clinical samples from a range of arthritis patients. We would like to have access to this data to initially provide a prior overview of the MNP landscape in rheumatoid arthritis and to help guide our analysis of these patient samples. This will be achieved via typical analysis of cell type composition and differential gene expression analysis in R using established Seurat pipelines. We will additionally integrate this dataset with our own transcriptomic data in order to identify conserved or divergent features of MNPs between types of inflammatory arthritis. These analyses will follow established scRNAseq integration and exploration pipelines in R. Finally, we aim to compare the features of MNP in different forms of inflammatory arthritis with other human chronic inflammatory diseases, this will be performed via label transfer analyses and gene signature enrichment scoring between datasets to identify analogous populations between different diseases and datasets.
+
+Data will be used exclusively within the permitted regulations and will only be accessed by listed team members including myself (AHunecke) and Dr. Jake Thomas (jthomas). We will ensure that data is not shared with any third parties, and publishing will be performed by fully acknowledging the data source.
+
+
+Project Lead: Enrico Ferrero
+Institution: Novartis
+Data Access Request Submitted By: @enricoferrero16
+Intended Data Use Statement (accepted on 12/16/2024):
+We plan to analyze AMP RA/SLE and AMP AIM data to identify disease-relevant signatures associated with RA, PsA/PsO, SLE and SjD. Outcomes of these analyses will be incorporated into internal, immune-related projects aiming at identifying more effective treatment options for patients. In detail, incorporating the AMP-RA data allows us to create a reference atlas of immune cells detected in inflamed synovium. This atlas will be leveraged to identify changes in immune cell composition, differential regulation of immune-related pathways and interactions between synovial cell types. In addition, we will use the available SLE data to generate a cross-tissue SLE atlas for biomarker discovery and to link molecular pathways to disease progression. Similarly, the SjD data will be used to understand cell type compositions, disease-relevant pathways, and molecular mechanisms in affected salivary glands.
+
+
+Project Lead: Inigo Martincorena
+Institution: Wellcome Sanger Institute
+Data Access Request Submitted By: @MJPrzybilla
+Intended Data Use Statement (accepted on 12/16/2024):
+We would like to use this dataset to complement our ongoing research into somatic mutations in rheumatoid arthritis. Our proposal is to perform somatic mutation calling across cells, including single nucleotide changes, insertions, deletions, structural variants and copy number variants. Secondly, we propose to use the bioinformatic tool dNdScv to predict the impact of these mutations and detect patterns of somatic evolution in particular genes and pathways. Our goal is to be able to use this published dataset to validate some of the recurrent mutations that we are finding using other approaches, determine the cell types where these mutations occur, and study their impact on gene expression.
+
+
+Project Lead: Anela Tosevska
+Institution: Medical University of Vienna
+Data Access Request Submitted By: @anelatosevska
+Intended Data Use Statement (accepted on 12/13/2024):
+What do you want to do?
+
+A: These data will be processed and used to demonstrate the in vivo relevance of in vitro generated transcriptional signatures in various cell types relevant for RA pathogenesis. We have already used a similar approach, successfully using data from AMP RA I, where we found that cytokine-dependent signatures in fibroblast-like synoviocytes (FLS) ÃÂ can be specifically upregulated in certain RA pathotypes and cell subsets http://dx.doi.org/10.1136/ard-2022-223396.
+
+Why are you doing it?
+
+A: The goal is to define pathways and cell type communication patterns that lead to disease and target these with potential new therapies in vitro and in vivo.
+
+How do you want to do it?
+
+A: We have already found that cytokine-dependent signatures in FLS can be specifically upregulated in certain RA pathotypes and cell subsets. We would like to extend the analysis to other cell types, and we are currently generating these data in the labÃÂ  Using a combination of the publicly available code for this dataset and already established analyses methods (Seurat 5) we will try to recapitulate the clusters defined in this manuscript and calculate in-vitro signatures using module scores for each subtype and CTAP group. We would further try to assess gene expression of genes of interest in different CTAPs and cell subtypes.
+
+Your intended data use statement alludes that the data may be repurposed for further studies. According to the Synapse Terms of Use, we are unable to enable the redistribution of the data into other platforms and/or repositories. Can you please confirm the extent of your intended use?
+
+A: We will not redistribute the data into other platforms and repositories. We will only use knowledge gained from these data to design further studies but not the data itself. We will use the data to generate hypotheses/identify target genes for mechanistic studies on cell-cell interactions in RA. All raw data will be removed from local sources after analysis completion.
+
+We are interested in understanding the interactions between cells in the synovium and their relevance to in vivo pathotypes, diagnosis and response to therapy. These data will be processed with a combination of the publicly available code and established analyses methods (Seurat 5) to recapitulate synovial cell clusters and define a unique ÃÂ transcriptional signature for each cell subtype.
+
+We will use the signatures and explore their relevance in different RA patient cohorts, as well as generate hypotheses to perform in-vitro mechanistic studies. The results will be integrated with in house generated datasets to characterize pathogenic cell types and their interaction in RA. We will use module scores, ssGSEA, singscore and similar algorithms to calculate signature enrichment and cell-cell communication algorithms such as NicheNet or CellChat will be employed to assess cellular cross-talk. Other statistical methods specific for RNA and single-cell analyses will be used to assess promising candidate genes for further studies.
+
+
+Project Lead: Inez den Hond
+Institution: Technical University Delft (Pattern Recognition and Bioinformatics)
+Data Access Request Submitted By: @Inezdh
+Intended Data Use Statement (accepted on 12/11/2024):
+Our primary goal is to identify novel phenotypic subtypes of inflammatory rheumatoid arthritis (RA) on multi-omics data and investigate the possibility to stratify patients into these subtypes based on single-layer (omics) data. For this we develop novel computational methods for the stratification of patients with RA by integrating clinical patient data and multi-omics data. This research is performed as part of the SPIDeRR (Stratification of Patients using advanced Integrative modelling of Data Routinely acquired for diagnosing Rheumatic complaints) consortium (https://spiderr-project.eu/). In this perspective, the AMP’s CTAPs as so nicely described in the paper of Zhang et al., 2023 are highly relevant for our project. We aim to further dive into the found clusters and see how the multi-omics CTAPs could underpin patient stratifications based on routine clinical diagnostics data or genotyping data only. Our goal is to develop methods to define a patient’s RA CTAP-type based on solely genotype information without the need for extensive multi-omics testing. This would facilitate the characterization of the CTAPs to clinical settings with limited available data.
+We are currently working on clustering bulk gene expression data to identify molecular distinct patient subgroups. Next, we would like to move to a single-cell approach as we believe that will allow us to better define patient clusters. The AMP Phase II data (CITE-seq, ATAC-seq) fits this research perfectly given the availability of multi-layer omics data as well as baseline clinical patient and genotyping data. To validate our findings, we will compare patient groupings derived from multi-layer omics data to the groupings derived from single-layer genotyping or routine clinical diagnostics data. This will help us to determine the value of single-layer patient stratification and its impact on diagnostic accuracy and treatment guidance.
+
+
+Project Lead: Rebecca Batorsky
+Institution: Tufts University Medford MA
+Data Access Request Submitted By: @rbatorsky
+Intended Data Use Statement (accepted on 12/6/2024):
+Project Aims
+This project focuses on understanding the differences in cell signaling pathways between osteoarthritis (OA) and rheumatoid arthritis (RA). These two conditions, while both involving joint inflammation, differ significantly in their underlying mechanisms and responses to therapy. Our aim is to explore how variations in cell signaling contribute to these differences, particularly in the context of treatment response. We hypothesize that disparities in cell signaling pathways play a causative role in the failure to respond to existing therapies. By addressing this, we hope to uncover mechanisms that could guide the development of more effective, targeted treatments for these diseases.
+Methodology
+To achieve these aims, we will utilize advanced computational tools to analyze signaling pathways and cell states associated with OA and RA. Specifically, we will leverage CellChat, a database and tool designed to infer and visualize intercellular communication networks. This will allow us to identify signaling pathways that are differentially activated in OA and RA. Additionally, we will employ trajectory inference methods, such as Monocle3, to map dynamic cellular processes and states in these diseases. These methods are particularly useful for uncovering transitions between cell states and identifying temporal changes in cellular behavior during disease progression. By integrating these approaches, we aim to construct a detailed, systems-level understanding of the distinct cellular environments in OA and RA.
+Data Handling and Compliance
+All research activities will be conducted in compliance with data access agreements and ethical guidelines. We will strictly adhere to the terms provided by Synapse for data usage, ensuring that all analyses remain within the scope of our stated objectives. Confidentiality of the data will be maintained throughout the project. Additionally, we will acknowledge all data providers in publications and presentations, as outlined in Synapse’s guidelines, to ensure appropriate recognition of their contributions.
+
+
+Project Lead: Wendi Qin
+Institution: feixin biotechnology
+Data Access Request Submitted By: @andiqing
+Intended Data Use Statement (accepted on 12/6/2024):
+I am requesting access to the RA (Rheumatoid Arthritis) dataset to conduct a comprehensive data mining analysis. The primary objective of this analysis is to uncover novel insights into the biological mechanisms, gene expression patterns, and potential therapeutic targets associated with rheumatoid arthritis. Specifically, I intend to apply advanced data mining techniques, such as machine learning algorithms and statistical models, to identify key biomarkers, signaling pathways, and cellular interactions involved in the progression and treatment response of RA.
+
+The results of this data mining analysis are anticipated to contribute to a deeper understanding of RA pathogenesis, and may assist in identifying potential avenues for personalized medicine approaches, thereby enhancing therapeutic efficacy and patient outcomes. The findings will be used strictly for academic and research purposes, with the ultimate goal of advancing the scientific community's knowledge of rheumatoid arthritis.
+
+All data will be handled in compliance with applicable data privacy and security guidelines, and no individual patient-identifiable information will be disclosed or used outside the scope of this research.
+
+
+Project Lead: Maria Gutierrez-Arcelus
+Institution: Boston Children's Hospital
+Data Access Request Submitted By: @qianxiao
+Intended Data Use Statement (accepted on 11/8/2024):
+We aim to analyze single-cell RNA sequencing data from RA synovium and LN kidney focusing specifically on B cells, to assess their unique and shared features relative to our in-house stimulated B cell dataset. We plan to conduct analyses across B cell subpopulations to identify disease-specific signatures. Our data usage plan is designed to adhere strictly to data use limitations, ensuring participant anonymity and data protection throughout the research process.
+
+
+Project Lead: Robert Corty
+Institution: Vanderbilt University Medical Center
+Data Access Request Submitted By: @rcorty
+Intended Data Use Statement (accepted on 11/8/2024):
+We seek to understand the relationship between B- and T-cell receptor sequences and the cell type abundance phenotypes reported in AMP-RA publication (Zhang2023) and possibly extend those observations to treatment responses. We are doing this to learn more about the different types of RA and investigate whether there are certain patients who respond better/worse to certain treatments. We will use machine learning techniques to study these relationship, including deep neural nets and sequence clustering.
+
+
+Project Lead: Deconvolution of RA synovial bulk RNAseq
+Institution: Flinders University
+Data Access Request Submitted By: @vincent3950
+Intended Data Use Statement (accepted on 11/4/2024):
+The proposed research aims to deconvolute complex gene expression profiles from synovial bulk RNA sequencing data in patients with rheumatoid arthritis (RA). Specifically, our primary objective is to characterize these bulk RNAseq data into six distinct cell-type abundance phenotypes (CTAPs) to better understand the cellular landscape within RA-affected synovial tissue. By distinguishing these CTAPs, we hope to gain insights into the heterogeneity of immune and stromal cell populations and their roles in RA pathology.
+
+Research Objectives and Rationale
+
+This project is driven by the need to enhance our understanding of cellular interactions in RA, which could ultimately inform targeted therapeutic approaches. Existing treatments for RA are not universally effective, and our study aims to identify cell-type-specific gene expression patterns that correlate with disease activity or therapeutic response, potentially aiding in personalized treatment strategies for RA patients.
+
+Methodology
+
+To achieve these objectives, we will apply computational deconvolution techniques, such as CIBERSORTx and SingleR, to estimate the proportions of different cell types within the bulk RNAseq data. This will involve aligning gene expression signatures from our samples with reference profiles to infer the presence and relative abundance of immune and stromal cells. Additionally, we will perform differential gene expression analysis across CTAPs to identify markers and pathways associated with specific cell types.
+
+Data Handling and Compliance
+
+We will conduct this research in strict adherence to the data access terms and conditions provided by Synapse. The data will solely be used for the stated objectives and will be managed with full confidentiality. Contributions from data providers will be acknowledged in all disseminations, including publications and presentations, following Synapse guidelines.
+
+
+Project Lead: Noriko Komatsu
+Institution: Institute of Science Tokyo
+Data Access Request Submitted By: @NorikoKomatsu
+Intended Data Use Statement (accepted on 11/4/2024):
+We will perform computational analysis using single cell RNA-seq and CITE-seq data to identify genes specific for relevant cell types as well as key genes that are important for interplay of immune cell and non-immune cells in rheumatoid arthritis at both RNA and protein levels. We will examine the similarity and differences with cellular phenotypes reported previously. These will contribute to elucidation of molecular mechanisms underlying phathogenesis of rheumatoid arthritis and development of new therapies.
+
+
+Project Lead: Santiago Balza Pineda
+Institution: Allosite Therapeutics
+Data Access Request Submitted By: @sbalza
+Intended Data Use Statement (accepted on 11/1/2024):
+Research purpose. The focus of this research is to investigate the role of myeloid cells in chronic inflammatory and autoimmune conditions with an emphasis on potential therapeutic targets for CD11b. CD11b, a key immune modulator on myeloid cells, regulates responses associated with inflammation, tissue damage, and fibrosis. This study will help clarify CD11b-driven pathways in disease, guiding our development of targeted therapies for lupus, lupus nephritis, and other conditions.
+Study plan. Our study will leverage this consortium dataset to identify and analyze gene expression patterns in CD11b+ myeloid cells under varying disease conditions. This will involve differential gene expression analysis to pinpoint signatures and pathway modulations associated with myeloid activation and suppression within chronic inflammatory contexts. Insights gained from this study may contribute to advancing our therapeutic programs by informing target validation for CD11b-directed therapies aimed at modulating myeloid cell activity.
+
+
+Project Lead: Yuhan Hao
+Institution: Neptune Bio
+Data Access Request Submitted By: @yuhanhao
+Intended Data Use Statement (accepted on 11/1/2024):
+Rheumatoid Arthritis (RA) is a complex inflammatory disease characterized by the involvement of multiple cell types that play causal roles. Although genome-wide association studies (GWAS) have identified numerous risk genetic variants associated with RA, the biological implications and the relative importance of these risk variants in different cell types remain unclear. To elucidate the role of genetic variants across various cell types in RA, this proposal aims to perform integrative analyses of GWAS data alongside cell type specific gene expression and chromatin openness data from RA patients.
+
+Our approach involves building an integrated statistical model by leveraging AMP patient-derived single-cell ATAC-seq data, single-cell RNA-seq data, single-cell multiome data (RNA + ATAC), and the latest GWAS summary statistics. Then, by controlling for linkage disequilibrium, we aim to connect relevant cell types with their associated risk variants and improve the interpretation of genetic information at cell-type level. This comprehensive analysis will correlate risk variants with chromatin accessibility and gene expression profiles, providing a better understanding of the risk variants in RA.
+
+
+Project Lead: Quan Jiang
+Institution: Guang'anmen Hospital China Academy of Chinese Medical Sciences, Beijing, China.
+Data Access Request Submitted By: @ZhouSicong
+Intended Data Use Statement (accepted on 11/1/2024):
+What do you want to do? We aim to identify patients with rheumatoid arthritis (RA) who experience rapid progression of bone destruction, facilitating early intervention to improve prognosis. We have identified a gene expression program of interest in a smaller RA dataset and now aim to expand and validate our findings using a larger, independent cohort. This approach will allow us to determine whether the observed gene programs are consistently present across multiple patients, thereby supporting our internal efforts in target discovery and validation.
+
+Why are you doing it? Rheumatoid arthritis (RA) is an autoimmune disease that ultimately leads to joint destruction and loss of function. Bone destruction significantly impacts patients, resulting in chronic pain, reduced mobility, and diminished quality of life. Understanding the mechanisms of bone destruction is crucial for enhancing scientific and clinical knowledge of RA. This research will aid in identifying biomarkers for bone destruction and developing targeted therapies. Early intervention is vital, as it can slow disease progression, alleviate symptoms, and improve the overall prognosis for RA patients.
+
+How do you want to do it? (1) With the help of Guanganmen's China rheumatoid arthritis registry of patients with Chinese medicine (CERTAIN) cohort study data（https://pubmed.ncbi.nlm.nih.gov/35797864/）, a sufficient number of patients' blood + synovium can be received; (2) Collect samples from RA bone destruction patients and non-bone destruction patients at least 8 cases, and then perform single-cell sequencing + VDJ (3) Integrate these datasets with the RA synovial single-cell RNA sequencing (scRNA-seq) data from the NIH AMP-RA/SLE program (the data we are requesting) to systematically identify biomarkers—specifically, cell subtypes and/or pathways��that can predict the early risk of bone destruction in RA. Notably, combining our data with that from the AMP-RA/SLE program will enhance the robustness of cell subtype annotations (and consequently the biomarkers) across different studies.
+
+
+Project Lead: Mohini Gray
+Institution: University of Edinburgh
+Data Access Request Submitted By: @rbelmonte
+Intended Data Use Statement (accepted on 11/1/2024):
+Our research focuses on identifying pathogenic B cells in autoimmunity. We have recently identified a novel B cell subpopulation in our scRNA-seq data and are interested in determining if this population is unique to our conditions or if they exist in other datasets. We will use a gene module to assess similarity of cells to those that we have identified.
+
+
+Project Lead: Sarah Djeddi
+Institution: Immunitas Therapeutics
+Data Access Request Submitted By: @sdjeddi
+Intended Data Use Statement (accepted on 10/24/2024):
+Research purpose:
+We are investigating the role and presence of specific T cell subsets in autoimmune diseases with a focus on rheumatoid arthritis (RA) patients. We want to compare the gene expression programs of RA-associated T cell subsets with those from other autoimmune conditions to validate previous findings and explore new hypotheses. We have identified a gene expression program of interest in a smaller RA dataset, and we now would like to expand and validate our findings using a large, independent cohort. This will help us assess whether the observed gene programs are consistently present across multiple patients, supporting our internal target discovery and validation efforts. The high-quality data and the large number of samples of the requested dataset make it highly relevant for our research project with significant potential to develop novel therapeutics for RA.
+Methods and techniques:
+We will leverage the fine-grained annotations in the dataset to identify and analyze the gene program of interest. Specifically, we will compare the gene expression of selected T cell subsets, expressing the gene program of interest, with unselected T cells using differential expression analysis. Our goal is to determine whether this gene program is present first and then if it correlates with any specific T cell subset in RA and whether it associates with available treatment data. We will use R and Seurat to re-analyze the processed data. This approach will allow us to validate and potentially expand upon previously identified gene signatures of disease-relevant T cell subsets, providing valuable insights to support our RA drug discovery effort.
+
+
+Project Lead: Anjana Rao, PhD
+Institution: La Jolla Institute for Immunology
+Data Access Request Submitted By: @larteaga
+Intended Data Use Statement (accepted on 10/23/2024):
+Expression of Transposable Elements across diverse populations of Immune Cells
+
+Transposable Elements (TEs) are highly repetitive genomic elements in mammalian genomes that are usually kept silenced in somatic cells through transcriptional and epigenetic mechanisms that are not yet completely understood. Our analyses on immune cell populations using mouse models indicate that the expression of TEs is governed by multiple epigenetic regulators and may be altered in different cellular contexts including responses to pathogens, cell differentiation processes and diseases. We are currently performing various whole-genome analyses to understand the molecular mechanisms governing TE expression in mouse models, and we wish to investigate also next-generation sequencing datasets (RNA-Seq) from human immune cells to determine whether changes in TE expression also occur in human cells and if so, establish if they depend on the type and characteristics of the stimulus. These analyses do not create any risk to participants and no attempts will be made to identify any participants.
+
+
+Project Lead: Karine Chemin
+Institution: Karolinska Institutet
+Data Access Request Submitted By: @alearg
+Intended Data Use Statement (accepted on 10/21/2024):
+The main objective of our study is to investigate the profile of myeloid cells in synovial joints of patients with rheumatoid arthritis (RA). We have already performed 10X single-cell RNA sequencing on peripheral blood and synovial fluid mononuclear cells from eight patients with RA and have analyzed the data using R. We have identified several clusters of myeloid cells, including classical, non-classical and intermediate monocytes, as well as conventional and plasmacytoid dendritic cells. We have identified an interesting transcriptomic signature in a subgroup of patients. To strengthen our observations, we aim to investigate whether the same signature can be detected in innate immune cells in the synovial tissue of patients from an independent cohort. We would therefore be very grateful to get access to your well-characterized dataset.
+Your dataset will be analysed in a similar manner as our dataset and the use of this dataset will be acknowledged in our published manuscript. We believe that these analyses will further support our results and will lead us to a better understanding of the mechanisms of the disease, as well as the treatments’ effects.
+
+
+Project Lead: Shanzhao Jin
+Institution: Peking University People's Hospital
+Data Access Request Submitted By: @bessie0423
+Intended Data Use Statement (accepted on 10/16/2024):
+Dear Professor,
+
+Our research primarily aims to examine the expression of a specific small molecule inhibitor of an ion channel within the synovial tissue of rheumatoid arthritis (RA) patients. RA is a complex and debilitating autoimmune condition characterized by chronic inflammation of the joints, leading to significant pain and disability. Understanding the molecular mechanisms that drive this disease is crucial for developing targeted therapies. The small molecule inhibitor we are focusing on has shown promise in regulating ion channel activity, which is vital for cellular signaling and function.
+We are motivated to pursue this line of research due to the increasing evidence that ion channels play significant roles in inflammation and immune responses in RA. In particular, we noted your article highlighting that the expression of this inhibitor is notably elevated in the F-type, T+F, and M+F synovial tissues of RA patients. This observation suggests a potential link between the inhibitor’s activity and the pathological processes occurring in the joint tissues of these individuals. We believe that this heightened expression may primarily arise from its presence in fibroblast-like synoviocytes (FLS), a cell type known to be instrumental in mediating inflammation and joint destruction in RA.
+
+To achieve our research goals, we intend to leverage the data presented in your article, as it provides a foundational understanding of the expression patterns of this inhibitor in RA synovial tissues. Our approach will involve a comprehensive analysis of various FLS subpopulations, as we suspect that the differential expression of the inhibitor among these groups may reveal important insights into its regulatory roles. By employing advanced techniques such as single-cell RNA sequencing and immunohistochemistry, we aim to dissect the expression dynamics of this molecule at a granular level.
+
+We also plan to investigate the signaling pathways influenced by this small molecule inhibitor, which could further elucidate its role in RA pathophysiology. Understanding how this inhibitor interacts with various cellular signaling pathways will be crucial in identifying its potential as a therapeutic target. Additionally, we hope to explore whether modulation of this inhibitor’s expression can lead to beneficial effects on inflammation and tissue remodeling in RA.
+
+Ultimately, our goal is to enhance the understanding of this small molecule inhibitor’s role within the context of RA, particularly regarding its expression in different FLS subpopulations. By doing so, we aspire to contribute to the development of novel therapeutic strategies that could improve outcomes for RA patients. The insights gained from this research could lead to more personalized treatment approaches, targeting specific cellular mechanisms that drive disease progression.
+
+In conclusion, our research will delve into the complex interplay between the small molecule inhibitor and the cellular environment of RA synovial tissues. Through careful analysis and leveraging existing data, we aim to uncover the ultimate regulatory roles of this inhibitor, paving the way for future therapeutic interventions that may significantly impact the management of rheumatoid arthritis.
+
+Thank you!
+
+
+Project Lead: Monica Guma
+Institution: UCSD
+Data Access Request Submitted By: @marsacli
+Intended Data Use Statement (accepted on 10/4/2024):
+The intricate exploration of metabolic mechanisms underpinning rheumatoid arthritis (RA) necessitates a comprehensive understanding of the complex interplay between metabolic pathways and inflammatory responses. The perturbation of cellular metabolism profoundly influences the functionality of immune cells, potentially intensifying or mitigating RA symptoms. A critical aspect of this dynamic involves the hyperproliferation of synovial fibroblasts in RA, which undergo significant metabolic reprogramming. The crosstalk between these activated fibroblasts and other synovial cells, such as macrophages, is thought to fuel ongoing inflammation and facilitate joint destruction. Delving into these metabolic alterations holds the promise of identifying new therapeutic targets that can modulate such pathways, thereby introducing innovative treatment paradigms for RA.
+
+To advance our understanding of the metabolic interactions between fibroblasts and macrophages in RA, I am poised to work with Dr. Guma at the University of California, San Diego, as a postdoctoral researcher. This will begin during the final phase of my PhD internship under Dr. Guma's mentorship, facilitating a smooth transition into focused postdoctoral research.
+
+
+Project Lead: Chris Schiering
+Institution: T-Therapeutics
+Data Access Request Submitted By: @chris.schiering
+Intended Data Use Statement (accepted on 10/4/2024):
+We are investigating the role of T cell subsets in autoimmune conditions. We aim to 1) investigate the presence and phenotypes of T cell subsets in rheumatoid arthritis (RA), and 2) compare gene expression programme of RA T cell subsets with T cell subsets that arise in other chronic inflammatory diseases.
+
+Specifically, we aim to identify gene signatures of disease-relevant T cell subsets. We intend to use these gene signatures for our internal target discovery efforts. We plan to select relevant T cell subsets based on the expression of marker genes identified from other datasets. We will then compare these T cell subsets with the remaining unselected T cells through differential gene expression testing. This approach will help us confirm our previously established gene signatures and identify new potentially relevant genes.
+
+
+Project Lead: Ruofan Ma
+Institution: Department of Orthopedic Surgery, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, Guangdong, China
+Data Access Request Submitted By: @linxb25
+Intended Data Use Statement (accepted on 10/4/2024):
+We are studying the synovial fibroblast's effect on meniscus in knee rheumatoid arthritis (RA) in late-period patients. We acquired the late-period knee samples, including meniscus and synovium, from RA patients who underwent total knee arthroplasty, and sent them for scRNA-seq. We now have found a special fibroblast cluster, which specially expressed CD142 as its marker and have essential effect on meniscus destruction but little effect on cartilage. Therefore, we wish to use this data set, including 69 RA patients' synovium, to figure out this special CD142+ fibroblast is more belong to which synovial fibroblast cluster. Once we acquire this data set, we would use R package scmap, to project our own scRNA-seq data onto this data set, hence we could know which cluster does CD142+ cluster share similarity with. This projecting and mapping result might be used in our paper, but once it used we will formally state the source of this data set and the method of this process.
+
+
+Project Lead: Benson Ogunjimi
+Institution: University of Antwerp
+Data Access Request Submitted By: @my.ha
+Intended Data Use Statement (accepted on 10/4/2024):
+OBJECTIVES OF THE PROPOSED RESEARCH
+The grand objective of this project is to generate a T-cell receptor (TCR) atlas by collecting TCR data of patients with different chronic autoimmune arthritis diseases, as well as simultaneously generating bulk and single-cell TCR-seq data from our own arthritis patient cohort. This atlas will significantly aid the (i) understanding of pathophysiology and discovery of biomarkers; (ii) (sub-category) diagnosis; (iii) prediction of the course of disease post-therapy and recommendation of appropriate treatments.
+
+STUDY DESIGN AND ANALYSIS PLAN
+Identification of Arthritis Associated TCRs
+We will generate bulk and single-cell TCR-seq data from our own cohort of patients suffering from different kinds of autoimmune arthritis Their TCR repertoires will be characterised on two levels: globally and locally. Globally, we will assess the TCR clonality, diversity and clonotype overlap across the different T-cell subsets and different groups of arthritis patients. Locally, we aim to drill down into the repertoire and identify groups of similar TCRs that are uniquely shared across a specific patient group, implying a mechanistic role. To overcome repertoire sparsity, we will employ clustering approaches, which group similar TCRs into epitope/MHC-restricted clusters, hence increasing our statistical power in finding shared TCR patterns. After clustering, we will perform a statistical enrichment analysis to extract these TCR groups that are significantly associated with a specific arthritis subgroup and absent in control (healthy) repertoires. Informative TCR clusters will be prioritized based on their generation probability (how likely they are to form), extent of expansion, and convergence (indicating an epitope-driven selective pressure).
+
+Annotation of TCR specificity
+Further annotation (e.g., for viral epitope reactive TCRs) will be performed by matching TCRs against those in curated databases of TCRs with known specificity. Furthermore, if exact matches are not available in such databases, we can rely on more complex machine learning algorithms to perform specificity annotations. Concretely, with this task, we aim to derive a defined set of TCR patterns that can be thought to closely linked to chronic autoimmune arthritis. To validate and assess the robustness of these TCR signatures, we will test their presence in extensive, independent patient cohorts. Our approach involves compiling a database of synovial fluid TCRs from publicly available sources. This is where we would want to use ARK data for. This database will represent unique TCR clonotypes in a wide range of autoimmune arthritis. By utilizing this diverse and comprehensive dataset, we aim to rigorously evaluate the generalizability and consistency of the identified TCR patterns across different forms of arthritis. This method not only underscores the validity of our findings but also offers insights into the potential clinical applicability of these TCR signatures.
+
+
+Project Lead: Min He
+Institution: the Second Clinical College of Guangzhou University of Chinese Medicine
+Data Access Request Submitted By: @liangguojun
+Intended Data Use Statement (accepted on 9/20/2024):
+Dear Sir/Madam,
+
+We are a research team affiliated with the Second Clinical College of Guangzhou University of Chinese Medicine in China , We intend to analyze the single cell sequencing data of patients with osteoarthritis (OA) and rheumatoid arthritis (RA), analyze their bone marrow-derived suppressor cells (MDSC), and search for more significant genes of MDSCs in OA and RA for analysis.
+
+Rheumatoid arthritis (RA) is a chronic autoimmune disease characterized by synovial hyperplasia, inflammatory cell infiltration, and destruction of articular cartilage and bone matrix, resulting in joint deformity and loss of function. Due to the unclear pathogenesis of RA, in the context of inflammation, although MDSC has immunosuppressive function, its role in rheumatoid arthritis is not clear. Some studies believe that it can alleviate the disease through immunosuppressive function, while others believe that it can not effectively alleviate the disease, and even promote inflammation and disease progression. Therefore, we wanted to analyze MDSCs using single-cell sequencing data.
+
+We promise you that we will use this data set strictly within the permitted scope and regulatory scope, and we will note the source of the sequencing data in the publication of the article and attach a thank you. Thank you for considering our request.
+
+                                                                                                                 Min He
+                                                                                                                 2024.9.20
+
+Project Lead: Kathryn Yost
+Institution: Curie Bio
+Data Access Request Submitted By: @katieyost
+Intended Data Use Statement (accepted on 9/20/2024):
+What do you want to do?: We intend to investigate the expression levels of marker genes on cell subsets present in rheumatoid arthritis patients.
+Why are you doing it?: We are using this data in combination with other datasets to nominate potential therapeutic targets for treatment of rheumatoid arthritis and other autoimmune diseases.
+How do you want to do it?: We will use Seurat to analyze single cell RNA-seq and CITE-seq data. We will identify cell subsets present in rheumatoid arthritis patients, perform differential expression analysis, and compare RNA and protein expression in relevant cell subsets.
+
+
+Project Lead: Franziska Denk
+Institution: King's College London
+Data Access Request Submitted By: @franziska.denk
+Intended Data Use Statement (accepted on 9/20/2024):
+What do you want to do?
+I would like to access these data to see whether it can be re-analysed with a focus on pain mechanisms in RA. Specifically, I would like to try and correlate the expression data of cell subsets to clinical parameters that might be proxy-measures of pain, such as DAS28 outcomes. This includes both investigating whether the ratio of certain cell-subsets changes with these proxy-measures of pain and/or whether the expression level of certain mediators of interest is correlated with these cell sub-sets.
+
+Why are you doing it?
+I would like to do this as a way to inform a study we are carrying out in the UK as part of an interdisciplinary consortium focused on pain in RA. In this consortium, we are collecting synovial biopsies with more extensive pain phenotyping. We have some very specific hypotheses, about which synovial cell subsets and mediators we expect to be associated with pain. I am keen to see whether we can already narrow some of these hypotheses down with the existing AMPII data I’m requesting, even if they do not contain ‘direct’ measures of pain.
+
+How do you want to do it?
+I will check which clinical data are available in the meta-data sheet (this is currently not clear and can only be inferred from the methods section of the associated Nature paper). If suitable proxy-measures of pain are available, I will correlate these with specific cell-type abundances and the expression levels of particular mediators. I will do this using R and Excel. This is intended to be a quick and simple re-analysis, to obtain a confidential internal result that might be able to inform the selection of some hypotheses over others. I’m therefore only asking for access for myself as the principal investigator on the Data Use Certificate.
+If this first analysis ends up looking promising and the clinical data happen to contain parameters that are suitable for our research question, we will submit a report and ask for an expansion of the data use agreement to include other consortium collaborators.
+
+
+Project Lead: Investigating the Role and Mechanism of Metabolic Reprogramming in Rheumatoid Arthritis Progression Based on Single-Cell Sequencing
+Institution: Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine
+Data Access Request Submitted By: @kangkang1992
+Intended Data Use Statement (accepted on 9/20/2024):
+Our research aims to elucidate the metabolic reprogramming in rheumatoid arthritis (RA) and its contribution to disease progression. We hypothesize that single-cell sequencing can reveal novel insights into the cellular and molecular changes that occur during RA, which may lead to the identification of therapeutic targets.
+
+The proposed study will utilize controlled-access single-cell datasets to perform a comprehensive analysis of cellular heterogeneity and metabolic pathways in RA. We will employ advanced bioinformatics techniques to identify and characterize cell subpopulations, their metabolic profiles, and how these change over the course of the disease.
+
+Our study design involves the following steps:
+
+Acquisition of single-cell RNA sequencing data from RA patients.
+Application of bioinformatics analysis to dissect the cellular heterogeneity.
+Integration of transcriptomic data with clinical metadata to correlate cellular metabolic states with disease severity and progression.
+Functional validation of key metabolic pathways identified through in vitro and in vivo models.
+This research aligns with the goals of the ARK Portal by advancing understanding of RA pathogenesis, which is crucial for the development of new therapeutic strategies. Our work will be submitted for publication in a peer-reviewed journal and presented at scientific conferences, with due acknowledgment to the data contributors.
+
+Data Access and Compliance:
+We request access to the controlled-data for a period of one year, with the intention to apply for an extension should the research timeline extend beyond this period. We agree to adhere to all Data Access Terms and Conditions and any specific data use limitations. The Data Use Certificate (DUC) will be co-signed by an authorized Signing Official from our institution, confirming compliance with the required standards.
+
+The following individuals will collaborate on this project:
+
+Dr Zijian Kang, Department of Rheumatology, Shanghai Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Email: kangzijian1992@163.com
+
+Each collaborator has been briefed on the data use policies and is committed to ensuring the data's proper use and security.
+
+We appreciate the opportunity to contribute to the scientific understanding of RA through this research and look forward to sharing our findings with the broader research community.
+
+
+Project Lead: Yevgeniya Gartshteyn
+Institution: Columbia University
+Data Access Request Submitted By: @yg2372
+Intended Data Use Statement (accepted on 9/6/2024):
+Systemic Lupus is mediated by dysregulated T and B cell activation resulting in an anti-self-inflammatory response. We are interested in the role of the SLAMF co-receptors on T and B cells as propagators of systemic lupus. We recently published work that SLAM-associated protein (SAP) is upregulated in lupus.
+
+What do you want to do? We would like to use the AMP Phase II sc-RNA-Seq data to identify SAP positive T cells and then to ask the question of what other genes are upregulated when SAP levels are increased in lupus T cells.
+
+Why are you doing it? We observed that SAP levels are increased in lupus T cells as compared to non-lupus T cells. We want to better understand the genes and pathways associated with SAP upregulated in SLE using the scRNA Seq data.
+
+How do you want to do it? We will download the scRNA-Seq data and use R programming to identify CD3 positive T cells that express high levels of SAP. We will then compare differentially expressed genes between SAP high and SAP low T cells.
+
+
+Project Lead: Thomas Yu
+Institution: Sage Bionetworks
+Data Access Request Submitted By: @synapse-service-ad-data-curation-01
+Intended Data Use Statement (accepted on 9/5/2024):
+Data migration to integrated-immunology bucket.
+
+
+Project Lead: Ian McDowell
+Institution: UCB Biopharma SRL
+Data Access Request Submitted By: @ian.mcdowell.ucb
+Intended Data Use Statement (accepted on 8/23/2024):
+We intend to use this dataset for the purposes of disease understanding and novel target identification in rheumatoid arthritis as well as in immune-related conditions generally. We plan to perform differential expression analyses within cell type and across cell-type abundance phenotypes (CTAPs) and, in a CTAP-agnostic manner, to perform gene expression correlation analyses across cell types to understand the relationship between cell types and within patients.
+
+
+Project Lead: Olivia Lazaro
+Institution: Indiana Biosciences Research Institute
+Data Access Request Submitted By: @olazaro
+Intended Data Use Statement (accepted on 8/23/2024):
+We plan to use the requested dataset in conjunction with other publicly available single cell RNA-seq datasets to identify cell type specific gene sets using Seurat, gene co-expression modules using hdWGCNA, and cell-cell interactions with CellChat that may be associated with osteoarthritis and/or rheumatoid arthritis, as well as inform novel targets using sequence and structural homology in human cohorts.
+
+
+Project Lead: Woogil Song
+Institution: KAIST (Korea Advanced Institute of Science and Technology)
+Data Access Request Submitted By: @swooju
+Intended Data Use Statement (accepted on 8/14/2024):
+What do you want to do?
+I intend to access and analyze synovium data from OA (Osteoarthritis) patients.
+
+Why are you doing it?
+The purpose of this research is to compare the synovial pathology between OA and RA (Rheumatoid Arthritis) patients. I currently have RA patient data, and by comparing it with OA patient data, I aim to identify key pathological differences that could contribute to a better understanding of the distinct mechanisms underlying these conditions.
+
+How do you want to do it?
+I will conduct a comparative analysis using bioinformatics and statistical tools to assess the similarities and differences in the synovium pathology of OA and RA patients. This will involve data preprocessing, normalization, and subsequent pathway and gene expression analysis.
+
+
+Project Lead: Éric Boilard
+Institution: Centre de Recherche du CHU de Québec-Universite Laval
+Data Access Request Submitted By: @ericboilard
+Intended Data Use Statement (accepted on 7/26/2024):
+Project lead: Eric Boilard, Professor in the Department of Infectious Diseases and Immunity.
+Institution: Centre de Recherche du CHU de Québec- Université Laval
+Title of the project: Study of megakaryocytes in rheumatic musculoskeletal diseases
+Brief description:
+OVERVIEW Our laboratory examines the role of platelets and their mother cell, the megakaryocyte (MK), in systemic lupus erythematosus (SLE) and rheumatoid arthritis (RA).
+PRELIMINARY OBSERVATIONS The accumulation of autoantibodies and autoantigens in blood, the formation of immune complexes (ICs) and their deposition in organs play a central role in this pathogenesis. Up-regulation of the type I interferon (IFN), leading to expression of IFN-regulated genes, also characterizes SLE. We found that autoantibodies target mitochondrial antigens in SLE. In response to ICs in SLE, we found that platelets release naked mitochondria. Moreover, we found that Fc receptor IIA for IgG (FcγRIIA), a receptor for ICs, accelerates platelet activation, nephritis and mortality in mouse models of SLE and RA. We further demonstrated that dependently of the expression of FcγRIIA, platelets displayed an altered transcriptome presenting IFN-regulated genes and dysregulated mitochondrial pathways in SLE. As platelets are anucleate, these data indicate that MK, the cells that produce platelets and afford them their RNA content, are altered in SLE. We will integrate these intriguing findings by examining MKs in SLE with emphasis on MK bioenergetics.
+HYPOTHESIS: An auto-immune prone environment reprograms MKs into a pro-inflammatory phenotype
+AIM 1 Evaluate MK transcriptome in humans and compare with that of platelets
+APPROACH We will examine available transcriptome databases and examine the transcriptome of MKs. When different sources (i.e. tissues such as blood, spleen, kidneys) of MK are available, comparisons between each MK sources will be examined. We will evaluate presence of Fc receptors and expression of mitochondria-related genes in the databases. Emphasis on mitochondrial-derived gene(functions) will be performed. Moreover, we will proceed with comparisons with available platelet transcriptome databases, and will determine similarities or divergences between MK and platelet transcriptomes in these diseases. In some experiments, the transcriptome of other myeloid cells present in the same databases will be examined for comparisons. Coding approaches we developed will be used to diminish batch effects for our comparisons from different cohorts. For these analyses, we will use statistical approaches and machine learning. The objectives of these 2 methods are different. Machine learning will train automatic learning models to recognize and differentiate MKs in different conditions at different stages of the disease. Once these models are up and running, models with the best performance will be conserved and the most discriminating list of genes that the model used to discriminate will be identified. These genes, which are intended to distinguish our conditions, will then be used to carry out functional enrichment to determine which pathways differ from one condition to another, and whether MKs we identify mainly originate from the bone marrow or other tissues in disease.
+OUTCOMES Platelets are now recognized as active players of both inflammation and thrombosis. MKs might thus continuously fuel the fire with new platelets with pro-inflammatory and pro-thrombotic phenotypes. Whether and how MKs are impacted by factors in these diseases is unknown. As MKs produce billions of platelets each day, we may reveal how MKs are affected in autoimmune diseases, thereby generating inflammatory platelets.
+
+Member of the research team, Guillaume Lemaire (@Guitout31415), will also be accessing these data.
+
+Best regards
+Eric
+
+
+Project Lead: Kentaro Yomogida
+Institution: University of Colorado
+Data Access Request Submitted By: @yomogida
+Intended Data Use Statement (accepted on 7/26/2024):
+We are conducting a comparative analysis of the cellular composition and transcriptomics profiles of synovial membranes from patients with juvenile idiopathic arthritis (JIA) and adult-onset rheumatoid arthritis (RA). Our goal is to identify key differences and similarities in the cellular environments of these conditions, which are clinically distinct yet share pathophysiological underpinnings. By studying these differences, we aim to enhance our understanding of the disease mechanisms specific to JIA, potentially uncovering novel therapeutic targets.
+
+Our approach involves analyzing single-cell RNA sequencing data from JIA samples collected at our institute. We will compare these data to similar datasets of RA samples. Specifically, we intend to perform differential expression analysis, cell type identification, and pathway enrichment analysis. This will allow us to pinpoint cellular and molecular changes that could explain the divergent clinical presentations and outcomes between pediatric and adult arthritis.
+
+The integration of these datasets will be handled carefully to adjust for batch effects and other technical variabilities, ensuring robust and reliable conclusions. The insights gained from this study will contribute to the broader scientific community's efforts to develop more effective, targeted therapies for JIA.
+
+
+Project Lead: Chenyang Lu
+Institution: Sun Yet-sen University
+Data Access Request Submitted By: @Lu_chenyang
+Intended Data Use Statement (accepted on 7/25/2024):
+Metabolic heterogeneity determines various cell functions. We aim to use the rich AMP Phase II CITE-seq datasets to further explore the synovial cell metabolisms and their effects on inflammation and treatment responses. The present project will contribute to the understanding of pathogenesis of rheumatoid arthritis and also finding of novel therapeutic targets. We plan to conduct standard analysis including dimensional reduction, sub-clustering, differentially expressed gene analysis and metabolic gene quantification to identify cell metabolism patterns, followed by gene expression correlation analyses across cell types, responses to treatment, and metabolisms to understand the relationship between cellular metabolisms and treatment responses.
+
+
+Project Lead: Eric Gracey
+Institution: Ghent Universit
+Data Access Request Submitted By: @sofiademolder
+Intended Data Use Statement (accepted on 7/19/2024):
+We are working on human tendinopathy and have generated a single-cell dataset of human samples. Our data has revealed a shift in the fibroblast phenotype with tendinopathy. To validate our findings with what is already known about pathogenic fibroblasts in other musculoskeletal diseases, we wish to cross-reference our tendon fibroblast dataset with the AMP RA II dataset. This would facilitate our cell annotations and could greatly contribute to aligning fibroblast annotations in the field. There are different modules in R Studio that can be used to overlay datasets, such as for example Symphony. We will try out different computational methods to verify if we can detect similarities between our human samples and the AMP RA II data.
+
+
+Project Lead: Arnold Han
+Institution: Columbia University Irving Medical Center
+Data Access Request Submitted By: @hanlabcumc
+Intended Data Use Statement (accepted on 7/12/2024):
+We intend to use this data to compare T-cells from Rheumatoid Arthritis with those of Celiac Disease. As both diseases are autoimmune, we hope to characterize similarities and differences in the populations of T-cells and their expression via single cell sequencing. Because both environments are relatively isolated and do not rely on the sequencing of PBMCs, this may allow us to better observe any significant variations that are present in RA and CD data sets and not treated or healthy controls. We have already prepared the celiac disease data set, and we hope to access this data to perform analysis of cells from the synovium of patients with Rheumatoid Arthritis.
+
+
+Project Lead: Colin Logie
+Institution: Radboud University, Nijmegen, The Netherlands
+Data Access Request Submitted By: @tvandekreeke
+Intended Data Use Statement (accepted on 7/12/2024):
+Dear Reader,
+
+Our lab is currently studying myelopoiesis in the presence of either pro-inflammatory agents or immunosuppressants. This research is conducted in vitro, where we stimulate induced pluripotent stem cells (iPSCs) to differentiate primarily into monocytes and macrophages. However, we have also identified other myeloid cells within our in vitro system.
+
+After performing single-cell RNA sequencing, we discovered intriguing subclusters of cells. We are interested in comparing these subclusters to in vivo single-cell data. Such a comparison could enhance our understanding of the differences between the cells found in our in vitro system and myeloid cells under physiological conditions, like the samples your team has studied.
+
+We assure you that we will use this dataset strictly within the permitted scope and regulations. Our analysis will be conducted using the Seurat package in R, focusing on comparing differentially expressed genes similar to those observed in our system.
+
+Thank you for considering our request.
+
+Best regards,
+
+Thomas van de Kreeke
+Radboud University, Nijmegen, The Netherlands
+
+
+Project Lead: Kewei Rong
+Institution: Shanghai Jiaotong University School of Medicine
+Data Access Request Submitted By: @rkwdtc
+Intended Data Use Statement (accepted on 7/12/2024):
+In patients with rheumatoid arthritis (RA), macrophage polarization is typically accompanied by osteoclast activation. Traditionally, it has been understood that inflammatory macrophages secrete various inflammatory cytokines that promote osteoclast differentiation. However, our recent observations have revealed that inflammatory macrophages produce a protective metabolite, itaconate, which not only suppresses inflammation within macrophages themselves but also inhibits osteoclast activation. We aim to investigate which subset of macrophages is primarily responsible for the production of itaconate in vivo. To achieve this, we plan to utilize single-cell RNA sequencing data to analyze the characteristics of macrophages with high expression of Irg1, the enzyme responsible for itaconate production.
+
+
+Project Lead: shai shen-orr
+Institution: CytoReason
+Data Access Request Submitted By: @shenorr
+Intended Data Use Statement (accepted on 6/27/2024):
+We intend to reanalyze the AMP CITE-seq data from RA patients. Our goal is to utilize this data to identify differentially abundant cell types and subpopulations in RA patients compared to healthy controls, using statistical methods to pinpoint specific cellular changes associated with RA, RA subpopulations or changes in RA over time (modeled by disease severity or from the data) . Analyzing AMP CITE-seq data will provide differentially abundant cell types, subpopulations, or molecular features associated with the disease, thereby advancing our understanding of RA and potentially predicting therapy response mechanisms. By analyzing the data, we aim to allow the uncovering of biomarkers that can forecast therapeutic outcomes and contribute to more personalized treatment strategies for RA patients.
+Using advanced bioinformatics pipelines, we will begin with data normalization and gold-standard quality control measures to ensure high-quality data. We will then group similar cells based on gene expression profiles and annotate clusters using known cell-type markers, leveraging both transcriptomic and protein expression data. This will allow us to compare cell type proportions and gene expression levels between RA patients and healthy controls, identifying differentially abundant cell types and subpopulations. Furthermore, we will compare single-cell-derived cell-type proportions with those estimated from bulk RNA-seq data, highlighting the unique insights provided by single-cell technologies. We will integrate CITE-seq data with clinical parameters such as disease severity, progression, and response to therapy using statistical and machine learning methods to uncover predictive biomarkers. Correlation analyses will link cellular and molecular features with clinical outcomes.
+In exploring the molecular features of the identified subpopulations, we will examine gene expression patterns and markers, enhancing our understanding of the functional roles these cells play in RA. This comprehensive approach will allow us to capture nuanced cellular heterogeneity, facilitating a deeper understanding of RA's natural course. Ultimately, this research has the potential to unveil novel variations in the disease course, improve diagnostic accuracy, and identify pertinent biomarkers for therapeutic interventions, significantly advancing the field of RA research and patient care.
+
+
+Project Lead: Nunzio Bottini
+Institution: Cedars Sinai Medical Center
+Data Access Request Submitted By: @Nbottini
+Intended Data Use Statement (accepted on 6/27/2024):
+(Objectives of the proposed research)
+Rheumatoid arthritis (RA) is a systemic autoimmune disease, characterized by chronic and destructive joint disease. Although a wide range of immunosuppressant disease modifying anti-rheumatic agents (DMARDs) have improved clinical outcomes of patients with RA, there are remaining unmet needs. Genome-wide association studies (GWAS) have shown that MHC class molecule II is the most significant susceptibility locus in RA, pointing to an essential role of CD4+ T cells in the pathogenesis of RA. CD4+ T cells differentiate into regulatory and other T cell subsets and acquire distinct functions but can also show environment-dependent phenotypic plasticity. Our goal is to identify joint-specific pathogenic CD4+ T cell plasticity pathways that can be leveraged to restore immune homeostasis without or with minimal generalized immunosuppression in RA.
+(Study design and analysis plan)
+We use mouse models for assessing T cell plasticity during inflammatory arthritis. We would like to integrate the data from our mouse model with this published human dataset. We need access to the full dataset as we are trying to understand how cell-cell interactions shape T cell plasticity in the joints.
+
+
+Project Lead: Chunhao Cao
+Institution: School of Chinese Medicine, Hong Kong Baptist University, Hong Kong, Hong Kong SAR, China
+Data Access Request Submitted By: @CCH
+Intended Data Use Statement (accepted on 6/21/2024):
+The primary objective of this project is to investigate the mechanisms underlying drug resistance in rheumatoid arthritis (RA) patients by utilizing single-cell transcriptomics, surface proteomics, and bulk transcriptomic data. By integrating these multi-omics datasets, we aim to identify specific cell types, biomarkers, and molecular pathways associated with variability in therapeutic responses among RA patients. This comprehensive approach seeks to elucidate the cellular and molecular basis of drug resistance, which is critical for developing more effective and personalized treatment strategies for RA. The findings from this study will be made publicly available to foster collaboration within the scientific community, driving further research and ultimately improving therapeutic interventions and the quality of life for RA patients through tailored approaches.
+
+
+Project Lead: Dr. Ge Gao
+Institution: Peking University
+Data Access Request Submitted By: @gegao
+Intended Data Use Statement (accepted on 6/21/2024):
+What we want to do:
+We'd like to discover renal biomarkers that explain why some lupus nephritis (LN) patients exhibit resistance to the standard of care (SoC) treatment, while others do not.
+
+Why we are doing it:
+Explaining why a given LN patient cannot be effectively treated by the SoC by renal biomarkers can benefit both the scientific and clinical fields of LN study. Scientifically, such predictive renal biomarkers could provide mechanistic insights into different types of LN pathogenesis. Clinically, such biomarkers would not only help SoC-resistant patients to save time for other treatments, but also provide clues to novel treatment strategies.
+
+How we want to do it:
+We will carry out our research in three steps:
+
+Recruit treatment-naive patients from our Chinese SLE Treatment and Research Group (CSTAR) cohort (Li et al. Lupus. (2013); https://pubmed.ncbi.nlm.nih.gov/23963101/), and conduct single-cell RNA sequencing (scRNA-seq) on their peripheral blood, renal, and urinary biopsies.
+Apply the SoC (in particular, with cyclophosphamide and mycophenolate mofetil) to these patients, and conduct scRNA-seq on the same types of biopsies after finishing the treatment (where we will have the conclusion if each of the patient is resistant to the SoC).
+Integrate these datasets with the LN kidney and urine scRNA-seq from the NIH AMP-RA/SLE program (i.e. the data we apply for in this request) to systematically identify biomarkers (in the form of cell subtypes and/or pathways) that are predictive of SoC resistance.
+In particular, integrating our data with data from the AMP-RA/SLE program help to produce cell subtype annotations (and thus the biomarkers) that are more likely to be robust across studies.
+List of collaborators: we have one collaborator as shown below. We note that this collaborator comes from an institution that is different from ours.
+• Name: Dr. Mengtao Li
+• Synapse username: MengtaoLi
+• E-mail: mengtao.li@cstar.org.cn
+• Institution: Peking Union Medical College Hospital
+
+
+Project Lead: Dr. Mengtao Li
+Institution: Peking Union Medical College Hospital
+Data Access Request Submitted By: @Mengtao_Li
+Intended Data Use Statement (accepted on 6/21/2024):
+What we want to do:
+We'd like to discover renal biomarkers that explain why some lupus nephritis (LN) patients exhibit resistance to the standard of care (SoC) treatment, while others do not.
+
+Why we are doing it:
+Explaining why a given LN patient cannot be effectively treated by the SoC by renal biomarkers can benefit both the scientific and clinical fields of LN study. Scientifically, such predictive renal biomarkers could provide mechanistic insights into different types of LN pathogenesis. Clinically, such biomarkers would not only help SoC-resistant patients to save time for other treatments, but also provide clues to novel treatment strategies.
+
+How we want to do it:
+We will carry out our research in three steps:
+
+Recruit treatment-naive patients from our Chinese SLE Treatment and Research Group (CSTAR) cohort (Li et al. Lupus. (2013); https://pubmed.ncbi.nlm.nih.gov/23963101/), and conduct single-cell RNA sequencing (scRNA-seq) on their peripheral blood, renal, and urinary biopsies.
+Apply the SoC (in particular, with cyclophosphamide and mycophenolate mofetil) to these patients, and conduct scRNA-seq on the same types of biopsies after finishing the treatment (where we will have the conclusion if each of the patient is resistant to the SoC).
+Integrate these datasets with the LN kidney and urine scRNA-seq from the NIH AMP-RA/SLE program (i.e. the data we apply for in this request) to systematically identify biomarkers (in the form of cell subtypes and/or pathways) that are predictive of SoC resistance.
+In particular, integrating our data with data from the AMP-RA/SLE program help to produce cell subtype annotations (and thus the biomarkers) that are more likely to be robust across studies.
+List of collaborators: we have one collaborator as shown below. We note that this collaborator comes from an institution that is different from ours.
+• Name: Dr. Ge Gao
+• Synapse username: gegao
+• E-mail: gaog@mail.cbi.pku.edu.cn
+• Institution: Peking University
+
+
+Project Lead: Kazuyoshi Ishigaki
+Institution: Keio University School of Medicine
+Data Access Request Submitted By: @kazuyoshi.ishigaki.2
+Intended Data Use Statement (accepted on 6/13/2024):
+Genome-wide association studies (GWAS) have successfully identified many genetic variants (risk variants) associated with immune-mediated diseases such as rheumatoid arthritis (RA). In theory, the risk variants can suggest the causal biology of these diseases and identify drug targets that directly suppress the causal process. However, understanding the biology of risk variants is not straightforward since most are localized in the non-coding region. In addition, the immune system has various distinct cell types whose complexity has not yet been fully understood. To improve our understanding of the causal biology of RA in the context of a complex immune system, we need to conduct integrative analyses of GWAS and single-cell data from RA patients. This proposal will jointly analyze patient-derived multi-modal single-cell data (protein and RNA-seq) and the latest large-scale GWAS summary statistics. Using statistical models, we will seek to identify the immune cell populations (defined by single-cell data) whose abundances are likely to be influenced by the risk variants. We will also seek to identify the immune cell populations specific to RA pathogenesis by comparing this dataset with other single-cell datasets from multiple immune-mediated diseases. Furthermore, we will examine which immune cell populations specifically express the genes whose expression levels are regulated by the risk variants of immune-mediated diseases.
+
+
+Project Lead: Dr. Jennifer Elisseeff
+Institution: Johns Hopkins University
+Data Access Request Submitted By: @snagaraj
+Intended Data Use Statement (accepted on 6/13/2024):
+Objectives of the proposed work: we wish to study the cellular interplay between stromal cells and immune cells within synovial tissues from patients with rheumatoid arthritis and associated diseases. It is hoped the insights will help elucidate the key biological mechanisms active in patients with high unmet medical need.
+Study design and analysis plan: we will use computational biology approaches to search for translational signatures of interest in the single cell data and look for correlations with previously reported cellular phenotypes. This work will be in collaboration with UCB (who will submit a separate data access request).
+
+
+Project Lead: Kazuyoshi Ishigaki
+Institution: RIKEN Center for Integrative Medical Sciences
+Data Access Request Submitted By: @kazuyoshi.ishigaki
+Intended Data Use Statement (accepted on 6/13/2024):
+Genome-wide association studies (GWAS) have successfully identified many genetic variants (risk variants) associated with immune-mediated diseases such as rheumatoid arthritis (RA). In theory, the risk variants can suggest the causal biology of these diseases and identify drug targets that directly suppress the causal process. However, understanding the biology of risk variants is not straightforward since most are localized in the non-coding region. In addition, the immune system has various distinct cell types whose complexity has not yet been fully understood. To improve our understanding of the causal biology of RA in the context of a complex immune system, we need to conduct integrative analyses of GWAS and single-cell data from RA patients. This proposal will jointly analyze patient-derived multi-modal single-cell data (protein and RNA-seq) and the latest large-scale GWAS summary statistics. Using statistical models, we will seek to identify the immune cell populations (defined by single-cell data) whose abundances are likely to be influenced by the risk variants. We will also seek to identify the immune cell populations specific to RA pathogenesis by comparing this dataset with other single-cell datasets from multiple immune-mediated diseases. Furthermore, we will examine which immune cell populations specifically express the genes whose expression levels are regulated by the risk variants of immune-mediated diseases.
+
+
+Project Lead: Daniel L. Mueller
+Institution: University of Minnesota Medical School
+Data Access Request Submitted By: @muell002
+Intended Data Use Statement (accepted on 5/29/2024):
+We seek to identify naturally anergic CD4 T cells in the human immune system, as well as assess the potential for the anergy immune tolerance mechanism to control auto reactive CD4 T cell function in patients with rheumatoid arthritis. This AMP Phase II data collection is the most extensive collection of rheumatoid arthritis CD4 T cells available. We plan to apply genomics knowledge that we have gained in the mouse to the problem of human CD4 T cell autoimmunity. A combination of Seurat, PCA, and GSEA will serve as the basic pipeline for analysis of scRNA-seq data. Signac, Homer, and MEME-suite will be applied to scRNA-seq data. New insights will lead to gene expression and chromatin accessibility signatures that describe effect anergy induction in humans.
+
+
+Project Lead: Chiara Romagnani
+Institution: Charite Medical University Berlin
+Data Access Request Submitted By: @chiararomagnani
+Intended Data Use Statement (accepted on 5/29/2024):
+Natural killer (NK) cells are innate lymphocytes specialised for the early recruitment of adaptive immune cells through cytokine and chemokine expression. They also play a crucial cytotoxic role in removing infected, transformed, or stressed cells. While NK cells have been shown to play a pathogenic role in autoimmune diseases like type 1 diabetes and multiple sclerosis, evidence for their involvement in rheumatoid arthritis (RA) and other forms of arthritis is limited. Existing studies for the role of NK cells in RA suggest an increase in danger receptor expression on the surface of NK cells and additionally a heightened potential to secrete inflammatory cytokines when stimulated ex vivo. Their presence in the synovial fluid during active disease episodes could point to a role in active inflammation.
+Our research aims to further explore the role of NK cells in forms of arthritis. We plan to utilise the rich CITE_seq dataset from Zhang et al., by comparing this data with our own multimodal single-cell sequencing data of NK cells isolated from patients with childhood arthritis. We hope to determine whether our observed NK cell signatures are unique to childhood arthritis (a disease with a strong genetic component) or are shared signatures reflecting a longer-term inflammatory response. This analysis will involve a combination of gene set enrichment analysis, comparisons of cell-type abundance and gene expression analyses between patients.
+
+
+Project Lead: Nisarg Shah
+Institution: University of California, San Diego
+Data Access Request Submitted By: @nisargshah
+Intended Data Use Statement (accepted on 5/29/2024):
+Rheumatoid arthritis (RA) is a systemic autoimmune disease affecting the joint. Although disease modifying anti-rheumatic agents (DMARDs) have improved clinical outcomes of patients with RA, a substantial fraction of patients continue to experience disease activity. Using mouse models of RA, we are developing and testing new potential therapeutic approaches that could operate in a patient specific manner to treat autoimmune arthritis. To identify potential mechanisms of action, we have conducted single cell multiomics on joint cells from mice. To determine clinical relevance of our findings, we wish to compare our results from mice to the AMP RA dataset. We will conduct standard analysis including dimensional reduction and sub-clustering to identify shared and differed cell clusters. Differentially expressed gene analysis will be performed to identify the functional difference between the immune cells between mouse and humans. We will use custom mapping algorithms based on correlations of gene rank order comparisons of cluster-defining genes to relate murine cell subsets to human cell subsets. Using these human/mouse cell type correlations, we will generate cell type similarity scores to quantify the relevance of murine models of RA to human disease endotypes.
+
+
+Project Lead: Iris Lee
+Institution: Washington University in Saint Louis
+Data Access Request Submitted By: @iris.lee
+Intended Data Use Statement (accepted on 5/20/2024):
+Complement is dysregulated in rheumatoid arthritis. Complement genes in the synovium have been found to be correlated with disease activity of patients in the PEAC (Pathobiology of early arthritis) cohort. We will further examine the complement signatures in the cellular subsets described in the synovium of rheumatoid arthritis patients by Zhang et al. including B cells, T cells, NK cells, myeloid cells, endothelial cells, and stromal cells. We plan to analyze the AMP synovial tissue data using already established analyses included in the Seurat package. We anticipate these findings will further the understanding of the involvement of complement in the pathogenesis of rheumatoid arthritis.
+
+
+Project Lead: Yuliya Nigmatullina
+Institution: UCB
+Data Access Request Submitted By: @YNigmatullina
+Intended Data Use Statement (accepted on 5/15/2024):
+Objectives of the proposed work: we wish to study the cellular interplay between stromal cells and immune cells within synovial tissues from patients with rheumatoid arthritis and associated diseases. It is hoped the insights will help elucidate the key biological mechanisms active in patients with high unmet medical need. Study design and analysis plan: we will use computational biology approaches to search for translational signatures of interest in the single cell data and look for correlations with previously reported cellular phenotypes.
+
+
+Project Lead: Hao Liu
+Institution: West China Hospital of Sichuan University, China
+Data Access Request Submitted By: @Keller
+Intended Data Use Statement (accepted on 5/13/2024):
+Dear Sir/Madam,
+
+We are a research team affiliated with West China Hospital of Sichuan University in China. Recently, we have been attempting to reveal potential intervention targets for rheumatoid arthritis through Mendelian randomization using proteomics. In our previous analyses, we have identified novel proteins showing causal effects with rheumatoid arthritis and have validated them using various other methods. Next, we would like to explore the specific expression patterns of these proteins in the synovial tissue of rheumatoid arthritis patients, such as their predominant expression in which cells and whether they play a role in cell communication, etc. From our understanding, the work of your organization represents the frontier level in the field. Therefore, we sincerely request the use of your relevant single-cell data.
+
+We plan to process your data using the R language software, mainly utilizing the Seurat package. The relevant analysis is routine, including quality control, dimensionality reduction, cell clustering, cluster annotation, differential gene analysis, cell communication analysis, enrichment analysis, etc.
+
+We promise to follow relevant regulations during the use of the data, eliminate data abuse, and refrain from spreading it beyond the permitted scope.
+
+Thank you for your generous assistance.
+
+
+Project Lead: Julia Frede
+Institution: German Cancer Consortium (DKTK) and the University Hospital of LMU Munich, Germany.
+Data Access Request Submitted By: @julia.frede
+Intended Data Use Statement (accepted on 5/13/2024):
+Understanding the similarities and differences between RA and other autoimmune diseases, such as reactive arthritis, is crucial for developing more effective, targeted therapies. We are planning to generate single-cell RNA-sequencing (scRNA-seq) and Cellular Indexing of Transcriptomes and Epitopes by Sequencing (CITE-seq) data from synovial tissue samples of patients with reactive arthritis. This will allow us to comprehensively characterize the cellular composition and transcriptional profiles of the inflamed joint environment in this disease. We now request access to the RA dataset to enable comparative analyses between RA and reactive arthritis. Specifically, we aim to integrate the RA data with our newly generated single-cell data from reactive arthritis patients to uncover common and divergent pathways that may be targeted for therapeutic intervention. This comparative analysis has the potential to reveal novel insights into the pathogenesis of these conditions and inform the development of more personalized treatment strategies of autoimmune joint diseases.
+
+
+Project Lead: Ian Mantel
+Institution: Weill Cornell Medical College
+Data Access Request Submitted By: @ianmantel96
+Intended Data Use Statement (accepted on 5/10/2024):
+I am requesting access to all of the data which will be used to further my research project which is to better understand the myeloid cells present in RA synovial tissue, how the correlate with other cell types present there, how the influence the behaviour of other cell types there, and how other cell types present influence myeloid cell phenotype and behaviour. In order to accomplish this, we will further analyze scCITEseq data to draw the aforementioned comparisons, and we will compare our findings with the paired IHC, clinical data, and other metrics available to us. We hope that these results will further our understanding of how myeloid cells play a role in mediating the action of therapies used to treat RA.
+
+
+Project Lead: Kriti Sharma
+Institution: National Institute of Arthritis and Musculoskeletal and Skin Diseases
+Data Access Request Submitted By: @drshark
+Intended Data Use Statement (accepted on 5/10/2024):
+Grandfather process to maintain AMP Teams access to the portal
+
+
+Project Lead: Vincent Wong
+Institution: Macau University of Science and Technology
+Data Access Request Submitted By: @VincentKWWong
+Intended Data Use Statement (accepted on 5/8/2024):
+The acquired data is intended for impartial, unbiased reanalysis that aims to identify genes, signaling pathways, cell states and cell-cell interactions associated with perpetuation of the severity of rheumatoid arthritis or otherwise associated with disease attenuation. These findings will be experimentally validated with relevant cell and animal models. The present project will contribute to understanding of novel therapeutic targets and biomarkers for prevention, diagnosis, and treatment of rheumatoid arthritis. This work is supported by a grant from Macau Science and Technology Fund (FDCT 0113/2023/RIA2) to Prof. Vincent Kam Wai Wong and Dr. Chen Huang.
+
+
+Project Lead: Rebecca Panitch
+Institution: Watershed Informatics
+Data Access Request Submitted By: @rebecca.panitch
+Intended Data Use Statement (accepted on 5/8/2024):
+Rheumatoid arthritis (RA) is a chronic, inflammatory, autoimmune disease that causes joint inflammation, destruction, and disability. While there are several treatments available to treat RA, there is currently no cure, and many patients are refractory to the existing therapies and fail to achieve remission. Due to the considerable variability in the effectiveness of the available therapies across RA patients, there is a clinical need for new treatment targets and for predictors of patient-specific responses to specific treatments. Our goal is to identify changes in inflamed RA synovium and that may be indicative of important drivers of inflammatory pathology, which may be targets for therapeutic development.
+
+Recent data from clinical trials that have used bulk RNA-sequencing analysis of synovial tissue suggest that treatment response may depend on the cellular composition of the synovial tissue. We plan to leverage the AMP RA dataset to informatically analyze the cellular composition and cell states of inflamed RA synovium across a large collection of patient samples. Once we identify key cellular subsets and markers of their activation states in the inflamed RA synovium, we plan to evaluate whether these are preserved across other chronic inflammatory diseases like ulcerative colitis and Crohnâs disease. This information will help us to determine potential targets and/or approaches for therapeutic development in inflammatory disease.
+
+
+Project Lead: Zihe Zheng
+Institution: Helmholtz Munich
+Data Access Request Submitted By: @ZiheZheng
+Intended Data Use Statement (accepted on 5/2/2024):
+Rheumatoid Arthritis (RA) is an autoimmune disorder characterized by inflammation and joint degradation. Our goal is to identify new therapeutic options for RA. By repurposing existing drugs, we can potentially expedite the development of treatments for RA, benefiting patients who are currently underserved by available therapies.
+
+We plan to utilize a recently proposed framework called A Single-cell Guided Pipeline to Aid Repurposing of Drugs (ASGARD), which recommends drugs based on a calculated score considering all cell clusters within patient samples. The methods has proven to be effective on multiple diseases, providing drug repurposing suggestions for breast cancer, Pre-T ALL and COVID-19, that are in accordance with the list of FDA approved drugs.
+
+With the proposed method, we intend to correlate the single-cell transcriptomics data from Osteoarthritis (OA) and Rheumatoid Arthritis (RA) samples in the AMP RA dataset with expansive public perturbation datasets featuring single-cell RNA sequencing (scRNA-seq) readouts. Additionally, we anticipate predicting distinct sets of candidates for each CTRP. By leveraging the single-cell transcriptomics and cell type annotation available in the AMP RA dataset, we believe that our study has the potential to advance the current RA drug repurposing scheme.
+
+
+Project Lead: Thomas Backus
+Institution: Mass General Brigham
+Data Access Request Submitted By: @tbackus
+Intended Data Use Statement (accepted on 5/2/2024):
+Rheumatoid arthritis (RA) is a chronic, inflammatory, autoimmune disease that causes joint inflammation, destruction, and disability. While there are several treatments available to treat RA, there is currently no cure, and many patients are refractory to the existing therapies and fail to achieve remission. Due to the considerable variability in the effectiveness of the available therapies across RA patients, there is a clinical need for new treatment targets and for predictors of patient-specific responses to specific treatments. Our goal is to identify changes in inflamed RA synovium and that may be indicative of important drivers of inflammatory pathology, which may be targets for therapeutic development.
+
+Recent data from clinical trials that have used bulk RNA-sequencing analysis of synovial tissue suggest that treatment response may depend on the cellular composition of the synovial tissue. We plan to leverage the AMP RA dataset to informatically analyze the cellular composition and cell states of inflamed RA synovium across a large collection of patient samples. Once we identify key cellular subsets and markers of their activation states in the inflamed RA synovium, we plan to evaluate whether these are preserved across other chronic inflammatory diseases like ulcerative colitis and Crohnâs disease. This information will help us to determine potential targets and/or approaches for therapeutic development in inflammatory disease.
+
+
+Project Lead: Ido Amit
+Institution: Weizmann institute of science
+Data Access Request Submitted By: @ido.amit
+Intended Data Use Statement (accepted on 5/2/2024):
+Rheumatoid arthritis (RA) is a classic autoimmune condition characterized by
+inflammation that leads to the deterioration of cartilage and bone within joints. Clinical management of RA presents several challenges, including the empirical selection of treatment drugs, inadequate responses resulting in incomplete disease remission, and the absence of a definitive cure. Zhang et al. (2023, Nature) undertook a study aiming to dissect the diverse cellular states and pathways underlying the heterogeneous nature of RA by profiling the entire range of cells present in inflamed synovial tissue from RA patients. They utilized a combination of multi-modal CITE-seq, single-cell RNA-seq, and histological analyses on synovial tissue samples obtained from 79 donors across
+multiple centers. This endeavor resulted in the creation of a comprehensive RA synovial cell atlas, comprising over 314,000 single cells and identifying 77 distinct cell states across various cell types including T cells, B/plasma cells, natural killer cells, myeloid cells, stromal cells, and endothelial cells. ÃÂ 
+The Ido Amit Lab specializes in advancing diverse single-cell genomic technologies to comprehensively dissect the immunological facets of autoimmune disease biology in human and mouse models, employing genome-wide, spatial resolution techniques, to trace the clonal histories and elucidate the regulatory circuits and pathways implicated in autoimmune diseases. Leveraging metadata and our expertise, we endeavor to develop novel targets and therapeutic strategies for rheumatoid arthritis. Our investigation will specifically concentrate on delineating characteristic T-cell signatures in RA patients, with the aim of augmenting ongoing research efforts and identifying novel immune targets in the context of RA.
+
+
+Project Lead: Jonathan Derry
+Institution: Iris Bioconsulting LLC
+Data Access Request Submitted By: @Iris
+Intended Data Use Statement (accepted on 5/2/2024):
+As a bioinformatician I generate gene-based expression reports for clients in the Pharma and Biotech industries to facilitate prioritizing targets for drug development. These reports include cellular level mRNA expression for cancer indications and inflammatory/autoimmune disease derived from public scRNA_seq datasets. I would like to add the ARK-RA dataset to this atlas of disease-relevant data. It would simply be used to identify the expression level of individual gene targets of interest in individual cells of RA-diseased tissue in the form of simple bar graphs showing cell type on one axis and gene expression on the other. There will be no redistribution of data. In this way it will contribute to the identification of new drug targets for therapy in RA.
+
+
+Project Lead: Richard Bell
+Institution: Hospital for Speacial Surgery
+Data Access Request Submitted By: @rdbell
+Intended Data Use Statement (accepted on 4/17/2024):
+Rheumatoid Arthritis (RA) is an autoimmune inflammatory joint disease that affects adult females more than males, with 70% of patients being female. While women suffer from more autoimmune disease than men, they also experience fewer pathogen infections and improved vaccine response. Despite observation of this phenomenon for over 30 years, mechanistic understanding is limited and there are no sex-specific autoimmune therapies that capitalize on sex differences of the immune system.
+
+We intend to investigate sex difference within each identified synovial cell cluster using cell frequency based tools, like Mixed-effects modeling of Associations of Single Cells (MASC), and differential gene expression analysis. These analysis may identified sex specific enrichment in cell types or gene modules that can be investigated further.
+
+
+Project Lead: Wanling Yang
+Institution: The University of Hong Kong
+Data Access Request Submitted By: @frkwang0514
+Intended Data Use Statement (accepted on 4/12/2024):
+We have already generated some single cell rna-seq data from the patients of Systemic lupus erythematosus. We want to compare the different immune cell states between SLE and RA to illustrate the shared and distinct biological characteristics between these two diseases.
+
+We will subset the immune cells from the RA dataset, and integrate with the immune cells from SLE dataset. Dimensional reduction and sub-clustering analysis will be performed to identify shared and differed cell clusters. Differentially expressed gene analysis followed by GO and KEGG enrichment analysis will be performed to identify the functional difference between the immune cells of these two diseases. Experiments will be performed to validate the findings from bioinformatics analysis.
+
+
+Project Lead: Takako Chikenji
+Institution: Department of Health Sciences, Hokkaido University
+Data Access Request Submitted By: @TChikenji
+Intended Data Use Statement (accepted on 4/5/2024):
+Rheumatoid arthritis (RA) and systemic lupus erythematosus(SLE) are autoimmune diseases that can cause chronic inflammation. However, the pathogenic mechanisms of these diseases remain unclear. Our focus is on conducting an exploratory analysis of single-cell RNA-seq data from RA and SLE patients to characterize the cell types involved, particularly fibroblasts, which play a crucial role in the disease. Additionally, we aim to identify disease-related pathways that could serve as potential therapeutic targets and characterize biomarkers of disease status. We have focused on cell-cell communication between inflammatory fibroblasts and immune cells and have studied this interaction in mouse models of RA and SLE and patient tissue samples. We plan to integrate and analyze the cell populations we have investigated along with the published data from this AMP phase II. Our ultimate goal is to establish a novel therapeutic target for RA and SLE based on our findings.
+
+
+Project Lead: Christopher Buckley
+Institution: University of Oxford
+Data Access Request Submitted By: @HCAjoints
+Intended Data Use Statement (accepted on 4/2/2024):
+We investigate cellular responses to arthritis within the synovial tissue. As such we have generated several single cell sequencing atlases of synovial tissue from different arthritis pathologies, as well as healthy tissue. We wish to compare cellular populations we have identified from our inhouse data to the pathogenic subsets identified in AMP2. This will involve bioinformatic analysis, such as integrating datasets, performing gene module scores, correlation analysis, as well as comparing the predicted function of cellular subsets. Finally, clinical metadata will be used to investigate how populations of interest are associated with disease pathology, such as OA vs RA, or peak vs resolution.
+
+
+Project Lead: Erfan Ghasemi
+Institution: University of Alberta
+Data Access Request Submitted By: @ghasemi.erfan
+Intended Data Use Statement (accepted on 3/25/2024):
+To study the findability, accessibility, interoperability and reuse (FAIR) properties of autoimmune datasets, demonstrated with use cases from AMP RA/SLE studies that are available from the Synapse database. As there is an increasingly large number of datasets on cohorts of autoimmune diseases, it becomes essential to develop bioinformatic tools and automated mechanisms to ensure their findability and access. We will develop an R-based app to query and search the database based on cohort-specific search parameters. Further, we will implement computational methods to allow interoperability and reuse of multiple and multi-omic AMP RA/SLE datasets in Synapse. A data-driven approach will be adopted for automated generation of hypotheses that would typically involve components from multiple datasets. For instance, transcriptomic signatures from renal biopsies of individuals with lupus nephritis will be tested for significant associations in longitudinal outcomes as measured with urine proteomics using multivariate statistical methods.
+
+
+Project Lead: Jean-Philippe Vert
+Institution: Owkin
+Data Access Request Submitted By: @hector_rdb
+Intended Data Use Statement (accepted on 3/21/2024):
+Rheumatoid Arthritis (RA) is an inflammatory disease where patient heterogeneity is key and targeted approaches could prove beneficial. Single-cell resolution allows for a finer characterisation of patients, and can be used to enhance existing bulk rna-seq data. At Owkin we plan to use the single-cell RA dataset to perform deconvolution on our own internal bulk RNA-Seq dataset, to better understand patient synovium heterogeneity and its impact on treatment response. We also plan to explore how key pathways identified in bulk may vary by patient and cell type in the single-cell dataset.
+
+All the analyses on data at the patient level will be conducted on our own internal secure server. Access to the dataset will be restricted to our team members and will not be distributed. Aggregated information such as cell type signatures may be moved to other private secure servers where the bulk rna-seq data resides but no patient-level information and no aggregated clinical information will be used. Any resulting publication will explicitly acknowledge the data source.
+
+We therefore kindly request access to the single-cell dataset, as we believe it will help understand and characterize the heterogeneity of the disease.
+
+
+Project Lead: Gary Reynolds
+Institution: Mass General Brigham
+Data Access Request Submitted By: @gdreynolds
+Intended Data Use Statement (accepted on 3/15/2024):
+Immune checkpoint inhibitors (ICIs) have improved outcomes in a range of cancers but are associated with the development of organ-specific immune-related complications such as colitis, myocarditis and pneumonitis. These are often resemble common forms of autoimmune disease and indeed respond to many of the same treatments. Currently arthritis affects around 5-10% of patients treated with immune checkpoint inhibitors.
+
+We would like to explore the parallels between this and rheumatoid arthritis (RA), the commonest autoimmune arthritis in adults. This may help guide repurposing of RA therapies for ICI arthritis and shed light on the role of immune checkpoints in the development of autoimmune arthritis.
+
+
+Project Lead: Koshiro Sonomoto
+Institution: University of Occupational and Environmental Health, Japan
+Data Access Request Submitted By: @Dieu.uoeh
+Intended Data Use Statement (accepted on 3/11/2024):
+Rheumatoid arthritis (RA) is a chronic inflammatory arthritis that can lead to irreversible dysfunction. Current treatments mainly target cytokines and have improved clinical outcomes, but a subset of patients remains refractory to therapy. This underscores the need for novel therapeutic approaches. We hypothesize that targeting RA-specific cell subpopulations may offer a promising avenue for therapeutic intervention. Our primary objective is to identify RA-specific cell subpopulations within synovial tissue and elucidate their role in RA pathology.
+We aim to utilize available scRNA seq data to perform comprehensive in silico analysis employing the deconvolution method to achieve this. Through deconvolution, we will compare cell subpopulations in RA versus osteoarthritis synovium to identify distinctive subpopulations specific to RA.
+We will use readily available tools and resources to conduct in silico analysis on ordinary personal computers. The analysis pipeline involves several steps:
+
+Downloading and preprocessing open databases, filtering out low-quality cells and genes, and normalizing gene expression levels.
+Using gene expression profiles to visualize and cluster cells, identifying distinct populations within the dataset.
+Determining the proportion of different cell types and identifying those specific to RA.
+By systematically analyzing RA-specific cell subpopulations and their comparison with other diseases and healthy controls, we aim to uncover novel insights into RA pathogenesis. Identifying these specific cell subpopulations holds promise for developing targeted therapeutic approaches aimed at improving outcomes for patients with RA.
+
+Project Lead: Thierry Sornasse
+Institution: Abbvie Inc
+Data Access Request Submitted By: @abbvieAMP
+Intended Data Use Statement (accepted on 3/11/2024):
+Rheumatoid Arthritis is a debilitating autoimmune disease that affects millions of people worldwide. It causes chronic inflammation in the joints, leading to pain, stiffness, and reduced mobility. At AbbVie, we recognize the immense impact that RA has on patients' lives, and we are committed to advancing the understanding of this disease to develop more effective treatments.
+By leveraging the AMP data, we have the opportunity to conduct in-depth exploratory research. This data will enable us to gain valuable insights into the complexities of Rheumatoid Arthritis, including the various patient subtypes and their unique characteristics. Through these research efforts, we aim to identify novel therapeutic opportunities and advance precision medicine in the field of Rheumatoid Arthritis.
+
+
+Project Lead: Liye Chen
+Institution: University of Oxford
+Data Access Request Submitted By: @AS27PsA51
+Intended Data Use Statement (accepted on 3/7/2024):
+Objectives of the proposed research
+Our project aims to study the pathology of Ankylosing Spondylarthritis (AS). AS is an inheritable immune-mediated inflammatory arthritis mainly affecting the spine, although the peripheral joints, skin, intestine, and eyes could also be affected. AS was distinguished from RA in 1970s. Despite some overlapping (such as TNF-driven inflammation), significant differences in pathology and genetics were found between AS and RA ------ AS is associated with HLA-B27 but not RA. We have profiled the transcription of cells from a few synovium tissue samples of AS patients using the 10XGenomics single-cell expression technique.
+
+Study design and analysis plan
+We will compare our AS synovium data to the RA and OA synovium described in this AMP dataset. This comparison will allow us to explore the unique cell types/states and cellular programs in AS compared to RA and OA, and then define the AS-specific disorder. For example, we would like to compare the IL-17-expressing cells in these three conditions to decipher the unique cellular circuits in AS IL-17-expressing cells that led to their driving role in AS pathology. The intended analysis will include: 1) Integration of our AS data with AMP RA and OA data. 2) Comparing the cellular composition and transcriptional program in different conditions.
+
+
+Project Lead: Naomi McGovern
+Institution: Department of Pathology, University of Cambridge, UK
+Data Access Request Submitted By: @jh2164
+Intended Data Use Statement (accepted on 2/29/2024):
+We wish to better understand the pathogenesis of inflammatory arthritis to identify novel biomarkers and potential treatment targets. We are performing translational research on specimens collected from patients with inflammatory arthritis and healthy controls. We would like to integrate this atlas with our own datasets to validate our novel cell populations and explore the differences between health and disease state. This will be using widely standardised bioinformatics pathways for pre-processing, normalisation, batch correction, dimensionality reduction, clustering, and visualisation, using R and Python based tools. We will investigate the cell types and subtypes present across diseases and disease stages, their differentially expressed genes, and enriched-pathways.
+
+Data will be kept securely on our high-performance servers, adhering to the strictest privacy and data-protection protocols. Access to the dataset will be restricted to the team members included in the application and will not be redistributed. This includes not submitting any integrated data containing this dataset to online or other repositories. Any resultant publications utilising this dataset will fully acknowledge the data source.
+
+
+Project Lead: Antonio JuliÃ 
+Institution: IMIDomics, Inc
+Data Access Request Submitted By: @adriaIMIDomics
+Intended Data Use Statement (accepted on 2/19/2024):
+Background:
+
+At IMIDomics, we are focused on drug development in highly prevelent autoimmune diseases like Rheumatoid Arthritis (RA). More specifically, we sought to identify not only new drug targets for RA, but also the optimal group of patients that are more likely to benefit from our drugs.
+
+Study Design & Analysis Plan:
+
+We intend to use the ARK single-cell RNA-seq data to explore the behaviour of candidate genes (i.e., identified in bulk RNA-seq data from PBMCs) at the cell type resolution in the disease target tissue. To do so, we aim to leverage ARK single-cell RNA-seq data to identify subpopulations of monocytes, B and T cells (e.g., CD8+ T cells characterized by GZMK+, GZMB+, and GNLY+) in the synovial tissue, which will be subsequently used to interrogate the cell-type specific behaviour of candidate genes. The expression dynamics of our candidate genes will be profiled by using our own computational algorithms. The evidence resulting from these additional analyses will help us to corroborate our current findings obtained by analyzing molecular data from our large PBMC case-control cohorts.
+
+
+Project Lead: Somkiat Phutinart
+Institution: Faculty of Medicine, Chulalongkorn University
+Data Access Request Submitted By: @aumsp17
+Intended Data Use Statement (accepted on 2/16/2024):
+Objectives of the proposed research
+
+Explore T cell response to proteoglycan aggrecan epitopes (P16-31 and P263-280 peptides) in patients with knee osteoarthritis
+Validate nanostring analysis pipeline of T cells in knee osteoarthritis with external transcriptomic data
+Identify key T cell populations in knee osteoarthritis patients and explore functional differences in their gene expression which may contribute to the differences in response of T cells obtained from different individuals
+Study design
+
+T cell response to proteoglycan aggrecan epitopes
+Synovial tissue of knee osteoarthritis patients who underwent knee arthroplasty are pooled together into three distinct groups. T cell isolation is performed and each group is then subjected under three conditions (p16-31 stimulation, p263-280 stimulation, and no stimulation), yielding 6 experimental samples and 3 controls. Nanostring analysis with nCounter Human Immunology v2 Panel is done to identify transcriptional changes of immune-related genes. Differentially expressed genes are identified and gene set expression analysis (GSEA) is performed to determine functional changes associated with transcriptional differences between each condition.
+
+Validation of nanostring analysis and identification of T cell populations in knee osteoarthritis
+To validate the nanostring analysis pipeline of T cells in knee osteoarthritis, gene expression profile of unstimulated T cells from nanostring analysis will be compared with the transcriptomic data of T cells in knee osteoarthritis from another study (AMP-RA/SLE - AMP-RA_CEL-Seq). T cell subpopulations will be further explored from this dataset and differences in their expression profiles will be analyzed. These differences will be correlated with the heterogeneity of T cell expression profiles pooled from different groups of individuals from nanostring analysis, which may contribute to the differences in response of T cells to proteoglycans observed among different groups of individuals.
+
+Analysis plan
+
+Nanostirng data
+Raw expression data from nanostring analysis will be normalized using a model developed for nanostring data that incorporates size factors calculated from positive controls as well as housekeeping genes and background level obtained from negative controls. Differentially expressed genes between the three conditions will be identified using a generalized linear model of the negative binomial family. Differences in gene expression will be quantified using log fold change, which will be used to rank genes for downstream functional analysis with gene set enrichment analysis.
+
+Single-cell RNA-seq data
+Iterative clustering strategy will be performed to identify subpopulations of T cells. Only informative genes (and/or highly variable genes) will be included in the calculation of cell-cell similarity to minimize the interference from genes whose expressions are unchanged across different T cells. Correlation between gene expression and cell subpopulation structures will be calculated to identify potential biomarkers. Biomarkers related to inflammation as well as others identified through differential expression and functional enrichment analysis will be further investigated in depth to gain mechanistic insights of how they are involved in pathogenesis of knee osteoarthritis. Gene coexpression network and regulatory network will be reconstructed to identify cooperation between T cell and other cell types.
+
+
+Project Lead: Frank Cheng
+Institution: Sonoma Biotherapeutics
+Data Access Request Submitted By: @fcheng
+Intended Data Use Statement (accepted on 2/16/2024):
+Objectives of the proposed research
+Sonoma Biotherapeutics is a clinical-stage biotechnology company developing engineered regulatory T cell (Treg) therapies to treat serious autoimmune and inflammatory diseases by restoring balance to the immune system. AMPÃÂ¢ÃÂÃÂs data will be used to help us understand Tregs in RA patientsÃÂ¢ÃÂÃÂ synovial tissues.
+
+Study design and analysis plan
+We will leverage our knowledge to focus on T cell subsets and assess association of T cell subsets and CTAP with RA disease characteristics. Either raw data or annotated data will be used depends on the exploratory results.
+
+
+Project Lead: M Huang
+Institution: Tsinghua University
+Data Access Request Submitted By: @MHuang
+Intended Data Use Statement (accepted on 2/2/2024):
+Objectives of the proposed research
+Arthritis is a common condition that causes joint discomfort. It have also been connected to the development of chronic inflammation, local injury, genetic predisposition. However, what causes the disparities in their symptomatology is still unclear.To methodically characterize cell-type-specific transcriptional heterogeneity in multiple tissues single cell level landscape of patients with arthritis, we used spatial transcriptomics and single cell RNA sequencing to reflecting the variety of cell abudence and generated the gene expression profile of known associated disorders with diseases specific inflammation gene signature.
+
+Study design and analysis plan
+We collected multiple tissue samples from arthritis patients undergoing orthopedic replacement surgery. Using 10x Genomics Chromium platform, Single Cell 5' Gene Expression libraries and Single Cell V(D)J libraries were constructed,and selected matching sample were subjected to ST sequencing coupled with histology imaging assessment. Data processed and analyzed by the bioinformatic preprocess pipeline, followed by normalization, batch correction, and data visualiation. We investigate the distinct cell types, differential gene expression, and disease-related pathways of various arthritic diseases in order to identify possible therapeutic targets. Additionally, the verification study will be conducted using the data from the single-cell open source database and published recently single-cell sequencing studies.
+
+
+Project Lead: Minghui Wang
+Institution: Icahn School of Medicine at Mount Sinai
+Data Access Request Submitted By: @minghui.wang
+Intended Data Use Statement (accepted on 1/29/2024):
+Rheumatoid Arthritis (RA) is a complex autoimmune disorder causing inflammation in the affected body parts, such as joints in the hands, wrists, and knees. Based on CDC national statistics, about 58.5 million people have been diagnosed with RA, which takes up about 23.7% of adults in the US. There have been nearly 121 susceptibility genetic loci for RA identified through large-scale genome-wide association studies. However, they only account for a small portion of the total heritability. This indicates there are more missing molecular risk factors underlying RA. Inflammation alongside tissue repair and maintaining tissue homeostasis determines the initiation and progression of RA. However, there lacks a comprehensive comparative study of the inflammation/immune response components (inflammatome) in the disease for identifying more effective targets and therapeutics against RA. Here we propose to systematically investigate the uniqueness and commonality of inflammation-related pathways in RA using state-of-the-art multiscale molecular network modeling approaches to integrate large-scale multi-Omics datasets generated by NIH AMP-RA/SLE Program.
+
+Systems biology, especially network biology offers an excellent framework for integrating diverse -omics and clinical data to dissect the core pathways and targets associated with or causal for diseases. In our previous studies, we have successfully applied our state-of-the-art network biology approaches to identify molecular signatures, networks, subtypes, and key drivers in Alzheimer's disease (AD) based on our multi-Omics cohorts in AD. Borrowing and integrating molecular signals across multiple related diseases can potentially increase the power to identify unique or shared molecular machinery driving disease pathogenesis.
+
+First, we will integrate the multi-Omics data from both the bulk tissue and single-cell levels of the nine cohorts in the AMP-RA/SLE program to identify molecular signatures of inflammation in RA. We will download, process, and curate the whole genome sequencing (WGS), bulk RNA-seq, targeted proteomics, scRNA-seq, and snRNA-seq data of 4 different tissues (i.e., synovium, blood, kidney, and urine) from the 9 cohorts of the AMP-RA/SLE program. Second, we will identify eQTLs and/or pQTLs associated with inflammation signatures of RA using a multivariate regression model. Thirdly, we will perform gene/protein co-expression network analysis for each tissue to identify tissue-specific and cross-tissue-conserved essential modules and key drivers underlying RA. Finally, we will employ state-of-the-art drug repositioning approaches to identify FDA-approved drugs that can effectively reverse inflammation signatures of RA and restore inflammation network states of disease to normal.
+
+In summary, we propose to systematically identify and validate inflammation signatures, networks, and drivers in rheumatoid arthritis using cutting-edge network biology approaches and single-cell sequencing technologies.
+
+
+Project Lead: Congmin Xu
+Institution: BioMap
+Data Access Request Submitted By: @congmin_mina
+Intended Data Use Statement (accepted on 1/23/2024):
+Our team has been actively working on unraveling the disease mechanism of Rheumatoid Arthritis (RA), with a specific focus on understanding the synovium. We have successfully collected a substantial number of RA patient samples from China. In order to enhance our understanding of RA synovium at a cellular level, we aim to integrate our in-house single-cell RNA sequencing data with a comprehensive cell atlas.
+
+To achieve this integration, we plan to utilize the advanced data integration tool, Harmony. Harmony has demonstrated remarkable performance in removing batch effects and harmonizing datasets from different sources, ensuring accurate and reliable integration analysis. By applying Harmony, we will overcome any potential technical variations between datasets, thereby ensuring robust and high-quality integration. This will facilitate the identification of distinct cell subtypes and their corresponding cell states within the RA synovium, ultimately leading to a more comprehensive understanding of the disease mechanism.
+
+In conjunction with Harmony, we will also employ the cell clustering algorithm Seurat and other statistical analyses to further analyze the integrated dataset. This comprehensive analysis will allow us to define and characterize the cell subtypes and cell states of RA synovium more accurately. We are confident that the implementation of Harmony, Seurat, and additional statistical analyses will provide valuable insights into the cellular landscape of RA synovium, contributing significantly to our research and potentially paving the way for advancements in the diagnosis and treatment of RA.
+
+Rest assured that all data and analyses will be conducted securely on our server, adhering to strict data privacy and protection protocols. The authorized dataset will be strictly limited to access by our team members and will not be redistributed without proper authorization. We understand the importance of data source transparency, and any resulting publications based on this dataset will explicitly acknowledge the data source.
+
+We kindly request your approval to proceed with the utilization of Harmony and the subsequent analysis. We believe that this approach, combining the power of Harmony, Seurat, and statistical analyses, will greatly enhance our understanding of RA and allow us to make significant contributions to the field.
+
+
+Project Lead: James Wingrove
+Institution: Cellworks
+Data Access Request Submitted By: @jwingrove
+Intended Data Use Statement (accepted on 12/15/2023):
+Rheumatoid Arthritis is a heterogenous disease with varied patient response to multiple therapy choices. This heterogeneity, coupled with broad treatment selection guidelines, results in RA patients receiving multiple ineffective therapies prior to finding the right treatment. We are developing a mechanistic model for RA which will use patient-specific and cell-specific expression data to model disease and drug interactions, with the aim of identifying appropriate therapies for patients earlier during treatment.
+
+As part of this project, we are developing a computational method to deconvolute bulk transcriptomic data, which will allow us to obtain the patient-specific and cell-specific expression data needed. We will use the single-cell RNA expression data from the AMP RA/SLE data set to develop and validate the reference matrix needed for this deconvolution approach. Once created, we will test our deconvolution flow on other retrospective bulk transcriptomics datasets and generate high resolution, cell-type specific information which will be used as input into the mechanistic model for biosimulation.
+
+
+Project Lead: Yu-yu Ren
+Institution: Anaptysbio
+Data Access Request Submitted By: @yren
+Intended Data Use Statement (accepted on 12/15/2023):
+Anaptysbio is a clinical-stage biotechnology company focused on delivering innovative immunology therapeutics. We are developing immune cell modulators, including two checkpoint agonists for autoimmune and inflammatory disease. Rosnilimab, our PD-1 agonist, is currently in a Phase 2b trial for the treatment of moderate-to-severe rheumatoid arthritis (RA). We plan to download and analyze the AMP Phase II data to improve our understanding of the disease MOA for both RA and SLE at the single-cell level, including but not limited to: genes and pathways associated with disease pathology, pathogenic immune cell cohorts, and cell-cell interaction. The raw sequence data will be analyzed only by myself via our bioinformatics pipeline, and the results shared with the team for discussion and decision making. All downloaded data will be deleted from local sources after analyses have completed.
+
+
+Project Lead: Chunhao Cao
+Institution: School of Chinese Medicine, Hong Kong Baptist University, Hong Kong, Hong Kong SAR, China
+Data Access Request Submitted By: @chunhao
+Intended Data Use Statement (accepted on 12/8/2023):
+I am writing to submit a revised data access request for a dataset related to rheumatoid arthritis for research purposes. I apologize for any inconvenience caused by the incomplete information in the previous submission. Please find the revised request below:
+
+To address the points raised in the previous communication, we provide the following additional information:
+
+Intended Data Use Statement:
+Our intended data use statement encompasses the following points:
+What do we want to do?
+We aim to conduct a comprehensive analysis of the rheumatoid arthritis dataset to explore the underlying mechanisms, identify potential biomarkers, and investigate treatment response patterns.
+Why are we doing it?
+Our research aims to enhance the understanding of rheumatoid arthritis, paving the way for improved diagnostic techniques, personalized treatment strategies, and advancements in therapeutic interventions.
+How do we want to do it?
+We plan to employ state-of-the-art data analysis techniques, including machine learning algorithms and statistical modeling, to extract meaningful insights from the dataset and uncover valuable patterns and associations.
+
+In addition to the above, we provide an example of our analysis plan and research hypothesis:
+
+We hereby request access to a dataset related to rheumatoid arthritis for research purposes, specifically to investigate a subtopic related to the mechanism underlying the failure of anti-TNF therapy in patients with rheumatoid arthritis. Our research aims to explore the role of LDHD, a protein involved in the pathogenesis of autoimmune disorders, in the non-responsiveness to anti-TNF therapy and develop a precision medicine-based treatment strategy for these patients.
+
+Rheumatoid arthritis (RA) is characterized by inflammation and bone destruction. Although anti-TNF biologic agents have significantly improved clinical outcomes for RA, a substantial portion of patients (30-40%) discontinue these agents due to treatment failure. Understanding the mechanisms underlying the failure of anti-TNF therapy and developing personalized treatment approaches are essential.
+
+Recently, we conducted a study classifying RA patients receiving the anti-TNF agent Adalimumab into good responders and non-responders. By integrating DNA methylation array and RNA-Seq analyses, we discovered that non-responders exhibited dysregulation of the LDHD gene, along with altered LDHD mRNA levels compared to the good responders. Bioinformatics analysis further revealed the enrichment of signaling pathways associated with TNF resistance in non-responders.
+
+To delve deeper into the mechanisms of TNF resistance, we aim to leverage single-cell data to explore additional insights into the underlying molecular mechanisms. By analyzing transcriptomic profiles at the single-cell level, we aim to identify specific cell populations and gene expression patterns that are associated with LDHD dysregulation and TNF resistance in rheumatoid arthritis.
+
+Our research objectives include:
+
+Characterize the expression and dysregulation of LDHD in specific cell populations, such as synovial fibroblasts, immune cells, and endothelial cells, using single-cell RNA sequencing.
+
+Investigate the interaction between LDHD and key signaling pathways involved in TNF resistance, such as NF-ÎºB and JAK/STAT signaling, at the single-cell level.
+
+Identify potential therapeutic targets or pathways that can be modulated to overcome TNF resistance in LDHD dysregulated cells, utilizing single-cell data integration and network analysis.
+
+By elucidating the role of LDHD and exploring the molecular mechanisms underlying TNF resistance in rheumatoid arthritis, we aim to contribute to the development of personalized treatment strategies for patients who do not respond to anti-TNF therapy. The insights gained from this research may pave the way for precision medicine approaches and improve clinical outcomes for these patients.
+
+Sincerely,
+
+Chunhao Cao
+Email: CHUNHAO@hkbu.edu.hk
+
+
+Project Lead: Shiquan Sun
+Institution: Center for Single-Cell Omics and Health, Xi'an Jiaotong University
+Data Access Request Submitted By: @yizhenlyu6
+Intended Data Use Statement (accepted on 12/4/2023):
+To integrate and investigate single-cell RNA-seq data and GWAS data of rheumatoid arthritis. The study will analyze single-cell data from rheumatoid arthritis synovium in East Asian and European populations and integrate single-cell data with whole genome sequencing data from their respective racial and ethnic groups. The study is planned to last approximately 2 years and the results will be reported after the analysis.
+
+
+Project Lead: Daniel Wells
+Institution: Santa Ana Bio
+Data Access Request Submitted By: @dannykwells-sab
+Intended Data Use Statement (accepted on 11/16/2023):
+Santa Ana Bio is a biotherapeutic company focused on developing new therapies for patients with autoimmune disease. A particular focus is to leverage emerging single cell genomic technologies to advance precision immune treatments that modulate the right cell type, pathway and/or gene program in the right patient or patient population to achieve clinical efficacy in a well tolerated way. Two diseases we are interested in developing new therapies for are Rheumatoid Arthritis (RA) and Systemic Lupus Erythematosus (SLE). While there has been some success in developing therapies for both of these indications there remains substantial unmet need, especially in the treatment refractory setting.
+
+We will analyze data AMP single cell RNA-seq from SLE and RA patients to identify cell types, pathways and genes associated with disease subtypes and their association, as possible, with sample covariates. Signatures associated with well-defined immunologic pathways will be quantified at a single cell level as will their association with defined cell subtypes. Additional analytical approaches - such as ligand-receptor analysis - may be employed depending on our initial results.
+
+
+Project Lead: Mike Stadler
+Institution: Arda Therapeutics
+Data Access Request Submitted By: @mikestadler
+Intended Data Use Statement (accepted on 11/16/2023):
+Arda develops novel cell elimination therapies for chronic diseases. We are seeking to understand whether RA is a good candidate for cell elimination therapies, and if so, what cell types might be driving disease and how those cells might be targeted for elimination. We plan to analyze the Zhang et al. data to help answer these questions. We will process the raw data (.mtx files) using our proprietary single-cell analysis workflow, which performs QC, batch correction, embedding, cell typing, and finally scores cells for their pathogenic potential. We will integrate these results with analyses of other datasets (of various modalities) to select probably pathogenic cell types and identify candidate target molecules on the cell surface. These results, integrated with thorough interrogation of the literature and consultation with domain experts, will help us decide whether to continue with a drug discovery program for RA.
+
+
+Project Lead: Sumanta Ray
+Institution: University of Bielefeld
+Data Access Request Submitted By: @sumanta1
+Intended Data Use Statement (accepted on 10/16/2023):
+To study the findability, accessibility, interoperability and reuse (FAIR) properties of autoimmune datasets, demonstrated with use cases from AMP RA/SLE studies that are available from the Synapse database. As there is an increasingly large number of datasets on cohorts of autoimmune diseases, it becomes essential to develop bioinformatic tools and automated mechanisms to ensure their findability and access. We will develop an R-based app to query and search the database based on cohort-specific search parameters. Further, we will implement computational methods to allow interoperability and reuse of multiple and multi-omic AMP RA/SLE datasets in Synapse. A data-driven approach will be adopted for automated generation of hypotheses that would typically involve components from multiple datasets. For instance, transcriptomic signatures from renal biopsies of individuals with lupus nephritis will be tested for significant associations in longitudinal outcomes as measured with urine proteomics using multivariate statistical methods.
+
+
+Project Lead: Mark Lazarus
+Institution: AstraZeneca
+Data Access Request Submitted By: @MarkLazarus
+Intended Data Use Statement (accepted on 9/18/2023):
+AstraZeneca is focused on accelerating the delivery of life-changing medicines that create enduring value for patients and society. We are passionate about precision medicine and believe that deeper insights into molecular pathology will reveal novel targets and help to identify the correct patient. We are interested in developing new therapies for immunology diseases, including Rheumatoid Arthritis (RA) and Systemic Lupus Erythematosus (SLE), that will modify disease progression and improve patient lives. RA and SLE are complex heterogeneous diseases with limited knowledge of the key molecular drivers of disease pathology and patient heterogeneity. There have been successes in the development of disease modifying therapies for both RA and SLE, but there remains a significant number of patients for whom the current therapies do not adequately control their symptoms.
+
+We propose to perform deep molecular characterization of the diseased tissue in well characterized patients to build insights into disease drivers, endotypes and phenotypes. With the goal of identifying novel drug targets, validating targets of interest, stratifying patient populations and generating precision medicine hypotheses.
+
+Using the AMP single cell RNASeq data we will computationally sort cells into different cell types. For each cell type pseudo bulk data will be generated. From this we will generate single sample gene set enrichment scores using GSVA, singscore and similar algorithms. The gene sets used will be chosen according to the research question. If significant enrichments are found, we will test if these are related to specific sub-groups of the cohorts (e.g. treatment response, repertoire or genomics) or if surrogates of the signatures can be identified in other data types such as CyTOF.
+
+
+Project Lead: Dr Aidan MacNamara
+Institution: Bayer AG
+Data Access Request Submitted By: @aidanmacn
+Intended Data Use Statement (accepted on 6/27/2023):
+The goal of our planned analysis is to assess the supporting human evidence for potential drug targets for SLE / Lupus Nephritis and to address these with new modalities. For this we request access to the datasets listed below from the AMP RA/Lupus project to address the following questions:
+
+Are there genetic variants in, or that regulate, potential target genes that are associated with Lupus population / sub-population risk?
+
+Can we detect common molecular signatures between kidney and skin samples that both involve the target genes of interest and/or molecules in their up-and downstream signalling pathways?
+
+Are there common inflammatory markers between urine and kidney samples that also implicate the target genes of interest or their downstream pathway molecules ?
+
+To perform these tasks, we plan to download, process, and analyse the whole genome sequencing (WGS), bulk RNA-seq, targeted proteomics, and scRNA-seq of 4 different tissues or immune cells in body fluids (i.e. , synovium, skin, bloodPBMCs, kidney, and urine) from the 4 datasets of SLE phase I and II projects 9 cohorts of the AMP-RA/SLE program. For our target genes, we will identify any locus associations with disease endpoints, and colocalize any potential genetic variants with molecular (expression, protein) phenotypes. We will also compare target genes and their mechanisms across tissue types using RNA-seq to understand if these are robust common signatures between skin and kidney to build on in early clinical studies and also define inflammatory markers in urine as surrogates for kidney biopsies.
+
+
+Project Lead: Joel Guthridge
+Institution: Oklahoma Medical Research Foundation
+Data Access Request Submitted By: @wdejager
+Intended Data Use Statement (accepted on 3/27/2023):
+We will be performing data curation of the AMP RA/SLE data in preparation for releases in coordination with the Sage team. Initially provided via Aspera, the AMP RA/SLE clinical and experimental data is under review prior to full release via ARK. The OMRF group will be assessing data organization (experiments within projects), data QC, and association with publications, then providing these recommendations to Sage for a updated version of the AMP RA/SLE data to be issued.
+
+
+Project Lead: Patrick M. Gaffney, PhD
+Institution: Oklahoma Medical Research Foundation
+Data Access Request Submitted By: @jenkelly.omrf
+Intended Data Use Statement (accepted on 2/9/2023):
+Dr. Patrick M. Gaffney, M.D. is the Program Chair and Member of the Genes & Human Disease Research Program, and the J.G. Puterbaugh Endowed Chair in Medical Research at the Oklahoma Medical Research Foundation in Oklahoma City. He also serves as the Associate Director of the M.D./Ph.D. Graduate Program and is an Adjunct Associate Professor in the Department of Pathology at the University of Oklahoma Health Sciences Center in Oklahoma City. Dr. Gaffney’s primary research focus is to decipher the complex genetic landscape of autoimmune disorders, primarily systemic lupus erythematosus (SLE). His most recent interests have focused on understanding the role of the epigenome and how genomic variation impacts epigenomic regulation to drive human disease.
+Dr. Gaffney and his laboratory have performed single-cell combinatorial indexing ATAC-seq (sciATAC-seq) and single-cell RNA-seq in a collection of PBMCs from lupus cases and controls. Using Louvain clustering and canonical correlation analysis-based integration, PBMC subsets have been identified, mainly from the T, B and Myeloid cell lineages. Consensus genes and publicly available RNA-seq datasets were used to annotate the different cell subsets; CyTOF data have not been utilized to date. The AMP SLE PBMC CyTOF dataset would be valuable to confirm the identities of the PBMC subsets as well as to annotate a few subsets that are still being characterized. One of the subsets still being characterized is of particular interest; we believe it is a subset known to infiltrate the kidney. Therefore, the AMP SLE RNA-seq data collected from kidney and urine would be interesting to compare and contrast with our PBMC data collected in this subset (as well as to the rest of the data).
+Methods. Integration of the CyTOF data with Dr. Gaffney’s scRNA-seq data will follow a procedure similar to that described by Repapi et al (https://f1000research.com/articles/11-560). Seurat will be used to project the CyTOF data onto the scRNA-seq to inform the cluster identification of the scRNA-seq data. The Fluidigm C1 scRNA-seq dataset will be cleaned using Trimmomatic, aligned to the GRCh38 genome using STAR, and uniquely aligned reads will be quantified and assessed for quality by Picard Tools. Since the Drop-seq scRNA-seq dataset is currently aligned to the hg19 genome, it will be realigned to the GRCh38 genome using STAR. Differentially expressed genes will be determined using DESeq2.
+
+
+Project Lead: Philip De Jager
+Institution: Columbia University
+Data Access Request Submitted By: @fp2450
+Intended Data Use Statement (accepted on 2/1/2023):
+he objective of the proposed research is to integrate multi-omic data from the immune system and target organs to explore shared facets across autoimmune, metabolic, and neurodegenerative diseases: we will identify cell subtypes and continuous expression programs of immune responses that have shared or distinct roles in these diseases. At the single-cell level, we will integrate data from blood, CSF, and tissue to develop a single framework with which to analyze immune data in a coherent fashion, producing a shared taxonomy and relating each immune cell subtype to clinical, molecular and genetic traits.
+
+From the ARK Portal, we will access, download, and integrate the single-cell/single-nucleus level data from the AMP-RA/SLE program, including data from CEL-Seq, single-cell/single-nucleus RNA-seq, and single-cell Immune Repertoire profiling. For the aforementioned data, we will download FASTQ and associated metadata (totaling 2,775 experimental and metadata files). As part of the AMP-SBI team, we will use the data to achieve the following aims:
+
+Integrate tissue-derived immune cell and PBMC (and other biofluid) single-cell/nucleus RNA-seq data into a common framework using a standardized pipeline to integrate disparate datasets.
+After integration, identify the full ensemble of gene expression programs in each major cell class/type in the unified data set.
+Using the integrated dataset, evaluate the role of individual immune expression programs in each cell type across available datasets (for tissue and other biosamples) to identify which cell types program fulfil roles in different inflammatory diseases.
+Integrate AMP data with other available datasets (from De Jager and external sources).
+Integrate multiple sclerosis PBMC, CSF and brain single-cell/nucleus RNA-seq data into the AMP integrative analysis as a bridge between the neurodegenerative diseases and inflammatory diseases (from De Jager and external sources).
+Identify molecular programs in the non-immune cells from the target tissue that correlate to the immune programs in #3.
+Validate associations using emerging single-cell/nucleus RNA-seq data as well as bulk data (i.e., RNA, proteomics, and metabolomics).
