@@ -1,0 +1,98 @@
+---
+title: "`r paste(params$date_tag, params$experiment, sep='_')`"
+author: "Jess Vera"
+output:
+  html_document:
+    toc: yes
+    df_print: paged
+    code_folding: show
+params:
+  date_tag: '2025-06-04'
+  experiment: 'ARK_approved_access'
+---
+
+Start date: `r params$date_tag`    
+Last updated: `r Sys.time()`
+
+# Goal 
+
+# Functions
+
+```{r, functions}
+
+```
+
+# Setup
+
+```{r, setup}
+# source rmarkdown_setup.R
+source("~/Setup/rmarkdown_setup.R")
+
+# Load libraries silently
+suppressPackageStartupMessages({
+  library(dplyr)
+  library(stringr)
+  library(ggplot2)
+  library(lubridate)
+  library(glue)
+})
+```
+
+# Main
+
+```{r, engine='bash'}
+grep "accepted on" ../all_approved_access_requests.txt > ../all_accepted_dates.txt
+```
+
+```{r}
+df <- read.delim("../all_accepted_dates.txt", header= FALSE, sep = " ")
+df <- df[,c(1,ncol(df))]
+colnames(df) <- c("V1", "approved_date")
+df$approved_date <- str_remove_all(df$approved_date, "\\)|\\(|:")
+df <- mutate(df, year = year(mdy(approved_date)), 
+             month_str = month(mdy(approved_date), label = TRUE, abbr = TRUE), 
+             month_int = month(mdy(approved_date)))
+message(glue("There are {nrow(df)} total access requests that have been approved since the inception of the ARK Portal"))
+df$date <- paste(df$month_str, df$year)
+df <- group_by(df, month_int, year, date) %>% tidyr::nest()
+df$count <- unlist(purrr::map(df$data, nrow))
+df <- arrange(df, year, month_int)
+df$date <- forcats::fct_inorder(df$date)
+
+my_kable_table(tail(select(df, date, count)), cap = "tail of the ARK Portal approved access requests summary df")
+```
+
+```{r}
+df$year <- as.character(df$year)
+#yrcols <- c("grey85", "grey40", "black")
+yrcols <- rev(pals::ocean.gray(n = length(unique(df$year))))
+yrcols[1] <- "grey85"
+names(yrcols) <- unique(df$year)
+
+p <- ggplot(df, aes(x = date, y = count, fill = year)) +
+       geom_col() + theme_minimal() +
+       scale_fill_manual(values = yrcols) +
+       theme(text = element_text(size = 8),
+             axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1, size = 6), 
+             title = element_text(size = 10)) +
+       ggtitle("ARK Portal Approved Access Requests")
+
+w = nrow(df)*50
+fid <- "ARK Portal Approved Access Requests.png"
+png(fid, width = w, height = 750, res = 250)
+print(p)
+invisible(dev.off())
+```
+
+# Results
+
+```{r, out.height="90%"}
+knitr::include_graphics(fid)
+```
+
+# Session Details
+
+```{r results='asis'}
+#Print out session info
+R.utils::System$getHostname(); 
+sessionInfo()
