@@ -16,10 +16,29 @@ Last updated: `r Sys.time()`
 
 # Goal 
 
+officially programmatically scrape the ARK data access page and so put together the 
+code to do that and build a catalog.
+
 # Functions
 
 ```{r, functions}
-
+parse_submission_cards <- function(card) {
+  spans <- card %>%
+    html_nodes("span") %>%
+    html_text(trim = TRUE)
+  strongs <- card %>%
+    html_nodes("strong") %>%
+    html_text(trim = TRUE)
+  
+  strongs[1:length(spans)] <- str_remove(strongs[1:length(spans)], ":")
+  out <- as.data.frame(t(spans), stringsAsFactors = FALSE)
+  colnames(out) <- strongs[1:length(spans)]
+  
+  i <- grep("accepted", strongs)
+  date <- str_extract(strongs[i], "\\d{1,2}\\/\\d{1,2}\\/\\d{4}")
+  out$Approved_Date <- date
+  return(out)
+}
 ```
 
 # Setup
@@ -38,48 +57,42 @@ suppressPackageStartupMessages({
   library(chromote)
   library(rvest)
 })
+
+options(chromote.headless = "new")
+options(chromote.launch.echo_cmd = TRUE)
+#chrm <- Chrome$new(
+#    path = find_chrome(),
+#    args = "--disable-gpu --headless --remote-debugging-port=9222"
+#)
+
+#set_chrome_args(c(get_chrome_args(), "--no-sandbox"))
+
+#chromote:::with_random_port(launch_chrome_impl, path = path, args = args)
+
+chrome_args <- "'--remote-debugging-port=9222' '--remote-allow-origins=http://127.0.0.1:9222' '--crash-dumps-dir=chrome-6dee7b6148ce-crashpad' '--force-color-profile=srgb' '--disable-extensions' '--mute-audio' '--no-sandbox'"
+
+#startup <- chromote:::launch_chrome_impl(path = find_chrome(), args = chrome_args, 
+#                                         port = "9222")
+chromote:::with_random_port(chromote:::launch_chrome_impl(path = find_chrome(), 
+                                                          args = chrome_args, port = "9222"), 
+                            path = find_chrome(), args = chrome_args)
+                            
+chromote:::launch_chrome(path = find_chrome(), 
+                         args = "'--remote-debugging-port=9222' '--remote-allow-origins=http://127.0.0.1:9222' '--crash-dumps-dir=chrome-6dee7b6148ce-crashpad' '--force-color-profile=srgb' '--disable-extensions' '--mute-audio' '--no-sandbox'")
 ```
 
 # Scrape
 
-```{r, eval = FALSE}
-session <- ChromoteSession$new()
-#session$view()
-#session$Page$navigate("https://arkportal.synapse.org/Data%20Access")
-#Sys.sleep(2) # wait for the page to load
-
-p <- session$Page$loadEventFired(wait_ = FALSE)
-session$go_to("https://arkportal.synapse.org/Data%20Access", wait_ = TRUE)
-
-p$then(function(value) {
-  session$Runtime$evaluate(
-    'document.querySelector("div.MuiContainer-root.MuiContainer-maxWidthLg.css-w8vh1d").outerText'
-  )
-})$
-then(function(value) {
-  print(class(value$result$value))
-  writeLines(value$result$value, con = "Data_Access_scrape.txt")
-})
-
-```
-
-```{r}
-b <- ChromoteSession$new()
-movie_url <- "https://www.imdb.com/title/tt8031422/"
-movie_page <- read_html_live(movie_url) # Read the main movie page
-movie_page$view() # View the page in the browser
-```
-
 ```{r}
 # Start a Chromote session
-b <- ChromoteSession$new()
+#b <- ChromoteSession$new()
 
 # Open a website
 url <- "https://arkportal.synapse.org/Data%20Access"  # Replace with the actual URL
 
 # Read the live HTML
 live_page <- read_html_live(url)
-live_page$view()
+#live_page$view()
 
 # Scroll down by 800 pixels
 for (i in 1:8) {
@@ -100,42 +113,21 @@ results <- bind_rows(results)
 results <- mutate(results, year = year(mdy(Approved_Date)),
                   month_str = month(mdy(Approved_Date), label = TRUE, abbr = TRUE), 
                   month_int = month(mdy(Approved_Date)))
-
-parse_submission_cards <- function(card) {
-  spans <- card %>%
-    html_nodes("span") %>%
-    html_text(trim = TRUE)
-  strongs <- card %>%
-    html_nodes("strong") %>%
-    html_text(trim = TRUE)
-  
-  strongs[1:length(spans)] <- str_remove(strongs[1:length(spans)], ":")
-  out <- as.data.frame(t(spans), stringsAsFactors = FALSE)
-  colnames(out) <- strongs[1:length(spans)]
-  
-  i <- grep("accepted", strongs)
-  date <- str_extract(strongs[i], "\\d{1,2}\\/\\d{1,2}\\/\\d{4}")
-  out$Approved_Date <- date
-  return(out)
-}
+message(glue("There are {nrow(results)} total access requests that have been approved since the inception of the ARK Portal"))
 ```
 
+
+# Summarize
+
 ```{r}
-df <- read.delim("../all_accepted_dates.txt", header= FALSE, sep = " ")
-df <- df[,c(1,ncol(df))]
-colnames(df) <- c("V1", "approved_date")
-df$approved_date <- str_remove_all(df$approved_date, "\\)|\\(|:")
-df <- mutate(df, year = year(mdy(approved_date)), 
-             month_str = month(mdy(approved_date), label = TRUE, abbr = TRUE), 
-             month_int = month(mdy(approved_date)))
-message(glue("There are {nrow(df)} total access requests that have been approved since the inception of the ARK Portal"))
+df <- results
 df$date <- paste(df$month_str, df$year)
 df <- group_by(df, month_int, year, date) %>% tidyr::nest()
 df$count <- unlist(purrr::map(df$data, nrow))
 df <- arrange(df, year, month_int)
 df$date <- forcats::fct_inorder(df$date)
 
-my_kable_table(tail(select(df, date, count)), cap = "tail of the ARK Portal approved access requests summary df")
+my_kable_table(tail(select(df, date, count)), cap = "tail of the ARK Portal approved access requests summary")
 ```
 
 ```{r}
@@ -160,10 +152,26 @@ print(p)
 invisible(dev.off())
 ```
 
-# Results
-
 ```{r, out.height="90%"}
 knitr::include_graphics(fid)
+```
+
+# Save results
+
+```{r}
+fid <- "../all_approved_requests.csv"
+write.csv(results, fid, row.names = FALSE)
+```
+
+# Git management
+
+```{r, engine='bash'}
+#git diff ../all_approved_requests.csv
+git add -A
+
+cwdPath=$(pwd)
+wd=$(basename $cwdPath)
+git commit -m "$wd update(s)"
 ```
 
 # Session Details
