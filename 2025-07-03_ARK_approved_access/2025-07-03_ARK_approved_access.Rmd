@@ -92,12 +92,13 @@ url <- "https://arkportal.synapse.org/Data%20Access"  # Replace with the actual 
 
 # Read the live HTML
 live_page <- read_html_live(url)
+Sys.sleep(10)
 #live_page$view()
 
 # Scroll down by 800 pixels
 for (i in 1:8) {
   live_page$scroll_by(top = 12000, left = 0)
-  Sys.sleep(1)  # Wait for the page to load more content
+  Sys.sleep(2)  # Wait for the page to load more content
 }
 
 #live_page$view()
