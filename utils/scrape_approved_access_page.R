@@ -75,7 +75,7 @@ df$count <- unlist(purrr::map(df$data, nrow))
 df <- arrange(df, year, month_int)
 df$date <- forcats::fct_inorder(df$date)
 df <- ungroup(df)
-print(as.data.frame(tail(select(df, date, count), n = 1)))
+print(as.data.frame(tail(select(df, date, count), n = 3)))
 
 ## Create Bargraph
 df$year <- as.character(df$year)
