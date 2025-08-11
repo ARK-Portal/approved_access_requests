@@ -1,4 +1,9 @@
 "Project Lead","Institution","Approved_Date","year","month_str","month_int"
+"Robert Lochhead","Medical College of Wisconsin","8/1/2025",2025,"Aug",8
+"Professor Erez Levanon","Bar Ilan University","7/26/2025",2025,"Jul",7
+"Jennifer Elisseeff","Johns Hopkins University","7/21/2025",2025,"Jul",7
+"Enrico Ferrero","Novartis","7/17/2025",2025,"Jul",7
+"Ido Amit","Weizmann  institute of science","7/17/2025",2025,"Jul",7
 "Yusuke Takeushi","Kyoto University","7/9/2025",2025,"Jul",7
 "Jenna Pappalardo","Arcus Biosciences","7/9/2025",2025,"Jul",7
 "Bishoy Kamal","Sage Bionetworks","7/9/2025",2025,"Jul",7
@@ -12,7 +17,6 @@
 "Noah Siegel","Anaptysbio","6/16/2025",2025,"Jun",6
 "Kazuyoshi Ishigaki","Keio University School of Medicine","6/9/2025",2025,"Jun",6
 "Justyna Dopierala","Nucleome Therapeutics","6/9/2025",2025,"Jun",6
-"Enrico Ferrero","Novartis","6/5/2025",2025,"Jun",6
 "Koichi Murata","Kyoto Uiversity Graduate School of Medicine","5/29/2025",2025,"May",5
 "Yoesik Bae","Sungkyunkwan university (Suwon, Republic of Korea)","5/29/2025",2025,"May",5
 "Paul Hoover","Brigham and Women's Hospital","5/23/2025",2025,"May",5
@@ -117,7 +121,6 @@
 "Vincent Wong","Macau University of Science and Technology","5/8/2024",2024,"May",5
 "Rebecca Panitch","Watershed Informatics","5/8/2024",2024,"May",5
 "Thomas Backus","Mass General Brigham","5/2/2024",2024,"May",5
-"Ido Amit","Weizmann  institute of science","5/2/2024",2024,"May",5
 "Jonathan Derry","Iris Bioconsulting LLC","5/2/2024",2024,"May",5
 "Wanling Yang","The University of Hong Kong","4/12/2024",2024,"Apr",4
 "Takako Chikenji","Department of Health Sciences, Hokkaido University","4/5/2024",2024,"Apr",4
