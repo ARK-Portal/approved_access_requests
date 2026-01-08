@@ -31,6 +31,10 @@ suppressPackageStartupMessages({
   library(rvest)
 })
 
+# Save results
+fid <- "../all_approved_requests.csv"
+all_approved <- read.csv(fid, check.names = FALSE)
+
 # configure chromote options
 options(chromote.headless = "new")
 options(chromote.launch.echo_cmd = FALSE)
@@ -61,11 +65,31 @@ results <- bind_rows(results)
 results <- mutate(results, year = year(mdy(Approved_Date)),
                   month_str = month(mdy(Approved_Date), label = TRUE, abbr = TRUE), 
                   month_int = month(mdy(Approved_Date)))
-print(glue("There are {nrow(results)} total access requests that have been approved since the inception of the ARK Portal"))
+results <- bind_rows(all_approved, results) %>% unique()
+n <- nrow(unique(select(results, `Project Lead`, Institution)))
 
 # Save results
 fid <- "../all_approved_requests.csv"
 write.csv(results, fid, row.names = FALSE)
+
+# assess renewed DUCs
+renewed_DUC <- group_by(results, `Project Lead`, Institution) %>%
+  tidyr::nest()
+test <- unlist(lapply(renewed_DUC$data, nrow))
+idx <- which(test > 1)
+renewed_DUC <- renewed_DUC[idx, ]
+renewed_DUC <- tidyr::unnest(renewed_DUC, cols = c(data))
+
+message(glue("There are {n} total distinct access requests that have been approved since the inception of the ARK Portal"))
+message(glue("Of which {length(idx)} have been renewed >1 time."))
+
+#print(as.data.frame(tail(select(df, date, count), n = 3)))
+today_date <- today()
+last_month <- today_date - months(1)
+last_month_str <- month(ymd(last_month), label = TRUE, abbr = FALSE)
+n <- filter(results, month_int == month(last_month) & year == year(last_month)) %>% nrow()
+y <- filter(renewed_DUC, month_int == month(last_month) & year == year(last_month)) %>% nrow()
+message(glue("In {last_month_str} {year(last_month)}, there were {n-y} new access requests approved and {y} that were renewed."))
 
 # Summarize extracted data
 df <- results
@@ -75,7 +99,6 @@ df$count <- unlist(purrr::map(df$data, nrow))
 df <- arrange(df, year, month_int)
 df$date <- forcats::fct_inorder(df$date)
 df <- ungroup(df)
-print(as.data.frame(tail(select(df, date, count), n = 3)))
 
 ## Create Bargraph
 df$year <- as.character(df$year)
