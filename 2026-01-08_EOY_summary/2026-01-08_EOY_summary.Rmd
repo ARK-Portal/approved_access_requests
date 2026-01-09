@@ -1,0 +1,111 @@
+---
+title: "`r paste(params$date_tag, params$experiment, sep='_')`"
+author: "Jess Vera"
+output:
+  html_document:
+    toc: yes
+    df_print: paged
+    code_folding: show
+params:
+  date_tag: '2026-01-08'
+  experiment: 'EOY_summary'
+---
+
+Start date: `r params$date_tag`    
+Last updated: `r Sys.time()`
+
+# Goal 
+
+make a few simple graphs to viz growth in DUC access requests since portal inception.
+
+# Functions
+
+```{r, functions}
+
+```
+
+# Setup
+
+```{r, setup}
+# source rmarkdown_setup.R
+source("~/Setup/rmarkdown_setup.R")
+
+# Load libraries silently
+suppressPackageStartupMessages({
+  library(dplyr)
+  library(stringr)
+  library(ggplot2)
+  library(lubridate)
+  library(glue)
+})
+```
+
+# Main
+
+plot number of distinct requests received each year
+
+```{r}
+fid <- "../all_approved_requests.csv"
+all_approved <- read.csv(fid, check.names = FALSE)
+distinct_approved <- group_by(all_approved, `Project Lead`, Institution) %>%
+  tidyr::nest()
+df <- purrr::map(distinct_approved$data, function(df) {
+  df <- df %>%
+    arrange(year) %>%
+    slice(1)
+  return(df)
+})
+df <- bind_rows(df)
+distinct_approved <- bind_cols(distinct_approved, df)
+
+by_year <- group_by(distinct_approved, year) %>% summarise(count = n())
+by_year <- filter(by_year, year != 2026)
+by_year$year <- factor(as.character(by_year$year))
+
+p <- ggplot(by_year, aes(x = year, y = count, group = 1)) +
+  geom_point() + geom_line() + theme_minimal() +
+  theme(text = element_text(size = 10),
+        axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1, size = 10), 
+        title = element_text(size = 10)) +
+  ylim(0, max(by_year$count) + 10) +
+  labs(title = "New ARK Portal Approved Access Requests", 
+       subtitle = "excludes renewed DUC events")
+fid <- glue("{fid.prefix}.new_by_year.png")
+png(fid, width = 1000, height = 800, res = 250)
+print(p)
+invisible(dev.off())
+
+YoY <- purrr::map(c("2024", "2025"), function(yr, df) {
+  n1 <- filter(df, year == as.numeric(yr))$count
+  n0 <- filter(df, year == as.numeric(yr) - 1)$count
+  yoy <- round((n1 - n0) / n0 * 100, 1)
+  return(glue("{yoy}%"))
+}, df = by_year)
+by_year$YoY <- c(NA, YoY)
+my_kable_table(by_year, cap = "New Approved Access Requests by Year")
+```
+
+```{r, out.height="80%"}
+knitr::include_graphics(fid)
+```
+
+# Renewals
+
+```{r}
+fid <- "../all_approved_requests.csv"
+all_approved <- read.csv(fid, check.names = FALSE)
+# assess renewed DUCs
+renewed_DUC <- group_by(all_approved, `Project Lead`, Institution) %>%
+  tidyr::nest()
+test <- unlist(lapply(renewed_DUC$data, nrow))
+idx <- which(test > 1)
+renewed_DUC <- renewed_DUC[idx, ]
+renewed_DUC <- tidyr::unnest(renewed_DUC, cols = c(data))
+```
+
+# Session Details
+
+```{r results='asis'}
+#Print out session info
+R.utils::System$getHostname(); 
+sessionInfo()
