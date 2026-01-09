@@ -71,7 +71,7 @@ p <- ggplot(by_year, aes(x = year, y = count, group = 1)) +
   labs(title = "New ARK Portal Approved Access Requests", 
        subtitle = "excludes renewed DUC events")
 fid <- glue("{fid.prefix}.new_by_year.png")
-png(fid, width = 1000, height = 800, res = 250)
+png(fid, width = 1000, height = 650, res = 250)
 print(p)
 invisible(dev.off())
 
