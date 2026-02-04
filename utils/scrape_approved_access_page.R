@@ -31,9 +31,14 @@ suppressPackageStartupMessages({
   library(rvest)
 })
 
-# Save results
-fid <- "../all_approved_requests.csv"
+# read in catalog of all previously scraped approved requests
+fid <- "all_approved_requests.csv"
 all_approved <- read.csv(fid, check.names = FALSE)
+
+# read in report log
+report_log <- scan("approved_requests.monthly_report.log", what = "character", sep = "\n", quiet = TRUE)
+session_log <- c("--------------", 
+                 glue("log date: {Sys.time()}"))
 
 # configure chromote options
 options(chromote.headless = "new")
@@ -80,8 +85,9 @@ idx <- which(test > 1)
 renewed_DUC <- renewed_DUC[idx, ]
 renewed_DUC <- tidyr::unnest(renewed_DUC, cols = c(data))
 
-message(glue("There are {n} total distinct access requests that have been approved since the inception of the ARK Portal"))
-message(glue("Of which {length(idx)} have been renewed >1 time."))
+session_log <- c(session_log, 
+                 glue("{n} total (unique) access requests have been approved for the ARK Portal"), 
+                 glue("{length(idx)} access requests have been renewed >1 time."))
 
 #print(as.data.frame(tail(select(df, date, count), n = 3)))
 today_date <- today()
@@ -89,7 +95,7 @@ last_month <- today_date - months(1)
 last_month_str <- month(ymd(last_month), label = TRUE, abbr = FALSE)
 n <- filter(results, month_int == month(last_month) & year == year(last_month)) %>% nrow()
 y <- filter(renewed_DUC, month_int == month(last_month) & year == year(last_month)) %>% nrow()
-message(glue("In {last_month_str} {year(last_month)}, there were {n-y} new access requests approved and {y} that were renewed."))
+session_log <- c(session_log, glue("In {last_month_str} {year(last_month)}, there were {n-y} new access requests approved and {y} that were renewed."))
 
 # Summarize extracted data
 df <- results
@@ -121,6 +127,13 @@ png(fid, width = w, height = 750, res = 250)
 print(p)
 invisible(dev.off())
 
-cat("Scrape completed!")
+# reporting
+report_log <- c(session_log, report_log)
+fid <- "approved_requests.monthly_report.log"
+writeLines(report_log, fid, sep = "\n")
+
+out_message <- paste(session_log, collapse = "\n")
+message(out_message)
+message("Scrape completed!")
 
 ## END
