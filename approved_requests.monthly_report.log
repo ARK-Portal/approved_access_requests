@@ -13,3 +13,28 @@ log date: 2026-01-08
 There are 178 total distinct access requests that have been approved since the inception of the ARK Portal
 Of which 5 have been renewed >1 time.
 In December 2025, there were 9 new access requests approved and 3 that were renewed.
+--------------
+log date: 2025-12-02
+There are 171 total access requests that have been approved since the inception of the ARK Portal
+date        count
+Nov 2025    6
+--------------
+log date: 2025-11-04
+There are 168 total access requests that have been approved since the inception of the ARK Portal
+date        count
+Oct 2025    14
+--------------
+log date: 2025-10-07
+There are 163 total access requests that have been approved since the inception of the ARK Portal
+date        count
+Sep 2025    7
+--------------
+log date: 2025-09-02
+There are 153 total access requests that have been approved since the inception of the ARK Portal
+date        count
+Aug 2025    3
+--------------
+log date: 2025-08-11
+There are 151 total access requests that have been approved since the inception of the ARK Portal
+date        count
+Jul 2025    7
