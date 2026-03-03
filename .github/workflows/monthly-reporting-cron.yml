@@ -37,6 +37,10 @@ jobs:
             any::glue
             any::chromote
             any::rvest
+            any::purrr
+            any::tidyr
+            any::forcats
+            any::pals
 
       - name: Run monthly report script
         run: |
