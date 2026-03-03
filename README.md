@@ -17,7 +17,7 @@ and is also read in by `utils/scrape_approved_access_page.R`.
 `utils/scrape_approved_access_page.R` to have a readily accessible plot that can 
 be distributed as needed.
 
-![Latest monthly approved access requests plot](ARK Portal Approved Access Requests.png)
+<img src="./ARK Portal Approved Access Requests.png">
 
 # Analyses
 
