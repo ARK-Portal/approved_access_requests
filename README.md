@@ -6,9 +6,10 @@ not have access to the ACT log and Snowflake tables that contain this informatio
 
 # Files
 
-- `utils/scrape_approved_access_page.R`: R script that scrapes the ARK Portal Data Access page
-- `all_approved_requests.csv`: CSV file that contains the full history of approved access requests scraped by `scrape_approved_access_page.R`
-- `approved_requests.monthly_report.log`: Log file that contains the full history of logs reported from `scrape_approved_access_page.R`
+- **utils/scrape_approved_access_page.R**: R script that scrapes the ARK Portal Data Access page
+- **all_approved_requests.csv**: CSV file that contains the full history of approved access requests scraped by `scrape_approved_access_page.R`
+  - includes three main columns: project lead, institution, and approval date
+- **approved_requests.monthly_report.log**: Log file that contains the full history of logs reported from `scrape_approved_access_page.R`
 
 # Reporting
 
@@ -23,8 +24,9 @@ be distributed as needed.
 # Process
 
 The monthly-reporting-cron GH Actions workflow is configured to run automatically 
-on the second day of each month - this workflow can also be manually triggered to 
-run. 
+on the **second day of each month**. This workflow can also be manually triggered to 
+run on demand, BUT note that the log report and the png will only report up to the 
+last complete month. 
 
 This workflow executes `utils/scrape_approved_access_page.R` which reads in 
 `all_approved_requests.csv` and `approved_requests.monthly_report.log` and updates 
