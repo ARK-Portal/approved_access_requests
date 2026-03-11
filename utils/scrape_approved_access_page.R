@@ -31,6 +31,10 @@ suppressPackageStartupMessages({
   library(rvest)
 })
 
+today_date <- today()
+last_month <- today_date - months(1)
+last_month_str <- month(ymd(last_month), label = TRUE, abbr = FALSE)
+
 # read in catalog of all previously scraped approved requests
 fid <- "all_approved_requests.csv"
 all_approved <- read.csv(fid, check.names = FALSE)
@@ -74,7 +78,7 @@ results <- bind_rows(all_approved, results) %>% unique()
 n <- nrow(unique(select(results, `Project Lead`, Institution)))
 
 # Save results
-fid <- "../all_approved_requests.csv"
+fid <- "all_approved_requests.csv"
 write.csv(results, fid, row.names = FALSE)
 
 # assess renewed DUCs
@@ -89,16 +93,13 @@ session_log <- c(session_log,
                  glue("{n} total (unique) access requests have been approved for the ARK Portal"), 
                  glue("{length(idx)} access requests have been renewed >1 time."))
 
-#print(as.data.frame(tail(select(df, date, count), n = 3)))
-today_date <- today()
-last_month <- today_date - months(1)
-last_month_str <- month(ymd(last_month), label = TRUE, abbr = FALSE)
+# measure stats for the last complete month
 n <- filter(results, month_int == month(last_month) & year == year(last_month)) %>% nrow()
 y <- filter(renewed_DUC, month_int == month(last_month) & year == year(last_month)) %>% nrow()
 session_log <- c(session_log, glue("In {last_month_str} {year(last_month)}, there were {n-y} new access requests approved and {y} that were renewed."))
 
-# Summarize extracted data
-df <- results
+# Summarize and viz extracted data up to last complete month
+df <- filter(results, mdy(Approved_Date) < ym(format(today_date, "%Y-%m")))
 df$date <- paste(df$month_str, df$year)
 df <- group_by(df, month_int, year, date) %>% tidyr::nest()
 df$count <- unlist(purrr::map(df$data, nrow))
