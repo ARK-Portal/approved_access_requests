@@ -9,6 +9,11 @@ on:
     - cron: '0 0 2 * *'
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+    inputs:
+      commit_message:
+        description: 'The commit message to use'
+        required: true
+        default: 'Manual update via workflow_dispatch'
 
 jobs:
   build:
@@ -54,7 +59,7 @@ jobs:
             git config --local user.name "$GITHUB_ACTOR"
             git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
             git add -A
-            git commit -m "GitHub Action: commit results of monthly-reporting-cron workflow"
+            git commit -m "${{ github.event.inputs.commit_message || 'commit results of monthly-reporting-cron workflow' }}"
           else 
             echo "No changes identified. Nothing to commit."
           fi
