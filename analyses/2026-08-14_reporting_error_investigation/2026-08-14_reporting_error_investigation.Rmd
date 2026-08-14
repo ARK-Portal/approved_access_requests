@@ -1,0 +1,196 @@
+---
+title: "`r paste(params$date_tag, params$experiment, sep='_')`"
+author: "Jess Vera"
+output:
+  html_document:
+    toc: yes
+    df_print: paged
+    code_folding: show
+params:
+  date_tag: '2026-08-14'
+  experiment: 'reporting_error_investigation'
+---
+
+Start date: `r params$date_tag`    
+Last updated: `r Sys.time()`
+
+# Background
+
+While pulling the reporting metrics for July to add to the "master" slide deck 
+I noticed that the "total (unique) access requests have been approved for the ARK Portal" 
+count month-over-month increase was not matching the July new/renewed counts. 
+
+Further examination shows that March, April, May, and Jun appear to be under reporting 
+on the monthly new/renewed stats and I guess also somehow the total uique count is also 
+off in some way?
+
+# Goal 
+
+perform an analysis here to review all of the metrics for 2026 and see what needs to be 
+fixed in `scrape_approved_access_page.R` to resolve and prevent from happening again.
+
+```
+for commit in $(git rev-list HEAD -- catalog_results/AMP\ AIM\ Team\ Permissions.csv); do 
+  git show $commit:catalog_results/AMP\ AIM\ Team\ Permissions.csv >     2026-06-25_permissions_audit/team_permissions_history/AMP-AIM_team_permissions.${commit}.csv; 
+done
+```
+
+# Functions
+
+```{r, functions}
+
+```
+
+# Setup
+
+```{r, setup}
+# source rmarkdown_setup.R
+source("~/Setup/rmarkdown_setup.R")
+Sys.setenv(RETICULATE_PYTHON = "/Users/jvera/micromamba/envs/synapseclient_v4.12.0/bin/python")
+reticulate::use_condaenv("synapseclient_v4.12.0")
+
+# Load libraries silently
+suppressPackageStartupMessages({
+  library(dplyr)
+  library(stringr)
+  library(glue)
+  library(reticulate)
+  library(lubridate)
+
+})
+
+make_subdir("all_approved_csvs")
+
+```
+
+```{r, engine='python'}
+import sys
+import os
+from git import Repo
+import os.path
+import pandas as pd
+from datetime import datetime
+from zoneinfo import ZoneInfo
+import time
+
+```
+
+# Repo commit review
+
+to get the commit hash of all 2026 commits/workflow executions so I can 
+pull the data.frame for each.
+
+```{r, engine='python'}
+# 1. Provide the path to your local git repository
+repo_path = "/Users/jvera/DCC/ARK Portal/approved_access_requests/" 
+
+# 2. Initialize the Repo object
+repo = Repo(repo_path)
+
+target_tz = ZoneInfo("America/Chicago")
+
+# 3. Iterate through all commits on the current active branch
+# You can pass a specific branch name like repo.iter_commits('main') if desired.
+data = {'message': [], 'date': [], "SHA": [], 'files': []}
+for commit in repo.iter_commits():
+    # Extract the commit summary or the full message
+    commit_message = commit.message.strip() 
+    
+    # Extract the timezone-aware datetime object
+    #commit_date = commit.committed_date
+    commit_date = datetime.fromtimestamp(commit.committed_date, tz=target_tz)
+    
+    commit_hash = commit.hexsha
+    
+    files = []
+    for file in commit.stats.files.keys():
+      files.append(file)
+    
+    # only collect data for commits with changes to csv
+    if "all_approved_requests.csv" in files:
+      # Print the pulled data
+      data['message'].append(commit_message)
+      data['date'].append(commit_date)
+      data['SHA'].append(commit_hash)
+      data['files'].append(", ".join(files))
+
+commit_history = pd.DataFrame(data)
+# subset to this years commits
+commit_history = commit_history[commit_history['date'].dt.year == 2026]
+
+with open("commit_SHA.txt", "w") as file:
+  for SHA in list(commit_history['SHA']):
+    a = file.write(SHA + "\n")
+
+```
+
+next get a copy of each version of the csv
+
+```{r, engine='bash'}
+while read commit; do git show $commit:../../all_approved_requests.csv > all_approved_csvs/all_approved_requests.${commit}.csv; done < commit_SHA.txt
+```
+
+# Review
+
+ok, so now I have Dec 2025 through Aug 1 commits of all_approved_requests.csv.
+
+I think as a first pass I'll just run the code essentially as is and see if the same 
+log results are returned.
+
+```{r}
+approved_access_log <- function(commit_date, commit, debug = FALSE) {
+  today_date <- ymd_hms(commit_date)
+  last_month <- today_date - months(1)
+  last_month_str <- month(last_month, label = TRUE, abbr = FALSE)
+  
+  # read in report log
+  report_log <- scan("test.approved_requests.monthly_report.log", what = "character", sep = "\n", quiet   = TRUE)
+  session_log <- c("--------------", 
+                   glue("log date: {today_date}"))
+  
+  fid <- glue("all_approved_csvs/all_approved_requests.{commit}.csv")
+  results <- read.csv(fid, check.names = FALSE) %>% unique()
+  n <- nrow(unique(select(results, `Project Lead`, Institution)))
+  
+  # assess renewed DUCs
+  renewed_DUC <- group_by(results, `Project Lead`, Institution) %>%
+    tidyr::nest()
+  test <- unlist(lapply(renewed_DUC$data, nrow))
+  idx <- which(test > 1)
+  renewed_DUC <- renewed_DUC[idx, ]
+  renewed_DUC <- tidyr::unnest(renewed_DUC, cols = c(data))
+  
+  session_log <- c(session_log, 
+                   glue("{n} total (unique) access requests have been approved for the ARK Portal"), 
+                   glue("{length(idx)} access requests have been renewed >1 time."))
+  
+  # measure stats for the last complete month
+  n <- filter(results, month_int == month(last_month) & year == year(last_month)) %>% nrow()
+  y <- filter(renewed_DUC, month_int == month(last_month) & year == year(last_month)) %>% nrow()
+  session_log <- c(session_log, glue("In {last_month_str} {year(last_month)}, there were {n-y} new   access requests approved and {y} that were renewed."))
+  # reporting
+  if (!debug){
+    report_log <- c(session_log, report_log)
+    fid <- "approved_requests.monthly_report.log"
+    writeLines(report_log, fid, sep = "\n")
+  }
+  
+  out_message <- paste(session_log, collapse = "\n")
+  message(out_message)
+}
+```
+
+```{r}
+commit_history <- py$commit_history
+commit_history <- arrange(commit_history, date)
+
+purrr::walk2(commit_history$date, commit_history$SHA, function(x,y) {approved_access_log(commit_date = x, commit = y)})
+```
+
+
+# Session Details
+
+```{r results='asis'}
+#Print out session info
+R.utils::System$getHostname(); 
+sessionInfo()
