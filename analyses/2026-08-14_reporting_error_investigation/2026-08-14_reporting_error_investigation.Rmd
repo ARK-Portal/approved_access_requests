@@ -182,11 +182,252 @@ approved_access_log <- function(commit_date, commit, debug = FALSE) {
 
 ```{r}
 commit_history <- py$commit_history
-commit_history <- arrange(commit_history, date)
+commit_history <- arrange(commit_history, desc(date))
 
 purrr::walk2(commit_history$date, commit_history$SHA, function(x,y) {approved_access_log(commit_date = x, commit = y)})
 ```
 
+ok, I got the same results which makes sense. BUt know to sanity check things and see 
+why the wrong numbers are being reported
+
+```{r}
+# get most up-to-date df
+df <- read.csv("../../all_approved_requests.csv")
+df$date <- paste(df$month_str, df$year)
+test <- group_by(df, date, month_int, year) %>% summarise(N = n())
+test <- arrange(test, year, month_int) %>% select(date, N)
+my_kable_table(test, cap = "number of approved requests per month")
+```
+
+yeah so the log numbers don't match. One good sanity check would be to look specifically 
+at say April 2026 data and see why only 19 are getting reported. I'm curious to know 
+if renewals or new DUCs are getting miscalculated
+
+```{r}
+df <- read.csv("../../all_approved_requests.csv")
+df$date <- paste(df$month_str, df$year)
+april <- filter(df, date == "Apr 2026")
+renewals <- group_by(df, Project.Lead, Institution) %>% tidyr::nest()
+
+test <- filter(renewals, Project.Lead %in% april$Project.Lead)
+```
+
+ok, so one thing I'm already seeing is that for George Tsokos there are slight 
+variations in the Institution string, one approval using the BIDMC accronym and 
+another using the full name "Beth Israel Deaconess Medical Center"
+
+and Matteo Villa using a longer Institution name in one DUC compared to another... yay!
+
+I wont correct for this now but I've added it as a to-do item after this analysis. I'll 
+see about adding it as an issue to the repo as well
+
+```{r}
+df <- read.csv("../../all_approved_requests.csv")
+df$date <- paste(df$month_str, df$year)
+april <- filter(df, date == "Apr 2026")
+renewals <- group_by(df, Project.Lead, Institution) %>% tidyr::nest()
+renewals$has_renewal <- unlist(purrr::map(renewals$data, function(df) {
+  nrow(df) > 1
+}))
+
+test <- filter(renewals, Project.Lead %in% april$Project.Lead)
+test <- filter(test, Institution %in% april$Institution)
+table(test$has_renewal)
+```
+
+huh, ugh! 
+
+```{r}
+today_date <- ymd_hms(commit_history$date[4])
+print(today_date)
+last_month <- today_date - months(1)
+print(last_month)
+last_month_str <- month(last_month, label = TRUE, abbr = FALSE)
+
+n <- filter(df, month_int == month(last_month) & year == year(last_month)) %>% nrow()
+print(n)
+
+renewed_DUC <- group_by(df, Project.Lead, Institution) %>% tidyr::nest()
+test <- unlist(lapply(renewed_DUC$data, nrow))
+idx <- which(test > 1)
+renewed_DUC <- renewed_DUC[idx, ]
+renewed_DUC <- tidyr::unnest(renewed_DUC, cols = c(data))
+y <- filter(renewed_DUC, month_int == month(last_month) & year == year(last_month)) %>% nrow()
+
+glue("In {last_month_str} {year(last_month)}, there were {n-y} new access requests approved and {y} that were renewed.")
+```
+
+ok, so my code is pull out the correct number for April, that's 'n', so I'm guessing that 
+'y' is the issue... Hmm, ok so when I use the latest version of the csv everything is fine?
+
+```{r}
+purrr::walk(commit_history$date, function(x,y) {
+  approved_access_log(commit_date = x, commit = y)
+  }, y = "c4a9a05d40b9167f420883ecbbd28d1c90af2df9")
+```
+
+huh, yeah so using the latest version yields results that would match expectations. 
+So then data is missing from the monthly commits that is then added in a later scrape???????
+
+```{r}
+Aug1_approved <- read.csv("../../all_approved_requests.csv")
+Aug1_approved$date <- paste(Aug1_approved$month_str, Aug1_approved$year)
+filter(Aug1_approved, year == 2026) %>% pull(date) %>% table()
+
+May1_approved <- read.csv("all_approved_csvs/all_approved_requests.a4089737ab092767179e2a4ae09fa1c5e6077b4e.csv")
+May1_approved$date <- paste(May1_approved$month_str, May1_approved$year)
+filter(May1_approved, year == 2026) %>% pull(date) %>% table()
+```
+
+Ok, so scraping on May 2 doesn't catch all April approvals, lame!!!! I'm gonna ask 
+about how long the delay is in Slack, but I may be able to get a sense for this 
+from looking at the data. Wait actually it looks like the issue may be that there are 
+"repeat" renewals occurring? cuz the unique count of project leads in the Aug data 
+is 19! Gah!!!!!
+
+```{r}
+Aug1_approved <- filter(Aug1_approved, date == "Apr 2026")
+May1_approved <- filter(May1_approved, date == "Apr 2026")
+
+length(unique(Aug1_approved$Project.Lead))
+tbl <- table(Aug1_approved$Project.Lead)
+dups <- as.character(names(tbl))[tbl > 1]
+dups
+
+filter(Aug1_approved, Project.Lead %in% dups) %>% arrange(Project.Lead)
+
+filter(May1_approved, Project.Lead %in% dups)
+```
+
+Ok, so it looks as though one or more of the scrapes captured a transient shift in 
+the approved date. I say transient b/c what I currently see on the ARK website are only 
+the dates that I see captured on May 2. So now I'll iterate through the 2026 commit 
+history of the csv to see when this occurred.
+
+```{r}
+results <- purrr::map2(commit_history$date, commit_history$SHA, 
+                       function(commit_date, commit, x) {
+                         fid <- glue("all_approved_csvs/all_approved_requests.{commit}.csv")
+                         df <- read.csv(fid)
+                         df$commit_date <- commit_date
+                         df <- filter(df, Project.Lead %in% x)
+                         return(df)
+           }, x = dups)
+
+results <- bind_rows(results) %>% filter(year == 2026)
+results <- filter(results, Approved_Date %notin% May1_approved$Approved_Date)
+results <- arrange(results, Project.Lead, commit_date)
+
+my_kable_table(df = select(results, Project.Lead, Approved_Date, commit_date), 
+               cap = "Results of commit history review to id when transient approval date change occurred")
+```
+
+Ok so I think the easiest solution here is to collapse by month+year instead of keeping 
+the specific day of the month. So I'll apply that to the latest scrape results and recalcuate 
+the total number of DUCs and renewals from that
+
+```{r}
+Aug1_approved <- read.csv("../../all_approved_requests.csv")
+Aug1_approved$date <- paste(Aug1_approved$month_str, Aug1_approved$year)
+before <- nrow(Aug1_approved)
+Aug1_approved <- select(Aug1_approved, -Approved_Date) %>% unique()
+after <- nrow(Aug1_approved)
+
+print(glue("Starting with {before} rows, ending with {after} rows"))
+```
+
+This reduces the total number of DUCs by `r before - after`.
+
+now account for some of the minor institution differences
+
+```{r}
+Aug1_approved$Institution <- str_replace(Aug1_approved$Institution, 
+                                         "BIDMC", 
+                                         "Beth Israel Deaconess Medical Center")
+Aug1_approved$Institution <- str_remove(Aug1_approved$Institution, 
+                                         "Division of Rheumatology and Immunology, Department of Internal Medicine, ")
+total_unique <- nrow(unique(select(Aug1_approved, Project.Lead, Institution)))
+
+print(glue("{total_unique} total (unique) access requests have been approved for the ARK Portal"))
+# assess renewed DUCs
+renewed_DUC <- group_by(Aug1_approved, Project.Lead, Institution) %>%
+  tidyr::nest()
+test <- unlist(lapply(renewed_DUC$data, nrow))
+idx <- which(test > 1)
+renewed_DUC <- renewed_DUC[idx, ]
+renewed_DUC <- tidyr::unnest(renewed_DUC, cols = c(data))
+
+print(glue("{length(idx)} access requests have been renewed >1 time."))
+```
+
+# Recalculate Metric For Log
+
+Ok, so now that I have found a way to clean up the data I will recalcuate and re-log 
+the monthly numbers (only expect the total unique and renewals counts to change) by 
+looping through the commit history for 2026 with revised code
+
+```{r}
+new_metrics_log <- function(commit_date, commit, debug = FALSE) {
+  today_date <- ymd_hms(commit_date)
+  last_month <- today_date - months(1)
+  last_month_str <- month(last_month, label = TRUE, abbr = FALSE)
+  
+  # read in report log
+  report_log <- scan("revised.approved_requests.monthly_report.log", what = "character", sep = "\n", quiet   = TRUE)
+  session_log <- c("--------------", 
+                   glue("log date: {today_date}"))
+  
+  fid <- glue("all_approved_csvs/all_approved_requests.{commit}.csv")
+  results <- read.csv(fid, check.names = FALSE) %>% unique()
+  results$date <- paste(results$month_str, results$year)
+  results <- select(results, -Approved_Date) %>% unique()
+  
+  results$Institution <- str_replace(results$Institution, 
+                                     "BIDMC", 
+                                     "Beth Israel Deaconess Medical Center")
+  results$Institution <- str_remove(results$Institution, 
+                                    "Division of Rheumatology and Immunology, Department of Internal Medicine, ")
+  
+  n <- nrow(unique(select(results, `Project Lead`, Institution)))
+  
+  # assess renewed DUCs
+  renewed_DUC <- group_by(results, `Project Lead`, Institution) %>%
+    tidyr::nest()
+  test <- unlist(lapply(renewed_DUC$data, nrow))
+  idx <- which(test > 1)
+  renewed_DUC <- renewed_DUC[idx, ]
+  renewed_DUC <- tidyr::unnest(renewed_DUC, cols = c(data))
+  
+  session_log <- c(session_log, 
+                   glue("{n} total (unique) access requests have been approved for the ARK Portal"), 
+                   glue("{length(idx)} access requests have been renewed >1 time."))
+  
+  # measure stats for the last complete month
+  n <- filter(results, month_int == month(last_month) & year == year(last_month)) %>% nrow()
+  y <- filter(renewed_DUC, month_int == month(last_month) & year == year(last_month)) %>% nrow()
+  session_log <- c(session_log, glue("In {last_month_str} {year(last_month)}, there were {n-y} new access requests approved and {y} that were renewed."))
+  # reporting
+  if (!debug){
+    report_log <- c(session_log, report_log)
+    fid <- "revised.approved_requests.monthly_report.log"
+    writeLines(report_log, fid, sep = "\n")
+  }
+  
+  out_message <- paste(session_log, collapse = "\n")
+  message(out_message)
+}
+```
+
+```{r}
+commit_history <- py$commit_history
+commit_history <- arrange(commit_history, date)
+
+purrr::walk2(commit_history$date, commit_history$SHA, function(x,y) {new_metrics_log(commit_date = x, commit = y, debug = FALSE)})
+```
+
+# To-dos
+
+- clean up data to account for minor differences in Institution strings, commit to repo
 
 # Session Details
 
