@@ -76,6 +76,8 @@ results <- mutate(results, year = year(mdy(Approved_Date)),
                   month_int = month(mdy(Approved_Date)))
 results <- bind_rows(all_approved, results) %>% unique()
 n <- nrow(unique(select(results, `Project Lead`, Institution)))
+session_log <- c(session_log, 
+                 glue("{n} total (unique) access requests have been approved for the ARK Portal"))
 
 # Save results
 fid <- "all_approved_requests.csv"
@@ -89,8 +91,7 @@ idx <- which(test > 1)
 renewed_DUC <- renewed_DUC[idx, ]
 renewed_DUC <- tidyr::unnest(renewed_DUC, cols = c(data))
 
-session_log <- c(session_log, 
-                 glue("{n} total (unique) access requests have been approved for the ARK Portal"), 
+session_log <- c(session_log,
                  glue("{length(idx)} access requests have been renewed >1 time."))
 
 # measure stats for the last complete month
