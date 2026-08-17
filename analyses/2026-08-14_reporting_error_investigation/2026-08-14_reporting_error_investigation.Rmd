@@ -334,6 +334,21 @@ Aug1_approved <- select(Aug1_approved, -Approved_Date) %>% unique()
 after <- nrow(Aug1_approved)
 
 print(glue("Starting with {before} rows, ending with {after} rows"))
+
+
+Jul1_approved <- read.csv("all_approved_csvs/all_approved_requests.25d696d69fb16016d1c17700c592a339f5d81ab8.csv")
+Jul1_approved$date <- paste(Jul1_approved$month_str, Jul1_approved$year)
+before <- nrow(Jul1_approved)
+Jul1_approved <- select(Jul1_approved, -Approved_Date) %>% unique()
+after <- nrow(Jul1_approved)
+
+print(glue("Starting with {before} rows, ending with {after} rows"))
+Jul1_approved$Institution <- str_replace(Jul1_approved$Institution, 
+                                         "BIDMC", 
+                                         "Beth Israel Deaconess Medical Center")
+Jul1_approved$Institution <- str_remove(Jul1_approved$Institution, 
+                                         "Division of Rheumatology and Immunology, Department of Internal Medicine, ")
+nrow(unique(select(Jul1_approved, Project.Lead, Institution)))
 ```
 
 This reduces the total number of DUCs by `r before - after`.
@@ -371,6 +386,7 @@ new_metrics_log <- function(commit_date, commit, debug = FALSE) {
   today_date <- ymd_hms(commit_date)
   last_month <- today_date - months(1)
   last_month_str <- month(last_month, label = TRUE, abbr = FALSE)
+  filter_date <- paste(month(today_date, label = TRUE, abbr = FALSE), year(today_date))
   
   # read in report log
   report_log <- scan("revised.approved_requests.monthly_report.log", what = "character", sep = "\n", quiet   = TRUE)
@@ -381,6 +397,7 @@ new_metrics_log <- function(commit_date, commit, debug = FALSE) {
   results <- read.csv(fid, check.names = FALSE) %>% unique()
   results$date <- paste(results$month_str, results$year)
   results <- select(results, -Approved_Date) %>% unique()
+  results <- filter(results, date != filter_date)
   
   results$Institution <- str_replace(results$Institution, 
                                      "BIDMC", 
@@ -422,7 +439,7 @@ new_metrics_log <- function(commit_date, commit, debug = FALSE) {
 commit_history <- py$commit_history
 commit_history <- arrange(commit_history, date)
 
-purrr::walk2(commit_history$date, commit_history$SHA, function(x,y) {new_metrics_log(commit_date = x, commit = y, debug = FALSE)})
+purrr::walk2(commit_history$date, commit_history$SHA, function(x,y) {new_metrics_log(commit_date = x, commit = y, debug = TRUE)})
 ```
 
 # To-dos
