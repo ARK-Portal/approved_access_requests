@@ -41,6 +41,9 @@ results$Approved_Date <- unlist(purrr::map(results$Datetime, function(x){
                collapse = "/")
 }))
 results$date <- paste(results$month_str, results$year)
+# Save results
+fid <- "all_approved_requests.csv"
+write.csv(results, fid, row.names = FALSE)
 
 results <- bind_rows(all_approved, results) %>% unique()
 n <- nrow(unique(select(results, `Project Lead`, Institution)))
