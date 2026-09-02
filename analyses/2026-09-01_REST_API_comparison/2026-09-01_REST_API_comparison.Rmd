@@ -50,6 +50,7 @@ suppressPackageStartupMessages({
   library(glue)
   library(reticulate)
   library(lubridate)
+  library(ggplot2)
 })
 
 ```
@@ -94,6 +95,8 @@ for DUC in results:
   data['Datetime'].append(DUC['modifiedOn'])
 
 df = pd.DataFrame(data)
+fid = "temp_results.csv"
+df.to_csv(fid, index = False, header = ['Project Lead', 'Institution', 'Datetime'])
 ```
 
 # Results
@@ -115,6 +118,7 @@ session_log <- c("--------------",
 
 # format info of interest into df
 results <- py$df
+results <- read.csv("temp_results.csv", check.names = FALSE)
 results$Institution <- str_replace(results$Institution, "BIDMC", "Beth Israel Deaconess Medical Center")
 results$Institution <- str_remove(results$Institution, 
                                   "Division of Rheumatology and Immunology, Department of Internal Medicine, ")
@@ -152,6 +156,31 @@ y <- filter(renewed_DUC, date == filter_date) %>% nrow()
 session_log <- c(session_log, glue("In {last_month_str} {year(last_month)}, there were {n-y} new access requests approved and {y} that were renewed."))
 
 session_log
+
+# Summarize and viz extracted data up to last complete month
+df <- filter(results, mdy(Approved_Date) < ym(format(today_date, "%Y-%m")))
+#df$date <- paste(df$month_str, df$year)
+df <- select(df, `Project Lead`, Institution, month_int, year, date) %>% unique() %>% group_by(month_int, year, date) %>% tidyr::nest()
+df$count <- unlist(purrr::map(df$data, nrow))
+df <- arrange(df, year, month_int)
+df$date <- forcats::fct_inorder(df$date)
+df <- ungroup(df)
+
+## Create Bargraph
+df$year <- as.character(df$year)
+#yrcols <- c("grey85", "grey40", "black")
+yrcols <- rev(pals::ocean.gray(n = length(unique(df$year))))
+yrcols[1] <- "grey85"
+names(yrcols) <- unique(df$year)
+
+p <- ggplot(df, aes(x = date, y = count, fill = year)) +
+  geom_col() + theme_minimal() +
+  scale_fill_manual(values = yrcols) +
+  theme(text = element_text(size = 8),
+        axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1, size = 6), 
+        title = element_text(size = 10)) +
+  ggtitle("ARK Portal Approved Access Requests")
+
 ```
 
 # Session Details
