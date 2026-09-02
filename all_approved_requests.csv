@@ -1,311 +1,187 @@
-"Project Lead","Institution","Approved_Date","year","month_str","month_int"
-"Hiroyuki Yoshitomi","Kyoto University","12/1/2025",2025,"Dec",12
-"Anela Tosevska","Medical University of Vienna","12/1/2025",2025,"Dec",12
-"Shiva Shahrara","University of Illinois Chicago","11/19/2025",2025,"Nov",11
-"Michael Nalls","Center for Alzheimer's and Related Dementia","11/19/2025",2025,"Nov",11
-"Bishoy Kamal","Sage Bionetworks","11/19/2025",2025,"Nov",11
-"Chikashi Terao","Shizuoka General Hospital","11/13/2025",2025,"Nov",11
-"Radjesh Bisoendial, MD, PhD","Depts. Developmental Biology & Genetics, Erasmus MC, Rotterdam, Netherlands and Rheumatology & Clinical Immunology, Rotterdam, Netherlands","11/4/2025",2025,"Nov",11
-"Naomi McGovern","Department of Pathology, University of Cambridge, UK","11/4/2025",2025,"Nov",11
-"Mike Vestergaard","Commit Biologics","10/21/2025",2025,"Oct",10
-"Chris Schiering","T-Therapeutics","10/21/2025",2025,"Oct",10
-"Hailey Hwang","Roslyn High School","10/21/2025",2025,"Oct",10
-"Anjana Rao, PhD","La Jolla Institute for Immunology","10/16/2025",2025,"Oct",10
-"Karine Chemin","Karolinska Institutet","10/16/2025",2025,"Oct",10
-"Professor E. Sally Ward, PhD, FRS","University of Southampton","10/14/2025",2025,"Oct",10
-"Santiago Balza Pineda","Allosite Therapeutics","10/14/2025",2025,"Oct",10
-"Achira Shah and Dr Robert Tower","UT Southwestern Medical Center","10/14/2025",2025,"Oct",10
-"Jennifer Westoby","Enhanced Genomics Ltd","10/7/2025",2025,"Oct",10
-"Erin Smith","Mirador Therapeutics, Inc.","10/3/2025",2025,"Oct",10
-"Dr. Martin Lotz","Scripps. Research","10/3/2025",2025,"Oct",10
-"Monica Guma","University of California San Diego School of Medicine","10/3/2025",2025,"Oct",10
-"Christian Geier, MD","SUNY Upstate Medical University","10/3/2025",2025,"Oct",10
-"Sarah Djeddi","Immunitas Therapeutics","10/1/2025",2025,"Oct",10
-"Daniel Toro Dominguez","Karolinska Institutet","9/29/2025",2025,"Sep",9
-"Inez den Hond","Leiden University Medical Center","9/18/2025",2025,"Sep",9
-"Kojiro Sato","Jichi Medical University","9/18/2025",2025,"Sep",9
-"Robert Corty","Vanderbilt University Medical Center","9/18/2025",2025,"Sep",9
-"Joseph Cursons","Audax Biosciences","9/9/2025",2025,"Sep",9
-"Ernst Dow","Eli Lilly and Company","9/9/2025",2025,"Sep",9
-"Henry Wilson","Auron Therapeutics","9/9/2025",2025,"Sep",9
-"Elizabeth McMillan","Odyssey Therapeutics","8/27/2025",2025,"Aug",8
-"Amin Zia","Frontier Discovery Inc.","8/27/2025",2025,"Aug",8
-"Robert Lochhead","Medical College of Wisconsin","8/1/2025",2025,"Aug",8
-"Professor Erez Levanon","Bar Ilan University","7/26/2025",2025,"Jul",7
-"Jennifer Elisseeff","Johns Hopkins University","7/21/2025",2025,"Jul",7
-"Enrico Ferrero","Novartis","7/17/2025",2025,"Jul",7
-"Ido Amit","Weizmann  institute of science","7/17/2025",2025,"Jul",7
-"Yusuke Takeushi","Kyoto University","7/9/2025",2025,"Jul",7
-"Jenna Pappalardo","Arcus Biosciences","7/9/2025",2025,"Jul",7
-"Éric Boilard","Centre de Recherche du CHU de Québec-Universite Laval","6/30/2025",2025,"Jun",6
-"Eric Gracey","Ghent University (Belgium)","6/26/2025",2025,"Jun",6
-"Robert Sehlke","Graph Therapeutics FlexCo","6/26/2025",2025,"Jun",6
-"Joyce Wu","Ohio State University","6/26/2025",2025,"Jun",6
-"Nunzio Bottini","Cedars Sinai Medical Center","6/26/2025",2025,"Jun",6
-"PIs: Richard Bucala, Insoo Kang","Yale University School of Medicine","6/16/2025",2025,"Jun",6
-"Joseph Craft","Yale University School of medicine","6/16/2025",2025,"Jun",6
-"Noah Siegel","Anaptysbio","6/16/2025",2025,"Jun",6
-"Kazuyoshi Ishigaki","Keio University School of Medicine","6/9/2025",2025,"Jun",6
-"Justyna Dopierala","Nucleome Therapeutics","6/9/2025",2025,"Jun",6
-"Koichi Murata","Kyoto Uiversity Graduate School of Medicine","5/29/2025",2025,"May",5
-"Yoesik Bae","Sungkyunkwan university (Suwon, Republic of Korea)","5/29/2025",2025,"May",5
-"Paul Hoover","Brigham and Women's Hospital","5/23/2025",2025,"May",5
-"Han Taeho","Korea Institute of Science and Technology, Seoul, South Korea","5/23/2025",2025,"May",5
-"Daniel L. Mueller","University of Minnesota Medical School","5/22/2025",2025,"May",5
-"Yuliya Nigmatullina","UCB","5/22/2025",2025,"May",5
-"Jack Collora","Moderna Theraputics","5/22/2025",2025,"May",5
-"shai shen-orr","CytoReason","5/16/2025",2025,"May",5
-"Maria Brbic","École Polytechnique Fédérale de Lausanne (EPFL)","5/15/2025",2025,"May",5
-"Kriti Sharma","National Institute of Arthritis and Musculoskeletal and Skin Diseases","5/9/2025",2025,"May",5
-"Paula Ramos","Emory University","5/8/2025",2025,"May",5
-"Brendan Antiochos","Johns Hopkins School of Medicine","5/2/2025",2025,"May",5
-"Marinka Zitnik","Harvard Medical School","5/2/2025",2025,"May",5
-"Zihe Zheng","Helmholtz Munich","5/2/2025",2025,"May",5
-"Iris Lee","Washington University in Saint Louis","5/2/2025",2025,"May",5
-"Stefanie Meier","Epana. Bio","4/24/2025",2025,"Apr",4
-"Richard Bell","Hospital for Speacial Surgery","4/24/2025",2025,"Apr",4
-"Dr. Kushal Dey","Memorial Sloan Kettering Cancer Center","4/24/2025",2025,"Apr",4
-"Wei Wang","University of California, San Diego","4/18/2025",2025,"Apr",4
-"Chng Song Hui","Experimental Drug Development Centre","4/11/2025",2025,"Apr",4
-"Gerhard Krönke","University Clinic Erlangen","4/11/2025",2025,"Apr",4
-"Matteo Villa","Division of Rheumatology and Immunology, Department of Internal Medicine, Medical University of Graz","4/11/2025",2025,"Apr",4
-"Roberto Caricchio","UMass Chan Medical School","4/1/2025",2025,"Apr",4
-"Duan Ni","The University of Sydney","3/25/2025",2025,"Mar",3
-"Paul Martin","University of Manchester","3/21/2025",2025,"Mar",3
-"Hisakata Yamada","Kyushu University","3/21/2025",2025,"Mar",3
-"Jan Klocke","Charité Universitätsmedizin Berlin,  Department of Nephrology and Medical Intensive Care","3/21/2025",2025,"Mar",3
-"Yang Yang","Boston Children's Hospital","3/21/2025",2025,"Mar",3
-"Dan Rozelle","Rancho BioSciences, LLC","3/21/2025",2025,"Mar",3
-"Nilufer Ertekin-Taner, MD, PhD","Mayo Clinic Florida","3/21/2025",2025,"Mar",3
-"Wan-Uk Kim","Center for Integrative Rheumatoid Transcriptomics and Dynamics, The Catholic University of Korea, Seoul, Republic of Korea","3/20/2025",2025,"Mar",3
-"Dr. Stanley Nelson","UCLA","3/8/2025",2025,"Mar",3
-"Elliot Akama-Garren","Harvard Medical School","3/4/2025",2025,"Mar",3
-"Matt Jackson-Wood","Gilead Sciences","3/4/2025",2025,"Mar",3
-"Jeremy Tilstra","University of Pittsburgh","3/4/2025",2025,"Mar",3
-"Dr U Vinay Kumar","Poornima University, Jaipur, India","3/4/2025",2025,"Mar",3
-"Takumi Ito","Juntendo University","2/24/2025",2025,"Feb",2
-"Kenian Chen","UT southwestern","2/24/2025",2025,"Feb",2
-"Darren Platt","Montage Bio","2/24/2025",2025,"Feb",2
-"Prof Maria Bokarewa","Department of Rheumatology and Inflammation Research, Institution of Medicine, University of Gothenburg, Sweden","2/11/2025",2025,"Feb",2
-"Quan Yuan","State Key Laboratory of Oral Diseases & National Center for Stomatology & National Clinical Research Center for Oral Diseases, West China Hospital of Stomatology, Sichuan University","2/11/2025",2025,"Feb",2
-"Dana Orange","Rockefeller University","2/11/2025",2025,"Feb",2
-"Wang shaowei","Shanxi medical university","2/11/2025",2025,"Feb",2
-"Glenda Lassi","AstraZeneca","2/7/2025",2025,"Feb",2
-"Dr. PD Margarida Souto-Carneiro and Dr. Junyan Lu","Heidelberg University Hospital","1/27/2025",2025,"Jan",1
-"Pranidhi Sood","Wield Therapeutics, Inc","1/24/2025",2025,"Jan",1
-"Yukinori Okada","The University of Tokyo","1/24/2025",2025,"Jan",1
-"Cornelia M. Weyand","Mayo Clinic","1/24/2025",2025,"Jan",1
-"Wei Wang","UCSD","1/14/2025",2025,"Jan",1
-"Dr. Michael Dudek","Institute of Molecular Immunology, TUM, Munich","1/13/2025",2025,"Jan",1
-"Jiejie Geng","National Translational Science Center for Molecular Medicine, The Fourth Military Medical University","1/3/2025",2025,"Jan",1
-"Tomohisa Okamura","The University of Tokyo, Allergy and Rheumatology","12/27/2024",2024,"Dec",12
-"Adam Mor","Columbia University","12/16/2024",2024,"Dec",12
-"Andreas Schlitzer","LIMES, Bonn University","12/16/2024",2024,"Dec",12
-"Inigo Martincorena","Wellcome Sanger Institute","12/16/2024",2024,"Dec",12
-"Inez den Hond","Technical University Delft (Pattern Recognition and Bioinformatics)","12/11/2024",2024,"Dec",12
-"Rebecca Batorsky","Tufts University Medford MA","12/6/2024",2024,"Dec",12
-"Wendi Qin","feixin biotechnology","12/6/2024",2024,"Dec",12
-"Maria Gutierrez-Arcelus","Boston Children's Hospital","11/8/2024",2024,"Nov",11
-"Deconvolution of RA synovial bulk RNAseq","Flinders University","11/4/2024",2024,"Nov",11
-"Noriko Komatsu","Institute of Science Tokyo","11/4/2024",2024,"Nov",11
-"Yuhan Hao","Neptune Bio","11/1/2024",2024,"Nov",11
-"Quan Jiang","Guang'anmen Hospital China Academy of Chinese Medical Sciences, Beijing, China.","11/1/2024",2024,"Nov",11
-"Mohini Gray","University of Edinburgh","11/1/2024",2024,"Nov",11
-"Shanzhao Jin","Peking University People's Hospital","10/16/2024",2024,"Oct",10
-"Monica Guma","UCSD","10/4/2024",2024,"Oct",10
-"Ruofan Ma","Department of Orthopedic Surgery, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, Guangdong, China","10/4/2024",2024,"Oct",10
-"Benson Ogunjimi","University of Antwerp","10/4/2024",2024,"Oct",10
-"Min He","the Second Clinical College of Guangzhou University of Chinese Medicine","9/20/2024",2024,"Sep",9
-"Kathryn Yost","Curie Bio","9/20/2024",2024,"Sep",9
-"Franziska Denk","King's College London","9/20/2024",2024,"Sep",9
-"Investigating the Role and Mechanism of Metabolic Reprogramming in Rheumatoid Arthritis Progression Based on Single-Cell Sequencing","Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine","9/20/2024",2024,"Sep",9
-"Yevgeniya Gartshteyn","Columbia University","9/6/2024",2024,"Sep",9
-"Thomas Yu","Sage Bionetworks","9/5/2024",2024,"Sep",9
-"Ian McDowell","UCB Biopharma SRL","8/23/2024",2024,"Aug",8
-"Olivia Lazaro","Indiana Biosciences Research Institute","8/23/2024",2024,"Aug",8
-"Woogil Song","KAIST (Korea Advanced Institute of Science and Technology)","8/14/2024",2024,"Aug",8
-"Kentaro Yomogida","University of Colorado","7/26/2024",2024,"Jul",7
-"Chenyang Lu","Sun Yet-sen University","7/25/2024",2024,"Jul",7
-"Arnold Han","Columbia University Irving Medical Center","7/12/2024",2024,"Jul",7
-"Colin Logie","Radboud University, Nijmegen, The Netherlands","7/12/2024",2024,"Jul",7
-"Kewei Rong","Shanghai Jiaotong University School of Medicine","7/12/2024",2024,"Jul",7
-"Chunhao Cao","School of Chinese Medicine, Hong Kong Baptist University, Hong Kong, Hong Kong SAR, China","6/21/2024",2024,"Jun",6
-"Dr. Ge Gao","Peking University","6/21/2024",2024,"Jun",6
-"Dr. Mengtao Li","Peking Union Medical College Hospital","6/21/2024",2024,"Jun",6
-"Dr. Jennifer Elisseeff","Johns Hopkins University","6/13/2024",2024,"Jun",6
-"Kazuyoshi Ishigaki","RIKEN Center for Integrative Medical Sciences","6/13/2024",2024,"Jun",6
-"Chiara Romagnani","Charite Medical University Berlin","5/29/2024",2024,"May",5
-"Nisarg Shah","University of California, San Diego","5/29/2024",2024,"May",5
-"Hao Liu","West China Hospital of Sichuan University, China","5/13/2024",2024,"May",5
-"Julia Frede","German Cancer Consortium (DKTK) and the University Hospital of LMU Munich, Germany.","5/13/2024",2024,"May",5
-"Ian Mantel","Weill Cornell Medical College","5/10/2024",2024,"May",5
-"Vincent Wong","Macau University of Science and Technology","5/8/2024",2024,"May",5
-"Rebecca Panitch","Watershed Informatics","5/8/2024",2024,"May",5
-"Thomas Backus","Mass General Brigham","5/2/2024",2024,"May",5
-"Jonathan Derry","Iris Bioconsulting LLC","5/2/2024",2024,"May",5
-"Wanling Yang","The University of Hong Kong","4/12/2024",2024,"Apr",4
-"Takako Chikenji","Department of Health Sciences, Hokkaido University","4/5/2024",2024,"Apr",4
-"Christopher Buckley","University of Oxford","4/2/2024",2024,"Apr",4
-"Erfan Ghasemi","University of Alberta","3/25/2024",2024,"Mar",3
-"Jean-Philippe Vert","Owkin","3/21/2024",2024,"Mar",3
-"Gary Reynolds","Mass General Brigham","3/15/2024",2024,"Mar",3
-"Koshiro Sonomoto","University of Occupational and Environmental Health, Japan","3/11/2024",2024,"Mar",3
-"Thierry Sornasse","Abbvie Inc","3/11/2024",2024,"Mar",3
-"Liye Chen","University of Oxford","3/7/2024",2024,"Mar",3
-"Antonio JuliÃ","IMIDomics, Inc","2/19/2024",2024,"Feb",2
-"Somkiat Phutinart","Faculty of Medicine, Chulalongkorn University","2/16/2024",2024,"Feb",2
-"Frank Cheng","Sonoma Biotherapeutics","2/16/2024",2024,"Feb",2
-"M Huang","Tsinghua University","2/2/2024",2024,"Feb",2
-"Minghui Wang","Icahn School of Medicine at Mount Sinai","1/29/2024",2024,"Jan",1
-"Congmin  Xu","BioMap","1/23/2024",2024,"Jan",1
-"James Wingrove","Cellworks","12/15/2023",2023,"Dec",12
-"Yu-yu Ren","Anaptysbio","12/15/2023",2023,"Dec",12
-"Chunhao Cao","School of Chinese Medicine, Hong Kong Baptist University, Hong Kong, Hong Kong SAR, China","12/8/2023",2023,"Dec",12
-"Shiquan Sun","Center for Single-Cell Omics and Health, Xi'an Jiaotong University","12/4/2023",2023,"Dec",12
-"Daniel Wells","Santa Ana Bio","11/16/2023",2023,"Nov",11
-"Mike Stadler","Arda Therapeutics","11/16/2023",2023,"Nov",11
-"Sumanta Ray","University of Bielefeld","10/16/2023",2023,"Oct",10
-"Mark Lazarus","AstraZeneca","9/18/2023",2023,"Sep",9
-"Dr Aidan MacNamara","Bayer AG","6/27/2023",2023,"Jun",6
-"Joel Guthridge","Oklahoma Medical Research Foundation","3/27/2023",2023,"Mar",3
-"Patrick M. Gaffney, PhD","Oklahoma Medical Research Foundation","2/9/2023",2023,"Feb",2
-"Philip De Jager","Columbia University","2/1/2023",2023,"Feb",2
-"Baohong Zhao","Hospital For Special Surgery","1/7/2026",2026,"Jan",1
-"Tomohisa Okamura","The University of Tokyo, Allergy and Rheumatology","1/5/2026",2026,"Jan",1
-"Preeyam Patel","Spyre Therapeutics","12/19/2025",2025,"Dec",12
-"James Wing","Immunology Frontier Research Center, The University of Osaka","12/19/2025",2025,"Dec",12
-"Chiara Romagnani","Charite Medical University Berlin","12/19/2025",2025,"Dec",12
-"John Tsang","Yale University","12/15/2025",2025,"Dec",12
-"Inez den Hond","Technical University Delft (Pattern Recognition and Bioinformatics)","12/15/2025",2025,"Dec",12
-"Mohamed Mysara","Cairo University","12/9/2025",2025,"Dec",12
-"Adrian Grzybowski","AnuBio","12/9/2025",2025,"Dec",12
-"Kamalika Roychoudhury","ThinkBio.Ai","12/4/2025",2025,"Dec",12
-"Virginia Pascual","Weill Cornell Medicine","12/4/2025",2025,"Dec",12
-"Inigo Martincorena","Wellcome Sanger Institute","12/2/2025",2025,"Dec",12
-"Thierry Sornasse","AbbVie","3/9/2026",2026,"Mar",3
-"Jenna Pappalardo","Arcus Biosciences","3/9/2026",2026,"Mar",3
-"Chinky Liu","Boston Children's Hospital","3/6/2026",2026,"Mar",3
-"Rui Wu","First Affiliated Hospital of Nanchang University, Jiangxi Medical College","3/2/2026",2026,"Mar",3
-"Jaehyuk Choi","UT Southwestern Medical Center (Cellular Therapies and Cancer Immunotherapy)","2/24/2026",2026,"Feb",2
-"Marinka Zitnik","Harvard University","2/23/2026",2026,"Feb",2
-"Justyna Dopierala","Nucleome Therapeutics","2/19/2026",2026,"Feb",2
-"Yang Yang","Boston Children's Hospital","2/12/2026",2026,"Feb",2
-"Rachel Sparks","AstraZeneca","2/10/2026",2026,"Feb",2
-"Dr U Vinay Kumar","Poornima University, Jaipur, India","2/6/2026",2026,"Feb",2
-"Jeremy Tilstra","University of Pittsburgh","2/6/2026",2026,"Feb",2
-"Rasa Elmentaite","Ensocell Therapeutics","2/6/2026",2026,"Feb",2
-"Kathryn Yost","NorthPort Bio Ltd","2/6/2026",2026,"Feb",2
-"Shunya Tsuji","Joint Faculty of Veterinary Medicine, Yamaguchi University","2/4/2026",2026,"Feb",2
-"Tetsuo Hasegawa","University of Cambridge","1/29/2026",2026,"Jan",1
-"Niket Rajeevan","Immunara","1/22/2026",2026,"Jan",1
-"Lynn Hassman","University of Colorado","1/20/2026",2026,"Jan",1
-"Arjun Baghela","Merck Research Labs","1/13/2026",2026,"Jan",1
-"Noriko Komatsu","Institute of Science Tokyo","1/9/2026",2026,"Jan",1
-"Radjesh Bisoendial, MD, PhD","Depts. Developmental Biology & Genetics, Erasmus MC, Rotterdam, Netherlands and Rheumatology & Clinical Immunology, Rotterdam, Netherlands","11/5/2025",2025,"Nov",11
-"Naomi McGovern","Department of Pathology, University of Cambridge, UK","11/5/2025",2025,"Nov",11
-"Jennifer Westoby","Enhanced Genomics Ltd","10/8/2025",2025,"Oct",10
-"Sarah Djeddi","Immunitas Therapeutics","10/2/2025",2025,"Oct",10
-"Joseph Cursons","Audax Biosciences","9/10/2025",2025,"Sep",9
-"Ernst Dow","Eli Lilly and Company","9/10/2025",2025,"Sep",9
-"Robert Lochhead","Medical College of Wisconsin","8/2/2025",2025,"Aug",8
-"Enrico Ferrero","Novartis","7/18/2025",2025,"Jul",7
-"Ido Amit","Weizmann  institute of science","7/18/2025",2025,"Jul",7
-"Éric Boilard","Centre de Recherche du CHU de Québec-Universite Laval","7/1/2025",2025,"Jul",7
-"PIs: Richard Bucala, Insoo Kang","Yale University School of Medicine","6/17/2025",2025,"Jun",6
-"Joseph Craft","Yale University School of medicine","6/17/2025",2025,"Jun",6
-"Koichi Murata","Kyoto Uiversity Graduate School of Medicine","5/30/2025",2025,"May",5
-"Paul Hoover","Brigham and Women's Hospital","5/24/2025",2025,"May",5
-"Han Taeho","Korea Institute of Science and Technology, Seoul, South Korea","5/24/2025",2025,"May",5
-"Brendan Antiochos","Johns Hopkins School of Medicine","5/3/2025",2025,"May",5
-"Wei Wang","University of California, San Diego","4/19/2025",2025,"Apr",4
-"Paul Martin","University of Manchester","3/22/2025",2025,"Mar",3
-"Takumi Ito","Juntendo University","2/25/2025",2025,"Feb",2
-"Yuhan Hao","Neptune Bio","11/2/2024",2024,"Nov",11
-"Quan Jiang","Guang'anmen Hospital China Academy of Chinese Medical Sciences, Beijing, China.","11/2/2024",2024,"Nov",11
-"Mohini Gray","University of Edinburgh","11/2/2024",2024,"Nov",11
-"Chunhao Cao","School of Chinese Medicine, Hong Kong Baptist University, Hong Kong, Hong Kong SAR, China","6/22/2024",2024,"Jun",6
-"Dr. Ge Gao","Peking University","6/22/2024",2024,"Jun",6
-"Philip De Jager","Columbia University","2/2/2023",2023,"Feb",2
-"Paula Ramos","Emory University","3/31/2026",2026,"Mar",3
-"Paul Martin","University of Manchester","3/31/2026",2026,"Mar",3
-"Janna Heide","University Medical Center Hamburg-Eppendorf","3/31/2026",2026,"Mar",3
-"Nilufer Ertekin-Taner, MD, PhD","Mayo Clinic Florida","3/30/2026",2026,"Mar",3
-"Stefanie Meier","Epana. Bio","3/20/2026",2026,"Mar",3
-"Xue Han","The Ohio State University","3/18/2026",2026,"Mar",3
-"Hisakata Yamada","Kyushu University","3/22/2025",2025,"Mar",3
-"Jan Klocke","Charité Universitätsmedizin Berlin,  Department of Nephrology and Medical Intensive Care","3/22/2025",2025,"Mar",3
-"Dan Rozelle","Rancho BioSciences, LLC","3/22/2025",2025,"Mar",3
-"Maria Gutierrez-Arcelus","Boston Children's Hospital","11/9/2024",2024,"Nov",11
-"Shiquan Sun","Center for Single-Cell Omics and Health, Xi'an Jiaotong University","12/5/2023",2023,"Dec",12
-"Patrick M. Gaffney, PhD","Oklahoma Medical Research Foundation","2/10/2023",2023,"Feb",2
-"Jeanne Latourelle","GNS Healthcare, Inc. d/b/a Aitia","4/30/2026",2026,"Apr",4
-"Yuta Kochi","Institute of Science Tokyo","4/30/2026",2026,"Apr",4
-"Kazuyoshi Ishigaki","Keio University School of Medicine","4/30/2026",2026,"Apr",4
-"Navya Shah","Karmyx BioLabs","4/30/2026",2026,"Apr",4
-"George Tsokos","Beth Israel Deaconess Medical Center, Harvard Medical School","4/28/2026",2026,"Apr",4
-"Sean McClain","Absci","4/28/2026",2026,"Apr",4
-"Paul Martin","University of Manchester","4/28/2026",2026,"Apr",4
-"Wolfgang Merkt","Department of Internal Medicine V, Heidelberg University Hospital","4/22/2026",2026,"Apr",4
-"Dr. Stanley Nelson","UCLA","4/14/2026",2026,"Apr",4
-"Bishoy Kamal","Sage Bionetworks","4/14/2026",2026,"Apr",4
-"Jack Collora","Moderna Theraputics","4/14/2026",2026,"Apr",4
-"Santiago Balza Pineda","Allosite Therapeutics","4/14/2026",2026,"Apr",4
-"Matthew Lee","University of Pennsylvania","4/14/2026",2026,"Apr",4
-"Matteo Villa","Medical University of Graz","4/14/2026",2026,"Apr",4
-"Inez den Hond","Technical University Delft (Pattern Recognition and Bioinformatics)","4/14/2026",2026,"Apr",4
-"Stefanie Meier","Epana. Bio","4/14/2026",2026,"Apr",4
-"Iris Lee","Washington University in Saint Louis","4/13/2026",2026,"Apr",4
-"Wei Wang","University of California, San Diego","4/7/2026",2026,"Apr",4
-"Mark D. Robinson","University of Zurich","4/3/2026",2026,"Apr",4
-"Chinky Liu","Boston Children's Hospital","3/5/2026",2026,"Mar",3
-"Yoesik Bae","Sungkyunkwan university (Suwon, Republic of Korea)","5/28/2026",2026,"May",5
-"Luke Robinson","Visterra, Inc.","5/27/2026",2026,"May",5
-"Michael Nalls","Center for Alzheimer's and Related Dementia","5/21/2026",2026,"May",5
-"Andrew Han","Switchback Therapeutics","5/15/2026",2026,"May",5
-"Haruki Watanabe","Okayama University Hospital","5/15/2026",2026,"May",5
-"Brandon Sos","Neurocrine Biosciences","5/8/2026",2026,"May",5
-"Yurii Chinenov","Hospital For Special Surgery","5/7/2026",2026,"May",5
-"Laura Donlin","Hospital for Special Surgery","5/5/2026",2026,"May",5
-"Dr. Stanley Nelson","UCLA","4/15/2026",2026,"Apr",4
-"Aggelos Banos","Biomedical Research Foundation of the Academy of Athens","7/2/2026",2026,"Jul",7
-"Gautam Goel","Aetherium Bio","6/24/2026",2026,"Jun",6
-"Markus Kieler","Medical University of Vienna","6/24/2026",2026,"Jun",6
-"Kazuyoshi Ishigaki","RIKEN Center for Integrative Medical Sciences","6/16/2026",2026,"Jun",6
-"Violeta Yu","Flagship Labs 101","6/16/2026",2026,"Jun",6
-"Joshua Hoffman","Alumis, Inc.","6/16/2026",2026,"Jun",6
-"Thierry Sornasse","AbbVie","6/8/2026",2026,"Jun",6
-"Robert Sehlke","Graph Therapeutics FlexCo","7/31/2026",2026,"Jul",7
-"Meng Yuan","University of Occupational and Environmental Health, Japan","7/30/2026",2026,"Jul",7
-"Frank Li","Boehringer Ingelheim","7/28/2026",2026,"Jul",7
-"Hai Long Yu","universiti sain malaysia","7/24/2026",2026,"Jul",7
-"Xu Lu","King Abdullah University of Science and Technology","7/7/2026",2026,"Jul",7
-"Irina Udalova","University of Oxford","7/7/2026",2026,"Jul",7
-"Yuliya Nigmatullina","UCB","7/1/2026",2026,"Jul",7
-"Joseph Craft","Yale University School of medicine","6/24/2026",2026,"Jun",6
-"Neelakshi Jog","Bristol Myers Squibb","6/24/2026",2026,"Jun",6
-"Koichi Murata","Kyoto Uiversity Graduate School of Medicine","6/16/2026",2026,"Jun",6
-"Nunzio Bottini","Cedars Sinai Medical Center","6/16/2026",2026,"Jun",6
-"Preeyam Patel","Spyre Therapeutics","6/9/2026",2026,"Jun",6
-"Jason Gehrke","Third Rock Ventures, LLC.","6/8/2026",2026,"Jun",6
-"Diana Dou","Duke University","5/28/2026",2026,"May",5
-"Noritaka Saeki","Ehime university","5/26/2026",2026,"May",5
-"Jennifer Anolik","University of Rochester Medical Center","5/21/2026",2026,"May",5
-"Eric Boilard","Centre de Recherche du CHU de Québec-Universite Laval","5/15/2026",2026,"May",5
-"Anjana Rao, PhD","La Jolla Institute for Immunology","5/15/2026",2026,"May",5
-"George Tsokos","BIDMC, Harvard Medical School","5/7/2026",2026,"May",5
-"Navya Shah","Karmyx BioLabs","5/6/2026",2026,"May",5
-"Jeanne Latourelle","GNS Healthcare, Inc. d/b/a Aitia","5/1/2026",2026,"May",5
-"Bishoy Kamal","Sage Bionetworks","4/15/2026",2026,"Apr",4
-"Wei Wang","University of California, San Diego","4/8/2026",2026,"Apr",4
-"Yuki Saito","Sapporo Medical University","8/31/2026",2026,"Aug",8
-"Enrico Ferrero","Novartis","8/27/2026",2026,"Aug",8
-"Hal Skinner","Verily Health","8/21/2026",2026,"Aug",8
-"Stefanie Meier","Epana. Bio","8/13/2026",2026,"Aug",8
-"Roberto Caricchio","UMass Chan Medical School","8/13/2026",2026,"Aug",8
-"Sabrina Bracero","AstraZeneca","8/12/2026",2026,"Aug",8
-"Chandra Mohan","University of Houston","8/11/2026",2026,"Aug",8
-"Jimin Tan","New York University Langone Health","7/31/2026",2026,"Jul",7
-"David Redmond","Weill Cornell Medicine","7/28/2026",2026,"Jul",7
-"Kojiro Sato","Jichi Medical University","7/27/2026",2026,"Jul",7
-"Chng Song Hui","Experimental Drug Development Centre","7/7/2026",2026,"Jul",7
-"Jun Saegusa","Department of Rheumatology and Clinical Immunology, Kobe University Hospital, Kobe, Japan.","7/7/2026",2026,"Jul",7
+"Project Lead","Institution","Datetime","year","month_str","month_int","Approved_Date","date"
+"Yurii Chinenov","Hospital For Special Surgery","2026-05-07T16:57:17.697Z",2026,"May",5,"5/7/2026","May 2026"
+"Navya Shah","Karmyx BioLabs","2026-05-06T00:34:12.546Z",2026,"May",5,"5/6/2026","May 2026"
+"Laura Donlin ","Hospital for Special Surgery ","2026-05-05T21:36:08.500Z",2026,"May",5,"5/5/2026","May 2026"
+"Jeanne Latourelle","GNS Healthcare, Inc. d/b/a Aitia","2026-05-01T00:02:05.208Z",2026,"May",5,"5/1/2026","May 2026"
+"Yuta Kochi","Institute of Science Tokyo","2026-04-30T23:58:12.375Z",2026,"Apr",4,"4/30/2026","Apr 2026"
+"Kazuyoshi Ishigaki","Keio University School of Medicine","2026-04-30T23:37:10.662Z",2026,"Apr",4,"4/30/2026","Apr 2026"
+"George Tsokos","Beth Israel Deaconess Medical Center, Harvard Medical School","2026-04-28T23:43:56.797Z",2026,"Apr",4,"4/28/2026","Apr 2026"
+"Sean McClain","Absci","2026-04-28T23:27:40.784Z",2026,"Apr",4,"4/28/2026","Apr 2026"
+"Paul Martin","University of Manchester","2026-04-28T23:03:25.230Z",2026,"Apr",4,"4/28/2026","Apr 2026"
+"Wolfgang Merkt","Department of Internal Medicine V, Heidelberg University Hospital","2026-04-22T22:59:38.230Z",2026,"Apr",4,"4/22/2026","Apr 2026"
+"Dr. Stanley Nelson","UCLA","2026-04-15T00:38:26.375Z",2026,"Apr",4,"4/15/2026","Apr 2026"
+"Bishoy Kamal ","Sage Bionetworks","2026-04-15T00:20:37.774Z",2026,"Apr",4,"4/15/2026","Apr 2026"
+"Jack Collora","Moderna Theraputics","2026-04-14T23:45:08.889Z",2026,"Apr",4,"4/14/2026","Apr 2026"
+"Santiago Balza Pineda","Allosite Therapeutics","2026-04-14T23:36:00.973Z",2026,"Apr",4,"4/14/2026","Apr 2026"
+"Matthew Lee","University of Pennsylvania","2026-04-14T23:27:34.113Z",2026,"Apr",4,"4/14/2026","Apr 2026"
+"Matteo Villa","Medical University of Graz","2026-04-14T23:05:37.520Z",2026,"Apr",4,"4/14/2026","Apr 2026"
+"Inez den Hond","Technical University Delft (Pattern Recognition and Bioinformatics)","2026-04-14T22:06:23.594Z",2026,"Apr",4,"4/14/2026","Apr 2026"
+"Iris Lee","Washington University in Saint Louis","2026-04-13T22:10:36.779Z",2026,"Apr",4,"4/13/2026","Apr 2026"
+"Wei Wang","University of California, San Diego","2026-04-08T00:34:04.033Z",2026,"Apr",4,"4/8/2026","Apr 2026"
+"Mark D. Robinson","University of Zurich","2026-04-03T19:17:13.886Z",2026,"Apr",4,"4/3/2026","Apr 2026"
+"Paula Ramos","Emory University","2026-03-31T20:46:51.261Z",2026,"Mar",3,"3/31/2026","Mar 2026"
+"Janna Heide","University Medical Center Hamburg-Eppendorf","2026-03-31T19:21:01.796Z",2026,"Mar",3,"3/31/2026","Mar 2026"
+"Nilufer Ertekin-Taner, MD, PhD","Mayo Clinic Florida","2026-03-30T22:54:00.748Z",2026,"Mar",3,"3/30/2026","Mar 2026"
+"Xue Han","The Ohio State University","2026-03-18T22:25:12.104Z",2026,"Mar",3,"3/18/2026","Mar 2026"
+"Chinky Liu","Boston Children's Hospital","2026-03-06T01:05:52.017Z",2026,"Mar",3,"3/6/2026","Mar 2026"
+"Rui Wu","First Affiliated Hospital of Nanchang University, Jiangxi Medical College","2026-03-02T21:18:57.810Z",2026,"Mar",3,"3/2/2026","Mar 2026"
+"Jaehyuk Choi","UT Southwestern Medical Center (Cellular Therapies and Cancer Immunotherapy)","2026-02-24T16:51:49.964Z",2026,"Feb",2,"2/24/2026","Feb 2026"
+"Marinka Zitnik","Harvard University","2026-02-23T22:59:53.998Z",2026,"Feb",2,"2/23/2026","Feb 2026"
+"Justyna Dopierala","Nucleome Therapeutics","2026-02-19T22:45:18.484Z",2026,"Feb",2,"2/19/2026","Feb 2026"
+"Yang Yang","Boston Children's Hospital","2026-02-12T19:12:06.209Z",2026,"Feb",2,"2/12/2026","Feb 2026"
+"Rachel Sparks","AstraZeneca","2026-02-10T19:24:58.126Z",2026,"Feb",2,"2/10/2026","Feb 2026"
+"Dr U Vinay Kumar","Poornima University, Jaipur, India","2026-02-06T21:42:30.615Z",2026,"Feb",2,"2/6/2026","Feb 2026"
+"Jeremy Tilstra","University of Pittsburgh","2026-02-06T21:13:45.217Z",2026,"Feb",2,"2/6/2026","Feb 2026"
+"Rasa Elmentaite","Ensocell Therapeutics","2026-02-06T20:36:17.702Z",2026,"Feb",2,"2/6/2026","Feb 2026"
+"Kathryn Yost","NorthPort Bio Ltd","2026-02-06T16:50:09.065Z",2026,"Feb",2,"2/6/2026","Feb 2026"
+"Shunya Tsuji","Joint Faculty of Veterinary Medicine, Yamaguchi University","2026-02-04T17:17:35.166Z",2026,"Feb",2,"2/4/2026","Feb 2026"
+"Tetsuo Hasegawa","University of Cambridge","2026-01-29T20:22:09.657Z",2026,"Jan",1,"1/29/2026","Jan 2026"
+"Niket Rajeevan","Immunara","2026-01-22T22:38:35.459Z",2026,"Jan",1,"1/22/2026","Jan 2026"
+"Lynn Hassman","University of Colorado","2026-01-20T17:30:10.603Z",2026,"Jan",1,"1/20/2026","Jan 2026"
+"Arjun Baghela","Merck Research Labs","2026-01-13T23:41:11.084Z",2026,"Jan",1,"1/13/2026","Jan 2026"
+"Noriko Komatsu","Institute of Science Tokyo","2026-01-09T21:22:16.890Z",2026,"Jan",1,"1/9/2026","Jan 2026"
+"Baohong Zhao","Hospital For Special Surgery","2026-01-07T17:25:18.312Z",2026,"Jan",1,"1/7/2026","Jan 2026"
+"Tomohisa Okamura","The University of Tokyo, Allergy and Rheumatology","2026-01-05T20:01:09.846Z",2026,"Jan",1,"1/5/2026","Jan 2026"
+"James Wing","Immunology Frontier Research Center, The University of Osaka","2025-12-19T22:29:54.520Z",2025,"Dec",12,"12/19/2025","Dec 2025"
+"Chiara Romagnani","Charite Medical University Berlin","2025-12-19T21:59:08.630Z",2025,"Dec",12,"12/19/2025","Dec 2025"
+"John Tsang","Yale University","2025-12-15T22:50:50.674Z",2025,"Dec",12,"12/15/2025","Dec 2025"
+"Mohamed Mysara","Cairo University","2025-12-09T22:17:54.199Z",2025,"Dec",12,"12/9/2025","Dec 2025"
+"Adrian Grzybowski","AnuBio","2025-12-09T21:59:52.291Z",2025,"Dec",12,"12/9/2025","Dec 2025"
+"Kamalika Roychoudhury","ThinkBio.Ai","2025-12-04T15:57:59.000Z",2025,"Dec",12,"12/4/2025","Dec 2025"
+"Virginia Pascual","Weill Cornell Medicine","2025-12-04T15:53:52.728Z",2025,"Dec",12,"12/4/2025","Dec 2025"
+"Inigo Martincorena","Wellcome Sanger Institute","2025-12-02T20:08:04.260Z",2025,"Dec",12,"12/2/2025","Dec 2025"
+"Hiroyuki Yoshitomi","Kyoto University","2025-12-01T23:25:33.027Z",2025,"Dec",12,"12/1/2025","Dec 2025"
+"Anela Tosevska","Medical University of Vienna","2025-12-01T23:22:46.842Z",2025,"Dec",12,"12/1/2025","Dec 2025"
+"Shiva Shahrara","University of Illinois Chicago","2025-11-19T18:04:57.406Z",2025,"Nov",11,"11/19/2025","Nov 2025"
+"Chikashi Terao","Shizuoka General Hospital","2025-11-13T19:03:31.240Z",2025,"Nov",11,"11/13/2025","Nov 2025"
+"Radjesh Bisoendial, MD, PhD","Depts. Developmental Biology & Genetics, Erasmus MC, Rotterdam, Netherlands and Rheumatology & Clinical Immunology, Rotterdam, Netherlands ","2025-11-05T03:02:18.801Z",2025,"Nov",11,"11/5/2025","Nov 2025"
+"Naomi McGovern","Department of Pathology, University of Cambridge, UK","2025-11-05T02:27:49.592Z",2025,"Nov",11,"11/5/2025","Nov 2025"
+"Mike Vestergaard","Commit Biologics ","2025-10-21T19:12:19.283Z",2025,"Oct",10,"10/21/2025","Oct 2025"
+"Chris Schiering","T-Therapeutics","2025-10-21T19:08:48.792Z",2025,"Oct",10,"10/21/2025","Oct 2025"
+"Hailey Hwang","Roslyn High School","2025-10-21T19:04:31.381Z",2025,"Oct",10,"10/21/2025","Oct 2025"
+"Karine Chemin","Karolinska Institutet","2025-10-16T22:06:00.304Z",2025,"Oct",10,"10/16/2025","Oct 2025"
+"Professor E. Sally Ward, PhD, FRS","University of Southampton","2025-10-14T15:59:26.915Z",2025,"Oct",10,"10/14/2025","Oct 2025"
+"Achira Shah and Dr Robert Tower","UT Southwestern Medical Center","2025-10-14T15:48:54.912Z",2025,"Oct",10,"10/14/2025","Oct 2025"
+"Jennifer Westoby","Enhanced Genomics Ltd","2025-10-08T04:37:35.000Z",2025,"Oct",10,"10/8/2025","Oct 2025"
+"Erin Smith","Mirador Therapeutics, Inc.","2025-10-03T21:45:07.293Z",2025,"Oct",10,"10/3/2025","Oct 2025"
+"Dr. Martin Lotz","Scripps. Research","2025-10-03T21:42:23.729Z",2025,"Oct",10,"10/3/2025","Oct 2025"
+"Monica Guma","University of California San Diego School of Medicine","2025-10-03T21:40:16.622Z",2025,"Oct",10,"10/3/2025","Oct 2025"
+"Christian Geier, MD","SUNY Upstate Medical University","2025-10-03T21:37:40.394Z",2025,"Oct",10,"10/3/2025","Oct 2025"
+"Sarah Djeddi","Immunitas Therapeutics","2025-10-02T00:52:18.390Z",2025,"Oct",10,"10/2/2025","Oct 2025"
+"Daniel Toro Dominguez","Karolinska Institutet","2025-09-29T23:54:26.137Z",2025,"Sep",9,"9/29/2025","Sep 2025"
+"Inez den Hond","Leiden University Medical Center","2025-09-18T21:06:12.174Z",2025,"Sep",9,"9/18/2025","Sep 2025"
+"Robert Corty","Vanderbilt University Medical Center","2025-09-18T20:58:08.192Z",2025,"Sep",9,"9/18/2025","Sep 2025"
+"Joseph Cursons","Audax Biosciences","2025-09-10T00:30:05.246Z",2025,"Sep",9,"9/10/2025","Sep 2025"
+"Ernst Dow","Eli Lilly and Company","2025-09-10T00:27:53.831Z",2025,"Sep",9,"9/10/2025","Sep 2025"
+"Henry Wilson","Auron Therapeutics","2025-09-09T23:51:48.485Z",2025,"Sep",9,"9/9/2025","Sep 2025"
+"Elizabeth McMillan","Odyssey Therapeutics","2025-08-27T16:52:00.269Z",2025,"Aug",8,"8/27/2025","Aug 2025"
+"Amin Zia","Frontier Discovery Inc.","2025-08-27T16:49:02.236Z",2025,"Aug",8,"8/27/2025","Aug 2025"
+"Robert Lochhead","Medical College of Wisconsin","2025-08-02T00:35:51.897Z",2025,"Aug",8,"8/2/2025","Aug 2025"
+"Professor Erez Levanon","Bar Ilan University","2025-07-26T07:37:39.495Z",2025,"Jul",7,"7/26/2025","Jul 2025"
+"Jennifer Elisseeff","Johns Hopkins University","2025-07-21T16:58:59.217Z",2025,"Jul",7,"7/21/2025","Jul 2025"
+"Ido Amit","Weizmann  institute of science","2025-07-18T01:06:43.361Z",2025,"Jul",7,"7/18/2025","Jul 2025"
+"Yusuke Takeushi","Kyoto University","2025-07-09T16:03:41.699Z",2025,"Jul",7,"7/9/2025","Jul 2025"
+"Eric Gracey","Ghent University (Belgium)","2025-06-26T23:25:01.967Z",2025,"Jun",6,"6/26/2025","Jun 2025"
+"Joyce Wu","Ohio State University","2025-06-26T23:10:26.221Z",2025,"Jun",6,"6/26/2025","Jun 2025"
+"PIs: Richard Bucala, Insoo Kang","Yale University School of Medicine ","2025-06-17T01:04:32.047Z",2025,"Jun",6,"6/17/2025","Jun 2025"
+"Noah Siegel","Anaptysbio","2025-06-16T22:07:51.055Z",2025,"Jun",6,"6/16/2025","Jun 2025"
+"Paul Hoover","Brigham and Women's Hospital","2025-05-24T01:50:01.810Z",2025,"May",5,"5/24/2025","May 2025"
+"Han Taeho","Korea Institute of Science and Technology, Seoul, South Korea","2025-05-24T01:34:09.026Z",2025,"May",5,"5/24/2025","May 2025"
+"Daniel L. Mueller","University of Minnesota Medical School","2025-05-22T23:03:22.300Z",2025,"May",5,"5/22/2025","May 2025"
+"shai shen-orr","CytoReason","2025-05-16T17:12:43.060Z",2025,"May",5,"5/16/2025","May 2025"
+"Maria Brbic","École Polytechnique Fédérale de Lausanne (EPFL)","2025-05-15T20:29:01.049Z",2025,"May",5,"5/15/2025","May 2025"
+"Kriti Sharma","National Institute of Arthritis and Musculoskeletal and Skin Diseases","2025-05-09T20:04:37.214Z",2025,"May",5,"5/9/2025","May 2025"
+"Brendan Antiochos","Johns Hopkins School of Medicine","2025-05-03T00:28:56.987Z",2025,"May",5,"5/3/2025","May 2025"
+"Marinka Zitnik","Harvard Medical School","2025-05-02T21:23:53.474Z",2025,"May",5,"5/2/2025","May 2025"
+"Zihe Zheng","Helmholtz Munich","2025-05-02T21:20:11.417Z",2025,"May",5,"5/2/2025","May 2025"
+"Richard Bell","Hospital for Speacial Surgery","2025-04-24T23:13:45.782Z",2025,"Apr",4,"4/24/2025","Apr 2025"
+"Dr. Kushal Dey","Memorial Sloan Kettering Cancer Center","2025-04-24T23:08:19.273Z",2025,"Apr",4,"4/24/2025","Apr 2025"
+"Gerhard Krönke","University Clinic Erlangen","2025-04-11T15:01:20.861Z",2025,"Apr",4,"4/11/2025","Apr 2025"
+"Matteo Villa","Medical University of Graz","2025-04-11T14:59:56.087Z",2025,"Apr",4,"4/11/2025","Apr 2025"
+"Duan Ni","The University of Sydney","2025-03-25T22:32:04.171Z",2025,"Mar",3,"3/25/2025","Mar 2025"
+"Hisakata Yamada","Kyushu University","2025-03-22T00:26:17.129Z",2025,"Mar",3,"3/22/2025","Mar 2025"
+"Jan Klocke","Charité Universitätsmedizin Berlin,  Department of Nephrology and Medical Intensive Care ","2025-03-22T00:06:04.904Z",2025,"Mar",3,"3/22/2025","Mar 2025"
+"Dan Rozelle","Rancho BioSciences, LLC","2025-03-22T00:01:46.318Z",2025,"Mar",3,"3/22/2025","Mar 2025"
+"Wan-Uk Kim","Center for Integrative Rheumatoid Transcriptomics and Dynamics, The Catholic University of Korea, Seoul, Republic of Korea","2025-03-20T22:57:41.734Z",2025,"Mar",3,"3/20/2025","Mar 2025"
+"Elliot Akama-Garren","Harvard Medical School","2025-03-04T18:15:59.540Z",2025,"Mar",3,"3/4/2025","Mar 2025"
+"Matt Jackson-Wood","Gilead Sciences","2025-03-04T18:00:38.006Z",2025,"Mar",3,"3/4/2025","Mar 2025"
+"Takumi Ito","Juntendo University","2025-02-25T02:17:41.516Z",2025,"Feb",2,"2/25/2025","Feb 2025"
+"Kenian Chen","UT southwestern","2025-02-24T23:30:45.516Z",2025,"Feb",2,"2/24/2025","Feb 2025"
+"Darren Platt","Montage Bio","2025-02-24T17:53:00.038Z",2025,"Feb",2,"2/24/2025","Feb 2025"
+"Prof Maria Bokarewa","Department of Rheumatology and Inflammation Research, Institution of Medicine, University of Gothenburg, Sweden","2025-02-11T19:29:56.864Z",2025,"Feb",2,"2/11/2025","Feb 2025"
+"Quan Yuan","State Key Laboratory of Oral Diseases & National Center for Stomatology & National Clinical Research Center for Oral Diseases, West China Hospital of Stomatology, Sichuan University","2025-02-11T08:01:25.875Z",2025,"Feb",2,"2/11/2025","Feb 2025"
+"Dana Orange","Rockefeller University","2025-02-11T07:54:47.907Z",2025,"Feb",2,"2/11/2025","Feb 2025"
+"Wang shaowei","Shanxi medical university","2025-02-11T07:50:59.396Z",2025,"Feb",2,"2/11/2025","Feb 2025"
+"Glenda Lassi","AstraZeneca","2025-02-07T15:57:26.472Z",2025,"Feb",2,"2/7/2025","Feb 2025"
+"Dr. PD Margarida Souto-Carneiro and Dr. Junyan Lu","Heidelberg University Hospital","2025-01-27T22:53:55.761Z",2025,"Jan",1,"1/27/2025","Jan 2025"
+"Pranidhi Sood","Wield Therapeutics, Inc","2025-01-24T23:58:12.133Z",2025,"Jan",1,"1/24/2025","Jan 2025"
+"Yukinori Okada","The University of Tokyo","2025-01-24T23:49:45.175Z",2025,"Jan",1,"1/24/2025","Jan 2025"
+"Cornelia M. Weyand","Mayo Clinic","2025-01-24T23:43:51.801Z",2025,"Jan",1,"1/24/2025","Jan 2025"
+"Wei Wang","UCSD","2025-01-14T23:29:37.352Z",2025,"Jan",1,"1/14/2025","Jan 2025"
+"Dr. Michael Dudek","Institute of Molecular Immunology, TUM, Munich","2025-01-13T17:43:31.678Z",2025,"Jan",1,"1/13/2025","Jan 2025"
+"Jiejie Geng","National Translational Science Center for Molecular Medicine, The Fourth Military Medical University","2025-01-03T23:33:13.154Z",2025,"Jan",1,"1/3/2025","Jan 2025"
+"Adam Mor","Columbia University","2024-12-16T18:16:38.376Z",2024,"Dec",12,"12/16/2024","Dec 2024"
+"Andreas Schlitzer","LIMES, Bonn University ","2024-12-16T18:15:51.936Z",2024,"Dec",12,"12/16/2024","Dec 2024"
+"Rebecca Batorsky","Tufts University Medford MA","2024-12-06T23:53:18.055Z",2024,"Dec",12,"12/6/2024","Dec 2024"
+"Wendi Qin","feixin biotechnology","2024-12-06T23:50:41.314Z",2024,"Dec",12,"12/6/2024","Dec 2024"
+"Maria Gutierrez-Arcelus","Boston Children's Hospital ","2024-11-09T00:37:30.647Z",2024,"Nov",11,"11/9/2024","Nov 2024"
+"Deconvolution of RA synovial bulk RNAseq","Flinders University","2024-11-04T17:09:35.899Z",2024,"Nov",11,"11/4/2024","Nov 2024"
+"Yuhan Hao","Neptune Bio","2024-11-02T02:38:33.434Z",2024,"Nov",11,"11/2/2024","Nov 2024"
+"Quan Jiang ","Guang'anmen Hospital China Academy of Chinese Medical Sciences, Beijing, China.","2024-11-02T02:06:27.186Z",2024,"Nov",11,"11/2/2024","Nov 2024"
+"Mohini Gray","University of Edinburgh","2024-11-02T02:02:45.159Z",2024,"Nov",11,"11/2/2024","Nov 2024"
+"Shanzhao Jin","Peking University People's Hospital","2024-10-16T18:11:26.893Z",2024,"Oct",10,"10/16/2024","Oct 2024"
+"Monica Guma ","UCSD","2024-10-04T21:59:47.527Z",2024,"Oct",10,"10/4/2024","Oct 2024"
+"Ruofan Ma","Department of Orthopedic Surgery, Sun Yat-sen Memorial Hospital, Sun Yat-sen University, Guangzhou, Guangdong, China","2024-10-04T21:55:41.444Z",2024,"Oct",10,"10/4/2024","Oct 2024"
+"Benson Ogunjimi","University of Antwerp","2024-10-04T21:49:14.867Z",2024,"Oct",10,"10/4/2024","Oct 2024"
+"Min He","the Second Clinical College of Guangzhou University of Chinese Medicine","2024-09-20T23:48:21.697Z",2024,"Sep",9,"9/20/2024","Sep 2024"
+"Franziska Denk","King's College London","2024-09-20T23:31:22.869Z",2024,"Sep",9,"9/20/2024","Sep 2024"
+"Investigating the Role and Mechanism of Metabolic Reprogramming in Rheumatoid Arthritis Progression Based on Single-Cell Sequencing","Sixth People's Hospital Affiliated to Shanghai Jiao Tong University School of Medicine","2024-09-20T23:21:46.306Z",2024,"Sep",9,"9/20/2024","Sep 2024"
+"Yevgeniya Gartshteyn","Columbia University","2024-09-06T19:21:38.556Z",2024,"Sep",9,"9/6/2024","Sep 2024"
+"Thomas Yu","Sage Bionetworks","2024-09-05T20:48:35.783Z",2024,"Sep",9,"9/5/2024","Sep 2024"
+"Ian McDowell","UCB Biopharma SRL","2024-08-23T23:50:01.887Z",2024,"Aug",8,"8/23/2024","Aug 2024"
+"Olivia Lazaro","Indiana Biosciences Research Institute","2024-08-23T23:44:15.762Z",2024,"Aug",8,"8/23/2024","Aug 2024"
+"Woogil Song","KAIST (Korea Advanced Institute of Science and Technology)","2024-08-14T23:15:24.749Z",2024,"Aug",8,"8/14/2024","Aug 2024"
+"Kentaro Yomogida","University of Colorado","2024-07-26T22:22:40.939Z",2024,"Jul",7,"7/26/2024","Jul 2024"
+"Chenyang Lu","Sun Yet-sen University","2024-07-25T22:56:01.642Z",2024,"Jul",7,"7/25/2024","Jul 2024"
+"Arnold Han","Columbia University Irving Medical Center","2024-07-12T23:24:54.399Z",2024,"Jul",7,"7/12/2024","Jul 2024"
+"Colin Logie","Radboud University, Nijmegen, The Netherlands","2024-07-12T23:23:44.689Z",2024,"Jul",7,"7/12/2024","Jul 2024"
+"Kewei Rong","Shanghai Jiaotong University School of Medicine","2024-07-12T23:07:54.269Z",2024,"Jul",7,"7/12/2024","Jul 2024"
+"Chunhao Cao","School of Chinese Medicine, Hong Kong Baptist University, Hong Kong, Hong Kong SAR, China","2024-06-22T00:18:03.955Z",2024,"Jun",6,"6/22/2024","Jun 2024"
+"Dr. Ge Gao","Peking University","2024-06-22T00:07:10.561Z",2024,"Jun",6,"6/22/2024","Jun 2024"
+"Dr. Mengtao Li","Peking Union Medical College Hospital","2024-06-21T23:52:57.999Z",2024,"Jun",6,"6/21/2024","Jun 2024"
+"Dr. Jennifer Elisseeff","Johns Hopkins University","2024-06-13T23:28:45.485Z",2024,"Jun",6,"6/13/2024","Jun 2024"
+"Nisarg Shah","University of California, San Diego","2024-05-29T20:59:39.952Z",2024,"May",5,"5/29/2024","May 2024"
+"Hao Liu","West China Hospital of Sichuan University, China","2024-05-13T22:48:29.919Z",2024,"May",5,"5/13/2024","May 2024"
+"Julia Frede","German Cancer Consortium (DKTK) and the University Hospital of LMU Munich, Germany. ","2024-05-13T22:45:46.218Z",2024,"May",5,"5/13/2024","May 2024"
+"Ian Mantel","Weill Cornell Medical College","2024-05-10T21:56:17.256Z",2024,"May",5,"5/10/2024","May 2024"
+"Vincent Wong","Macau University of Science and Technology","2024-05-08T23:17:11.754Z",2024,"May",5,"5/8/2024","May 2024"
+"Rebecca Panitch","Watershed Informatics","2024-05-08T23:09:32.061Z",2024,"May",5,"5/8/2024","May 2024"
+"Thomas Backus","Mass General Brigham ","2024-05-02T22:55:31.286Z",2024,"May",5,"5/2/2024","May 2024"
+"Jonathan Derry","Iris Bioconsulting LLC","2024-05-02T22:31:16.262Z",2024,"May",5,"5/2/2024","May 2024"
+"Wanling Yang","The University of Hong Kong","2024-04-12T22:12:31.384Z",2024,"Apr",4,"4/12/2024","Apr 2024"
+"Takako Chikenji","Department of Health Sciences, Hokkaido University","2024-04-05T22:22:25.181Z",2024,"Apr",4,"4/5/2024","Apr 2024"
+"Christopher Buckley","University of Oxford ","2024-04-02T18:31:46.287Z",2024,"Apr",4,"4/2/2024","Apr 2024"
+"Erfan Ghasemi","University of Alberta","2024-03-25T20:39:36.422Z",2024,"Mar",3,"3/25/2024","Mar 2024"
+"Jean-Philippe Vert","Owkin","2024-03-21T16:53:07.226Z",2024,"Mar",3,"3/21/2024","Mar 2024"
+"Gary Reynolds","Mass General Brigham","2024-03-15T17:53:44.986Z",2024,"Mar",3,"3/15/2024","Mar 2024"
+"Koshiro Sonomoto","University of Occupational and Environmental Health, Japan","2024-03-11T18:35:48.053Z",2024,"Mar",3,"3/11/2024","Mar 2024"
+"Thierry Sornasse"," Abbvie Inc","2024-03-11T18:29:31.790Z",2024,"Mar",3,"3/11/2024","Mar 2024"
+"Liye Chen","University of Oxford","2024-03-07T21:46:05.336Z",2024,"Mar",3,"3/7/2024","Mar 2024"
+"Antonio JuliÃ ","IMIDomics, Inc","2024-02-19T18:48:29.380Z",2024,"Feb",2,"2/19/2024","Feb 2024"
+"Somkiat Phutinart","Faculty of Medicine, Chulalongkorn University","2024-02-16T22:36:28.905Z",2024,"Feb",2,"2/16/2024","Feb 2024"
+"Frank Cheng","Sonoma Biotherapeutics","2024-02-16T20:48:31.698Z",2024,"Feb",2,"2/16/2024","Feb 2024"
+"M Huang","Tsinghua University","2024-02-02T23:11:04.836Z",2024,"Feb",2,"2/2/2024","Feb 2024"
+"Minghui Wang","Icahn School of Medicine at Mount Sinai","2024-01-29T22:31:14.118Z",2024,"Jan",1,"1/29/2024","Jan 2024"
+"Congmin  Xu","BioMap ","2024-01-23T22:49:24.228Z",2024,"Jan",1,"1/23/2024","Jan 2024"
+"James Wingrove","Cellworks","2023-12-15T20:48:51.537Z",2023,"Dec",12,"12/15/2023","Dec 2023"
+"Yu-yu Ren","Anaptysbio","2023-12-15T20:46:55.141Z",2023,"Dec",12,"12/15/2023","Dec 2023"
+"Chunhao Cao","School of Chinese Medicine, Hong Kong Baptist University, Hong Kong, Hong Kong SAR, China","2023-12-08T18:11:10.879Z",2023,"Dec",12,"12/8/2023","Dec 2023"
+"Shiquan Sun","Center for Single-Cell Omics and Health, Xi'an Jiaotong University","2023-12-05T00:47:21.910Z",2023,"Dec",12,"12/5/2023","Dec 2023"
+"Daniel Wells ","Santa Ana Bio","2023-11-16T22:37:42.505Z",2023,"Nov",11,"11/16/2023","Nov 2023"
+"Mike Stadler","Arda Therapeutics","2023-11-16T22:33:55.655Z",2023,"Nov",11,"11/16/2023","Nov 2023"
+"Sumanta Ray","University of Bielefeld","2023-10-16T23:25:50.444Z",2023,"Oct",10,"10/16/2023","Oct 2023"
+"Mark Lazarus","AstraZeneca","2023-09-18T23:16:29.832Z",2023,"Sep",9,"9/18/2023","Sep 2023"
+"Dr Aidan MacNamara","Bayer AG","2023-06-27T20:21:12.348Z",2023,"Jun",6,"6/27/2023","Jun 2023"
+"Joel Guthridge","Oklahoma Medical Research Foundation","2023-03-27T23:11:52.163Z",2023,"Mar",3,"3/27/2023","Mar 2023"
+"Patrick M. Gaffney, PhD","Oklahoma Medical Research Foundation","2023-02-10T00:33:26.678Z",2023,"Feb",2,"2/10/2023","Feb 2023"
+"Philip De Jager","Columbia University","2023-02-02T01:38:31.071Z",2023,"Feb",2,"2/2/2023","Feb 2023"
