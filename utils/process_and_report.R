@@ -19,6 +19,8 @@ last_month <- today_date - months(1)
 last_month_str <- month(ymd(last_month), label = TRUE, abbr = FALSE)
 filter_date <- paste(month(last_month, label = TRUE, abbr = TRUE), year(last_month))
 
+# read in report log
+report_log <- scan("approved_requests.monthly_report.log", what = "character", sep = "\n", quiet = TRUE)
 session_log <- c("--------------", 
                  glue("log date: {Sys.time()}"))
 
