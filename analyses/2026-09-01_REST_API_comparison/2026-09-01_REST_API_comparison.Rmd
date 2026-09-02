@@ -1,0 +1,162 @@
+---
+title: "`r paste(params$date_tag, params$experiment, sep='_')`"
+author: "Jess Vera"
+output:
+  html_document:
+    toc: yes
+    df_print: paged
+    code_folding: show
+params:
+  date_tag: '2026-09-01'
+  experiment: 'REST_API_comparison'
+---
+
+Start date: `r params$date_tag`    
+Last updated: `r Sys.time()`
+
+# Background
+
+I have noticed some issues/inconsistencies with the web scraping of <https://arkportal.synapse.org/Data%20Access>. I started some discussion in Slack 
+about this <https://sagebionetworks.slack.com/archives/C0AFCTGEQ/p1787068697221139> and 
+was reminded that the content of the portal data access page is propagated via 
+`${iduReport?accessRestrictionId=9605913}` in the corresponding wiki page.
+
+It was implied that performing a direct API call would be more accurate and "easier" 
+than the web scraping.
+
+# Goal 
+
+Perform the August metrics reporting stats using data pulled via the following 
+API POST call: <https://rest-docs.synapse.org/rest/POST/accessRequirement/requirementId/approvedSubmissionInfo.html>
+
+# Functions
+
+```{r, functions}
+
+```
+
+# Setup
+
+```{r, setup}
+# source rmarkdown_setup.R
+source("~/Setup/rmarkdown_setup.R")
+Sys.setenv(RETICULATE_PYTHON = "/Users/jvera/micromamba/envs/synapseclient_v4.13.0/bin/python")
+reticulate::use_condaenv("synapseclient_v4.13.0")
+
+# Load libraries silently
+suppressPackageStartupMessages({
+  library(dplyr)
+  library(stringr)
+  library(glue)
+  library(reticulate)
+  library(lubridate)
+})
+
+```
+
+```{r, engine='python'}
+import sys
+import synapseclient
+import os.path
+import pandas as pd
+import synapseutils
+import json
+from synapseclient.models import Table, SchemaStorageStrategy, query, Column, ColumnType, FacetType, Dataset, Folder, File
+
+sys.version
+syn = synapseclient.login()
+```
+
+# Main
+
+```{r, engine='python'}
+pages = list(range(50, 1000, 50))
+
+results = []
+
+for page in pages:
+  page_token = f"50a{page}"
+  response_body = "".join(["{", f"accessRequirementId: '9605913', nextPageToken: '{page_token}'", "}"])
+  print(response_body)
+  response = syn.restPOST(uri = "https://repo-prod.prod.sagebase.org/repo/v1/accessRequirement/9605913/approvedSubmissionInfo", body = response_body)
+  results = results + response['results']
+  
+  if "nextPageToken" not in response.keys():
+    break
+
+```
+
+```{r, engine='python'}
+data = {'Project Lead' : [], 'Institution': [], 'Datetime': []}
+for DUC in results:
+  data['Project Lead'].append(DUC['projectLead'])
+  data['Institution'].append(DUC['institution'])
+  data['Datetime'].append(DUC['modifiedOn'])
+
+df = pd.DataFrame(data)
+```
+
+# Results
+
+```{r}
+# read in catalog of all previously scraped approved requests
+fid <- "../../all_approved_requests.csv"
+all_approved <- read.csv(fid, check.names = FALSE)
+all_approved$date <- paste(all_approved$month_str, all_approved$year)
+
+today_date <- today()
+last_month <- today_date - months(1)
+last_month_str <- month(ymd(last_month), label = TRUE, abbr = FALSE)
+filter_date <- paste(month(last_month, label = TRUE, abbr = TRUE), year(last_month))
+
+session_log <- c("--------------", 
+                 glue("log date: {Sys.time()}"))
+
+
+# format info of interest into df
+results <- py$df
+results$Institution <- str_replace(results$Institution, "BIDMC", "Beth Israel Deaconess Medical Center")
+results$Institution <- str_remove(results$Institution, 
+                                  "Division of Rheumatology and Immunology, Department of Internal Medicine, ")
+results <- mutate(results,
+                  year = year(ymd_hms(Datetime)),
+                  month_str = month(ymd_hms(Datetime), label = TRUE, abbr = TRUE), 
+                  month_int = month(ymd_hms(Datetime)))
+results$Approved_Date <- unlist(purrr::map(results$Datetime, function(x){
+                            out <- paste(c(month(ymd_hms(x)), 
+                                           day(ymd_hms(x)), 
+                                           year(ymd_hms(x))),
+                                           collapse = "/")
+                          }))
+results$date <- paste(results$month_str, results$year)
+
+results <- bind_rows(all_approved, results) %>% unique()
+n <- nrow(unique(select(results, `Project Lead`, Institution)))
+session_log <- c(session_log, 
+                 glue("{n} total (unique) access requests have been approved for the ARK Portal"))
+
+# assess renewed DUCs
+renewed_DUC <- select(results, `Project Lead`, Institution, date) %>% unique() %>%
+                  group_by(`Project Lead`, Institution) %>% tidyr::nest()
+test <- unlist(lapply(renewed_DUC$data, nrow))
+idx <- which(test > 1)
+renewed_DUC <- renewed_DUC[idx, ]
+renewed_DUC <- tidyr::unnest(renewed_DUC, cols = c(data))
+
+session_log <- c(session_log,
+                 glue("{length(idx)} access requests have been renewed >1 time."))
+
+# measure stats for the last complete month
+n <- filter(results, date == filter_date) %>% select(`Project Lead`, Institution) %>% unique() %>% nrow()
+y <- filter(renewed_DUC, date == filter_date) %>% nrow()
+session_log <- c(session_log, glue("In {last_month_str} {year(last_month)}, there were {n-y} new access requests approved and {y} that were renewed."))
+
+session_log
+```
+
+# Session Details
+
+```{r results='asis'}
+#Print out session info
+R.utils::System$getHostname(); 
+sessionInfo()
