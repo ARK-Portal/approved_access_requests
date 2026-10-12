@@ -6,6 +6,7 @@ import sys
 import synapseclient
 import os.path
 import pandas as pd
+import json
 import synapseutils
 
 sys.version
@@ -13,11 +14,16 @@ syn = synapseclient.login()
 
 # MAIN
 results = []
+# get firsst page which can only be accessed without page_token set??
+response_body = json.dumps({"accessRequirementId": '9605913'})
+response = syn.restPOST(uri = "https://repo-prod.prod.sagebase.org/repo/v1/accessRequirement/9605913/approvedSubmissionInfo", body = response_body)
+results = results + response['results']
+
 pages = list(range(50, 1500, 50))
 for page in pages:
   page_token = f"50a{page}"
-  response_body = "".join(["{", f"accessRequirementId: '9605913', nextPageToken: '{page_token}'", "}"])
-  print(response_body)
+  response_body = json.dumps({"accessRequirementId": '9605913', "nextPageToken": page_token})
+  #print(response_body)
   response = syn.restPOST(uri = "https://repo-prod.prod.sagebase.org/repo/v1/accessRequirement/9605913/approvedSubmissionInfo", body = response_body)
   results = results + response['results']
   
