@@ -41,11 +41,11 @@ results$Approved_Date <- unlist(purrr::map(results$Datetime, function(x){
                collapse = "/")
 }))
 results$date <- paste(results$month_str, results$year)
+results <- bind_rows(all_approved, results) %>% unique()
 # Save results
 fid <- "all_approved_requests.csv"
 write.csv(results, fid, row.names = FALSE)
 
-results <- bind_rows(all_approved, results) %>% unique()
 n <- nrow(unique(select(results, `Project Lead`, Institution)))
 session_log <- c(session_log, 
                  glue("{n} total (unique) access requests have been approved for the ARK Portal"))
