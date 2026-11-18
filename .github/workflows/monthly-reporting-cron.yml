@@ -36,7 +36,7 @@ jobs:
 
       - name: Install Python Packages
         run: |
-          pip install "synapseclient[pandas]" dotenv
+          pip install -r requirements.txt
 
       # Set up R environment
       - name: Setup R env
